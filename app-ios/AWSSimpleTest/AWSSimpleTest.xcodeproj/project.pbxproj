@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5E76EE62F0F656E00444825 /* WebRTC in Frameworks */ = {isa = PBXBuildFile; productRef = D5E76EE52F0F656E00444825 /* WebRTC */; };
+		D5E76EE92F0F65C100444825 /* AWSCore in Frameworks */ = {isa = PBXBuildFile; productRef = D5E76EE82F0F65C100444825 /* AWSCore */; };
+		D5E76EEB2F0F65C100444825 /* AWSKinesisVideo in Frameworks */ = {isa = PBXBuildFile; productRef = D5E76EEA2F0F65C100444825 /* AWSKinesisVideo */; };
+		D5E76EED2F0F65C100444825 /* AWSKinesisVideoSignaling in Frameworks */ = {isa = PBXBuildFile; productRef = D5E76EEC2F0F65C100444825 /* AWSKinesisVideoSignaling */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5E76EA02F0F56D100444825 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5E76E8A2F0F56CF00444825 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5E76E912F0F56CF00444825;
+			remoteInfo = AWSSimpleTest;
+		};
+		D5E76EAA2F0F56D100444825 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5E76E8A2F0F56CF00444825 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5E76E912F0F56CF00444825;
+			remoteInfo = AWSSimpleTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D5E76E922F0F56CF00444825 /* AWSSimpleTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AWSSimpleTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5E76E9F2F0F56D100444825 /* AWSSimpleTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AWSSimpleTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5E76EA92F0F56D100444825 /* AWSSimpleTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AWSSimpleTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D5E76E942F0F56CF00444825 /* AWSSimpleTest */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AWSSimpleTest;
+			sourceTree = "<group>";
+		};
+		D5E76EA22F0F56D100444825 /* AWSSimpleTestTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AWSSimpleTestTests;
+			sourceTree = "<group>";
+		};
+		D5E76EAC2F0F56D100444825 /* AWSSimpleTestUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AWSSimpleTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5E76E8F2F0F56CF00444825 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E76EED2F0F65C100444825 /* AWSKinesisVideoSignaling in Frameworks */,
+				D5E76EEB2F0F65C100444825 /* AWSKinesisVideo in Frameworks */,
+				D5E76EE62F0F656E00444825 /* WebRTC in Frameworks */,
+				D5E76EE92F0F65C100444825 /* AWSCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E76E9C2F0F56D100444825 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E76EA62F0F56D100444825 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5E76E892F0F56CF00444825 = {
+			isa = PBXGroup;
+			children = (
+				D5E76E942F0F56CF00444825 /* AWSSimpleTest */,
+				D5E76EA22F0F56D100444825 /* AWSSimpleTestTests */,
+				D5E76EAC2F0F56D100444825 /* AWSSimpleTestUITests */,
+				D5E76E932F0F56CF00444825 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5E76E932F0F56CF00444825 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5E76E922F0F56CF00444825 /* AWSSimpleTest.app */,
+				D5E76E9F2F0F56D100444825 /* AWSSimpleTestTests.xctest */,
+				D5E76EA92F0F56D100444825 /* AWSSimpleTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5E76E912F0F56CF00444825 /* AWSSimpleTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5E76EB32F0F56D100444825 /* Build configuration list for PBXNativeTarget "AWSSimpleTest" */;
+			buildPhases = (
+				D5E76E8E2F0F56CF00444825 /* Sources */,
+				D5E76E8F2F0F56CF00444825 /* Frameworks */,
+				D5E76E902F0F56CF00444825 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D5E76E942F0F56CF00444825 /* AWSSimpleTest */,
+			);
+			name = AWSSimpleTest;
+			packageProductDependencies = (
+				D5E76EE52F0F656E00444825 /* WebRTC */,
+				D5E76EE82F0F65C100444825 /* AWSCore */,
+				D5E76EEA2F0F65C100444825 /* AWSKinesisVideo */,
+				D5E76EEC2F0F65C100444825 /* AWSKinesisVideoSignaling */,
+			);
+			productName = AWSSimpleTest;
+			productReference = D5E76E922F0F56CF00444825 /* AWSSimpleTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5E76E9E2F0F56D100444825 /* AWSSimpleTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5E76EB62F0F56D100444825 /* Build configuration list for PBXNativeTarget "AWSSimpleTestTests" */;
+			buildPhases = (
+				D5E76E9B2F0F56D100444825 /* Sources */,
+				D5E76E9C2F0F56D100444825 /* Frameworks */,
+				D5E76E9D2F0F56D100444825 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5E76EA12F0F56D100444825 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D5E76EA22F0F56D100444825 /* AWSSimpleTestTests */,
+			);
+			name = AWSSimpleTestTests;
+			packageProductDependencies = (
+			);
+			productName = AWSSimpleTestTests;
+			productReference = D5E76E9F2F0F56D100444825 /* AWSSimpleTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5E76EA82F0F56D100444825 /* AWSSimpleTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5E76EB92F0F56D100444825 /* Build configuration list for PBXNativeTarget "AWSSimpleTestUITests" */;
+			buildPhases = (
+				D5E76EA52F0F56D100444825 /* Sources */,
+				D5E76EA62F0F56D100444825 /* Frameworks */,
+				D5E76EA72F0F56D100444825 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5E76EAB2F0F56D100444825 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D5E76EAC2F0F56D100444825 /* AWSSimpleTestUITests */,
+			);
+			name = AWSSimpleTestUITests;
+			packageProductDependencies = (
+			);
+			productName = AWSSimpleTestUITests;
+			productReference = D5E76EA92F0F56D100444825 /* AWSSimpleTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5E76E8A2F0F56CF00444825 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					D5E76E912F0F56CF00444825 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					D5E76E9E2F0F56D100444825 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = D5E76E912F0F56CF00444825;
+					};
+					D5E76EA82F0F56D100444825 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = D5E76E912F0F56CF00444825;
+					};
+				};
+			};
+			buildConfigurationList = D5E76E8D2F0F56CF00444825 /* Build configuration list for PBXProject "AWSSimpleTest" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5E76E892F0F56CF00444825;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D5E76EE42F0F656E00444825 /* XCRemoteSwiftPackageReference "WebRTC" */,
+				D5E76EE72F0F65C100444825 /* XCRemoteSwiftPackageReference "aws-sdk-ios-spm" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D5E76E932F0F56CF00444825 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5E76E912F0F56CF00444825 /* AWSSimpleTest */,
+				D5E76E9E2F0F56D100444825 /* AWSSimpleTestTests */,
+				D5E76EA82F0F56D100444825 /* AWSSimpleTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5E76E902F0F56CF00444825 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E76E9D2F0F56D100444825 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E76EA72F0F56D100444825 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5E76E8E2F0F56CF00444825 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E76E9B2F0F56D100444825 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E76EA52F0F56D100444825 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5E76EA12F0F56D100444825 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5E76E912F0F56CF00444825 /* AWSSimpleTest */;
+			targetProxy = D5E76EA02F0F56D100444825 /* PBXContainerItemProxy */;
+		};
+		D5E76EAB2F0F56D100444825 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5E76E912F0F56CF00444825 /* AWSSimpleTest */;
+			targetProxy = D5E76EAA2F0F56D100444825 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D5E76EB12F0F56D100444825 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = NGKZ3GBA3U;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D5E76EB22F0F56D100444825 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = NGKZ3GBA3U;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5E76EB42F0F56D100444825 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NGKZ3GBA3U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "WebRTC video streaming";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "WebRTC peer connections";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "WebRTC audio streaming";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lhkmarcus.AWSSimpleTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5E76EB52F0F56D100444825 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NGKZ3GBA3U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "WebRTC video streaming";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "WebRTC peer connections";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "WebRTC audio streaming";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lhkmarcus.AWSSimpleTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D5E76EB72F0F56D100444825 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NGKZ3GBA3U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lhkmarcus.AWSSimpleTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AWSSimpleTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AWSSimpleTest";
+			};
+			name = Debug;
+		};
+		D5E76EB82F0F56D100444825 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NGKZ3GBA3U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lhkmarcus.AWSSimpleTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AWSSimpleTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AWSSimpleTest";
+			};
+			name = Release;
+		};
+		D5E76EBA2F0F56D100444825 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NGKZ3GBA3U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lhkmarcus.AWSSimpleTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AWSSimpleTest;
+			};
+			name = Debug;
+		};
+		D5E76EBB2F0F56D100444825 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NGKZ3GBA3U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lhkmarcus.AWSSimpleTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AWSSimpleTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5E76E8D2F0F56CF00444825 /* Build configuration list for PBXProject "AWSSimpleTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5E76EB12F0F56D100444825 /* Debug */,
+				D5E76EB22F0F56D100444825 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5E76EB32F0F56D100444825 /* Build configuration list for PBXNativeTarget "AWSSimpleTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5E76EB42F0F56D100444825 /* Debug */,
+				D5E76EB52F0F56D100444825 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5E76EB62F0F56D100444825 /* Build configuration list for PBXNativeTarget "AWSSimpleTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5E76EB72F0F56D100444825 /* Debug */,
+				D5E76EB82F0F56D100444825 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5E76EB92F0F56D100444825 /* Build configuration list for PBXNativeTarget "AWSSimpleTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5E76EBA2F0F56D100444825 /* Debug */,
+				D5E76EBB2F0F56D100444825 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D5E76EE42F0F656E00444825 /* XCRemoteSwiftPackageReference "WebRTC" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stasel/WebRTC.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 125.0.0;
+			};
+		};
+		D5E76EE72F0F65C100444825 /* XCRemoteSwiftPackageReference "aws-sdk-ios-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aws-amplify/aws-sdk-ios-spm";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.41.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D5E76EE52F0F656E00444825 /* WebRTC */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5E76EE42F0F656E00444825 /* XCRemoteSwiftPackageReference "WebRTC" */;
+			productName = WebRTC;
+		};
+		D5E76EE82F0F65C100444825 /* AWSCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5E76EE72F0F65C100444825 /* XCRemoteSwiftPackageReference "aws-sdk-ios-spm" */;
+			productName = AWSCore;
+		};
+		D5E76EEA2F0F65C100444825 /* AWSKinesisVideo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5E76EE72F0F65C100444825 /* XCRemoteSwiftPackageReference "aws-sdk-ios-spm" */;
+			productName = AWSKinesisVideo;
+		};
+		D5E76EEC2F0F65C100444825 /* AWSKinesisVideoSignaling */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5E76EE72F0F65C100444825 /* XCRemoteSwiftPackageReference "aws-sdk-ios-spm" */;
+			productName = AWSKinesisVideoSignaling;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D5E76E8A2F0F56CF00444825 /* Project object */;
+}

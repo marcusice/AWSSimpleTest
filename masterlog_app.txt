@@ -1,0 +1,2503 @@
+.204 58362 typ srflx raddr 0.0.0.0 rport 0 generation 0 ufrag tPAK network-cost 999","sdpMid":"1","sdpMLineIndex":1,"usernameFragment":"tPAK"}
+
+2026-01-08 05:29:58 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 05:29:58 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 05:29:58 DEBUG   signalingMessageReceived(): recv msg type:0 payload:{"type":"offer","sdp":"v=0\r\no=- 9145577435469734850 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0 1\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=video 9 UDP/TLS/RTP/SAVPF 96 97 98 99 100 101 35 36 37 38 103 104 107 108 109 114 115 116 117 118 39 40 41 42 43 44 45 46 47 48 119 120 121 122 123 124 125 49\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:tPAK\r\na=ice-pwd:2Ce7N/E1cnKbFpnGKrXoHoRx\r\na=ice-options:trickle\r\na=fingerprint:sha-256 7A:7F:D7:43:BD:E0:E0:8D:29:42:F7:05:15:29:A2:C7:9D:EB:86:A1:9B:10:A7:B5:87:62:10:40:AE:C8:6B:1C\r\na=setup:actpass\r\na=mid:0\r\na=extmap:1 urn:ietf:params:rtp-hdrext:toffset\r\na=extmap:2 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=extmap:3 urn:3gpp:video-orientation\r\na=extmap:4 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\r\na=extmap:5 http://www.webrtc.org/experiments/rtp-hdrext/playout-delay\r\na=extmap:6 http://www.webrtc.org/experiments/rtp-hdrext/video-content-type\r\na=extmap:7 http://www.webrtc.org/experiments/rtp-hdrext/video-timing\r\na=extmap:8 http://www.webrtc.org/experiments/rtp-hdrext/color-space\r\na=extmap:9 urn:ietf:params:rtp-hdrext:sdes:mid\r\na=extmap:10 urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id\r\na=extmap:11 urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id\r\na=recvonly\r\na=rtcp-mux\r\na=rtcp-rsize\r\na=rtpmap:96 VP8/90000\r\na=rtcp-fb:96 goog-remb\r\na=rtcp-fb:96 transport-cc\r\na=rtcp-fb:96 ccm fir\r\na=rtcp-fb:96 nack\r\na=rtcp-fb:96 nack pli\r\na=rtpmap:97 rtx/90000\r\na=fmtp:97 apt=96\r\na=rtpmap:98 VP9/90000\r\na=rtcp-fb:98 goog-remb\r\na=rtcp-fb:98 transport-cc\r\na=rtcp-fb:98 ccm fir\r\na=rtcp-fb:98 nack\r\na=rtcp-fb:98 nack pli\r\na=fmtp:98 profile-id=0\r\na=rtpmap:99 rtx/90000\r\na=fmtp:99 apt=98\r\na=rtpmap:100 VP9/90000\r\na=rtcp-fb:100 goog-remb\r\na=rtcp-fb:100 transport-cc\r\na=rtcp-fb:100 ccm fir\r\na=rtcp-fb:100 nack\r\na=rtcp-fb:100 nack pli\r\na=fmtp:100 profile-id=2\r\na=rtpmap:101 rtx/90000\r\na=fmtp:101 apt=100\r\na=rtpmap:35 VP9/90000\r\na=rtcp-fb:35 goog-remb\r\na=rtcp-fb:35 transport-cc\r\na=rtcp-fb:35 ccm fir\r\na=rtcp-fb:35 nack\r\na=rtcp-fb:35 nack pli\r\na=fmtp:35 profile-id=1\r\na=rtpmap:36 rtx/90000\r\na=fmtp:36 apt=35\r\na=rtpmap:37 VP9/90000\r\na=rtcp-fb:37 goog-remb\r\na=rtcp-fb:37 transport-cc\r\na=rtcp-fb:37 ccm fir\r\na=rtcp-fb:37 nack\r\na=rtcp-fb:37 nack pli\r\na=fmtp:37 profile-id=3\r\na=rtpmap:38 rtx/90000\r\na=fmtp:38 apt=37\r\na=rtpmap:103 H264/90000\r\na=rtcp-fb:103 goog-remb\r\na=rtcp-fb:103 transport-cc\r\na=rtcp-fb:103 ccm fir\r\na=rtcp-fb:103 nack\r\na=rtcp-fb:103 nack pli\r\na=fmtp:103 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42001f\r\na=rtpmap:104 rtx/90000\r\na=fmtp:104 apt=103\r\na=rtpmap:107 H264/90000\r\na=rtcp-fb:107 goog-remb\r\na=rtcp-fb:107 transport-cc\r\na=rtcp-fb:107 ccm fir\r\na=rtcp-fb:107 nack\r\na=rtcp-fb:107 nack pli\r\na=fmtp:107 level-asymmetry-allowed=1;packetization-mode=0;profile-level-id=42001f\r\na=rtpmap:108 rtx/90000\r\na=fmtp:108 apt=107\r\na=rtpmap:109 H264/90000\r\na=rtcp-fb:109 goog-remb\r\na=rtcp-fb:109 transport-cc\r\na=rtcp-fb:109 ccm fir\r\na=rtcp-fb:109 nack\r\na=rtcp-fb:109 nack pli\r\na=fmtp:109 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f\r\na=rtpmap:114 rtx/90000\r\na=fmtp:114 apt=109\r\na=rtpmap:115 H264/90000\r\na=rtcp-fb:115 goog-remb\r\na=rtcp-fb:115 transport-cc\r\na=rtcp-fb:115 ccm fir\r\na=rtcp-fb:115 nack\r\na=rtcp-fb:115 nack pli\r\na=fmtp:115 level-asymmetry-allowed=1;packetization-mode=0;profile-level-id=42e01f\r\na=rtpmap:116 rtx/90000\r\na=fmtp:116 apt=115\r\na=rtpmap:117 H264/90000\r\na=rtcp-fb:117 goog-remb\r\na=rtcp-fb:117 transport-cc\r\na=rtcp-fb:117 ccm fir\r\na=rtcp-fb:117 nack\r\na=rtcp-fb:117 nack pli\r\na=fmtp:117 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=4d001f\r\na=rtpmap:118 rtx/90000\r\na=fmtp:118 apt=117\r\na=rtpmap:39 H264/90000\r\na=rtcp-fb:39 goog-remb\r\na=rtcp-fb:39 transport-cc\r\na=rtcp-fb:39 ccm fir\r\na=rtcp-fb:39 nack\r\na=rtcp-fb:39 nack pli\r\na=fmtp:39 level-asymmetry-allowed=1;packetization-mode=0;profile-level-id=4d001f\r\na=rtpmap:40 rtx/90000\r\na=fmtp:40 apt=39\r\na=rtpmap:41 H264/90000\r\na=rtcp-fb:41 goog-remb\r\na=rtcp-fb:41 transport-cc\r\na=rtcp-fb:41 ccm fir\r\na=rtcp-fb:41 nack\r\na=rtcp-fb:41 nack pli\r\na=fmtp:41 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=f4001f\r\na=rtpmap:42 rtx/90000\r\na=fmtp:42 apt=41\r\na=rtpmap:43 H264/90000\r\na=rtcp-fb:43 goog-remb\r\na=rtcp-fb:43 transport-cc\r\na=rtcp-fb:43 ccm fir\r\na=rtcp-fb:43 nack\r\na=rtcp-fb:43 nack pli\r\na=fmtp:43 level-asymmetry-allowed=1;packetization-mode=0;profile-level-id=f4001f\r\na=rtpmap:44 rtx/90000\r\na=fmtp:44 apt=43\r\na=rtpmap:45 AV1/90000\r\na=rtcp-fb:45 goog-remb\r\na=rtcp-fb:45 transport-cc\r\na=rtcp-fb:45 ccm fir\r\na=rtcp-fb:45 nack\r\na=rtcp-fb:45 nack pli\r\na=fmtp:45 level-idx=5;profile=0;tier=0\r\na=rtpmap:46 rtx/90000\r\na=fmtp:46 apt=45\r\na=rtpmap:47 AV1/90000\r\na=rtcp-fb:47 goog-remb\r\na=rtcp-fb:47 transport-cc\r\na=rtcp-fb:47 ccm fir\r\na=rtcp-fb:47 nack\r\na=rtcp-fb:47 nack pli\r\na=fmtp:47 level-idx=5;profile=1;tier=0\r\na=rtpmap:48 rtx/90000\r\na=fmtp:48 apt=47\r\na=rtpmap:119 H264/90000\r\na=rtcp-fb:119 goog-remb\r\na=rtcp-fb:119 transport-cc\r\na=rtcp-fb:119 ccm fir\r\na=rtcp-fb:119 nack\r\na=rtcp-fb:119 nack pli\r\na=fmtp:119 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=64001f\r\na=rtpmap:120 rtx/90000\r\na=fmtp:120 apt=119\r\na=rtpmap:121 H264/90000\r\na=rtcp-fb:121 goog-remb\r\na=rtcp-fb:121 transport-cc\r\na=rtcp-fb:121 ccm fir\r\na=rtcp-fb:121 nack\r\na=rtcp-fb:121 nack pli\r\na=fmtp:121 level-asymmetry-allowed=1;packetization-mode=0;profile-level-id=64001f\r\na=rtpmap:122 rtx/90000\r\na=fmtp:122 apt=121\r\na=rtpmap:123 red/90000\r\na=rtpmap:124 rtx/90000\r\na=fmtp:124 apt=123\r\na=rtpmap:125 ulpfec/90000\r\na=rtpmap:49 flexfec-03/90000\r\na=rtcp-fb:49 goog-remb\r\na=rtcp-fb:49 transport-cc\r\na=fmtp:49 repair-window=10000000\r\nm=audio 9 UDP/TLS/RTP/SAVPF 111 63 9 0 8 13 110 126\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:tPAK\r\na=ice-pwd:2Ce7N/E1cnKbFpnGKrXoHoRx\r\na=ice-options:trickle\r\na=fingerprint:sha-256 7A:7F:D7:43:BD:E0:E0:8D:29:42:F7:05:15:29:A2:C7:9D:EB:86:A1:9B:10:A7:B5:87:62:10:40:AE:C8:6B:1C\r\na=setup:actpass\r\na=mid:1\r\na=extmap:14 urn:ietf:params:rtp-hdrext:ssrc-audio-level\r\na=extmap:2 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=extmap:4 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\r\na=extmap:9 urn:ietf:params:rtp-hdrext:sdes:mid\r\na=recvonly\r\na=rtcp-mux\r\na=rtcp-rsize\r\na=rtpmap:111 opus/48000/2\r\na=rtcp-fb:111 transport-cc\r\na=fmtp:111 minptime=10;useinbandfec=1\r\na=rtpmap:63 red/48000/2\r\na=fmtp:63 111/111\r\na=rtpmap:9 G722/8000\r\na=rtpmap:0 PCMU/8000\r\na=rtpmap:8 PCMA/8000\r\na=rtpmap:13 CN/8000\r\na=rtpmap:110 telephone-event/48000\r\na=rtpmap:126 telephone-event/8000\r\n"}
+
+2026-01-08 05:29:58 info    [alarm_in:430]ALARM type=11 last_alarm_state=2, cur alarm_state=2
+
+2026-01-08 05:29:58 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:29:58 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:29:58 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:29:58 info    [alarm_in:430]ALARM type=21 last_alarm_state=2, cur alarm_state=2
+
+2026-01-08 05:29:58 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 05:29:58 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:29:58 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:77 | saturation:44 | ev:6330 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:29:58 DEBUG   refreshIceConfiguration(): Refreshing the ICE Server Configuration
+2026-01-08 05:29:58 DEBUG   refreshIceConfiguration(): Refreshing the ICE Server Configuration
+2026-01-08 05:29:58 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 05:29:58 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:29:58 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 05:29:58 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:29:58 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 05:29:58 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:29:58 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 05:29:58 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 05:29:58 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 05:29:58 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 05:29:58 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 05:29:58 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 05:29:58 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 05:29:58 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 05:29:58 DEBUG   iceAgentValidateKvsRtcConfig():
+        iceLocalCandidateGatheringTimeout: 10000 ms
+        iceConnectionCheckTimeout: 0 ms
+        iceCandidateNominationTimeout: 10000 ms
+        iceConnectionCheckPollingInterval: 0 ms
+2026-01-08 05:29:58 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 05:29:58 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:29:58 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 05:29:58 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 05:29:58 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 05:29:58 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:29:58 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 05:29:58 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 05:29:58 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 05:29:58 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:29:58 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 05:29:58 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:29:58 DEBUG   initializePeerConnection(): time taken to create peer connection 97 ms
+2026-01-08 05:29:58 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 05:29:58 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:29:58 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 05:29:58 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:29:58 DEBUG   createSocket(): setsockopt() NO_SIGNAL failed with errno Protocol not available
+2026-01-08 05:29:58 DEBUG   createSocket(): setsockopt() NO_SIGNAL failed with errno Protocol not available
+2026-01-08 05:29:58 DEBUG   createSocket(): setsockopt() NO_SIGNAL failed with errno Protocol not available
+2026-01-08 05:29:58 DEBUG   createSocket(): setsockopt() NO_SIGNAL failed with errno Protocol not available
+2026-01-08 05:29:58 DEBUG   iceAgentCheckConnectionStateSetup(): ice candidate pair count 0
+2026-01-08 05:29:58 DEBUG   stepIceAgentStateMachine(): Ice agent state changed from ICE_AGENT_STATE_NEW to ICE_AGENT_STATE_CHECK_CONNECTION.
+2026-01-08 05:29:58 INFO    onConnectionStateChange(): New connection state 2
+2026-01-08 05:29:58 info    [ANC_RF_B2D_put_frame:374]Device not ready, audio sending skipped, devid=0, init=128, speaker_power=1
+
+2026-01-08 05:29:59 info    [alarm_in:430]ALARM type=11 last_alarm_state=2, cur alarm_state=2
+
+2026-01-08 05:29:58 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 05:29:59 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 05:29:58 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 05:29:59 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 05:29:58 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 05:29:59 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 05:29:58 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 05:29:59 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 05:29:58 DEBUG   turnConnectionStepState(): TurnConnection state changed from TURN_STATE_NEW to TURN_STATE_CHECK_SOCKET_CONNECTION
+2026-01-08 05:29:59 DEBUG   turnConnectionStepState(): TurnConnection state changed from TURN_STATE_CHECK_SOCKET_CONNECTION to TURN_STATE_GET_CREDENTIALS
+2026-01-08 05:29:59 DEBUG   turnConnectionStepState(): TurnConnection state changed from TURN_STATE_NEW to TURN_STATE_CHECK_SOCKET_CONNECTION
+2026-01-08 05:29:59 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:35.165.173.98, port:443
+2026-01-08 05:29:59 DEBUG   iceAgentLogNewCandidate(): New local ice candidate discovered. Id: L7gk6xmUd. Ip: 192.168.1.86:45265. Type: host. Protocol: udp.
+2026-01-08 05:29:58 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 05:29:59 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:29:58 DEBUG   sendLwsMessage(): Sending data over web socket: Message type: SDP_ANSWER, RecepientId: viewer-vzueamtl
+2026-01-08 05:29:59 DEBUG   handleOffer(): time taken to send answer 1767850199240 ms
+2026-01-08 05:29:59 DEBUG   handleOffer(): create sample recive audio video sender tid
+
+2026-01-08 05:29:59 ERROR   iceAgentAddRemoteCandidate(): operation returned status code: 0x5a000003
+2026-01-08 05:29:59 ERROR   iceAgentAddRemoteCandidate(): operation returned status code: 0x5a000003
+2026-01-08 05:29:59 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: SY2sU8sn6. Ip: 58.82.194.204:58360. Type: srflx. Protocol: udp.
+2026-01-08 05:29:59 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:29:59 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:29:59 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:29:59 DEBUG   sendLwsMessage(): Sending data over web socket: Message type: ICE_CANDIDATE, RecepientId: viewer-vzueamtl
+2026-01-08 05:29:59 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: K8q49nOfq. Ip: 58.82.194.204:58362. Type: srflx. Protocol: udp.
+2026-01-08 05:29:59 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"candidate":"candidate:2438210039 1 udp 33563135 35.160.91.32 52424 typ relay raddr 58.82.194.204 rport 58360 generation 0 ufrag tPAK network-cost 999","sdpMid":"0","sdpMLineIndex":0,"usernameFragment":"tPAK"}
+
+2026-01-08 05:29:59 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: 7Kt1iFUB0. Ip: 35.160.91.32:52424. Type: relay. Protocol: udp.
+2026-01-08 05:29:59 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"candidate":"candidate:2438210039 1 udp 33563135 35.160.91.32 59138 typ relay raddr 58.82.194.204 rport 58362 generation 0 ufrag tPAK network-cost 999","sdpMid":"1","sdpMLineIndex":1,"usernameFragment":"tPAK"}
+
+2026-01-08 05:29:59 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: 8KsPmPRct. Ip: 35.160.91.32:59138. Type: relay. Protocol: udp.
+2026-01-08 05:29:59 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"candidate":"candidate:1380689517 1 udp 33563903 52.26.98.83 60273 typ relay raddr 58.82.194.204 rport 58362 generation 0 ufrag tPAK network-cost 999","sdpMid":"1","sdpMLineIndex":1,"usernameFragment":"tPAK"}
+
+2026-01-08 05:29:59 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 05:29:59 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:29:59 info    [sampleReceiveVideoFrame:589]aws sampleReceiveVideoFrame tid:4632,pid:892
+
+2026-01-08 05:29:59 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 05:29:59 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:82 | saturation:44 | ev:6330 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:29:59 DEBUG   iceAgentCheckPeerReflexiveCandidate(): New remote peer reflexive candidate found
+2026-01-08 05:29:59 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:29:59 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 05:29:59 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:29:59 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:29:59 info    [alarm_in:430]ALARM type=21 last_alarm_state=2, cur alarm_state=2
+
+2026-01-08 05:29:59 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: ZSegmmUqv. Ip: 192.168.1.130:58360. Type: prflx. Protocol: UNKNOWN.
+2026-01-08 05:29:59 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_RESPONSE_SUCCESS to ip:192.168.1.130, port:58360
+2026-01-08 05:29:59 DEBUG   handleStunPacket(): received candidate with USE_CANDIDATE flag, local candidate type host.
+2026-01-08 05:29:59 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: FCY3JtwLZ. Ip: 52.26.98.83:60273. Type: relay. Protocol: udp.
+2026-01-08 05:29:59 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"candidate":"candidate:1380689517 1 udp 33563903 52.26.98.83 52473 typ relay raddr 58.82.194.204 rport 58360 generation 0 ufrag tPAK network-cost 999","sdpMid":"0","sdpMLineIndex":0,"usernameFragment":"tPAK"}
+
+2026-01-08 05:29:59 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: ApkAx21Ko. Ip: 52.26.98.83:52473. Type: relay. Protocol: udp.
+2026-01-08 05:29:59 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"candidate":"candidate:4078728680 1 udp 8959 52.26.98.83 59371 typ relay raddr 58.82.194.204 rport 53699 generation 0 ufrag tPAK network-cost 999","sdpMid":"0","sdpMLineIndex":0,"usernameFragment":"tPAK"}
+
+2026-01-08 05:29:59 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: QlOHIqvya. Ip: 52.26.98.83:59371. Type: relay. Protocol: udp.
+2026-01-08 05:29:59 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"candidate":"candidate:4078728680 1 udp 9215 52.26.98.83 52349 typ relay raddr 58.82.194.204 rport 58224 generation 0 ufrag tPAK network-cost 999","sdpMid":"1","sdpMLineIndex":1,"usernameFragment":"tPAK"}
+
+2026-01-08 05:29:59 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: fQPZfb5jv. Ip: 52.26.98.83:52349. Type: relay. Protocol: udp.
+2026-01-08 05:29:59 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"candidate":"candidate:805565042 1 udp 8447 35.160.91.32 60548 typ relay raddr 58.82.194.204 rport 58225 generation 0 ufrag tPAK network-cost 999","sdpMid":"0","sdpMLineIndex":0,"usernameFragment":"tPAK"}
+
+2026-01-08 05:29:59 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: ydEVn1Dyy. Ip: 35.160.91.32:60548. Type: relay. Protocol: udp.
+2026-01-08 05:29:59 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"candidate":"candidate:4078728680 1 udp 8959 52.26.98.83 65414 typ relay raddr 58.82.194.204 rport 58222 generation 0 ufrag tPAK network-cost 999","sdpMid":"1","sdpMLineIndex":1,"usernameFragment":"tPAK"}
+
+2026-01-08 05:29:59 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: FzG1N/PeH. Ip: 52.26.98.83:65414. Type: relay. Protocol: udp.
+2026-01-08 05:29:59 info    [alarm_in:430]ALARM type=11 last_alarm_state=2, cur alarm_state=2
+
+2026-01-08 05:29:59 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 05:29:59 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:29:59 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 05:29:59 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:29:59 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 05:29:59 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 05:29:59 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:29:59 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:29:59 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:29:59 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: L7gk6xmUd ZSegmmUqv, state: 1
+2026-01-08 05:29:59 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: BV8Yujuoa ZSegmmUqv, state: 1
+2026-01-08 05:29:59 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: L7gk6xmUd K8q49nOfq, state: 1
+2026-01-08 05:29:59 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: L7gk6xmUd SY2sU8sn6, state: 1
+2026-01-08 05:29:59 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: L7gk6xmUd ApkAx21Ko, state: 1
+2026-01-08 05:29:59 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: L7gk6xmUd FCY3JtwLZ, state: 1
+2026-01-08 05:29:59 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: BV8Yujuoa ApkAx21Ko, state: 1
+2026-01-08 05:29:59 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: BV8Yujuoa FCY3JtwLZ, state: 1
+2026-01-08 05:29:59 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: L7gk6xmUd 8KsPmPRct, state: 1
+2026-01-08 05:29:59 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: L7gk6xmUd 7Kt1iFUB0, state: 1
+2026-01-08 05:29:59 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: L7gk6xmUd fQPZfb5jv, state: 1
+2026-01-08 05:29:59 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: BV8Yujuoa fQPZfb5jv, state: 1
+2026-01-08 05:29:59 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: L7gk6xmUd FzG1N/PeH, state: 1
+2026-01-08 05:29:59 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: L7gk6xmUd QlOHIqvya, state: 1
+2026-01-08 05:29:59 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: BV8Yujuoa FzG1N/PeH, state: 1
+2026-01-08 05:29:59 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: BV8Yujuoa QlOHIqvya, state: 1
+2026-01-08 05:29:59 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: L7gk6xmUd ydEVn1Dyy, state: 1
+2026-01-08 05:29:59 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: BV8Yujuoa ydEVn1Dyy, state: 1
+2026-01-08 05:29:59 DEBUG   iceCandidatePairCheckConnection(): remote ip:192.168.1.130, port:192, local ip:63715.168.1.86, port:192
+2026-01-08 05:29:59 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:192.168.1.130, port:58360
+2026-01-08 05:29:59 DEBUG   socketConnectionIsConnected(): connect ip: 0000:0000:0000:0000:0000:0000:0000:0000:0. family:0 with ip: 52.32.183.102:443. family:1
+2026-01-08 05:29:59 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_RESPONSE_SUCCESS to ip:192.168.1.130, port:58360
+2026-01-08 05:29:59 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_RESPONSE_SUCCESS to ip:192.168.1.130, port:58360
+2026-01-08 05:29:59 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"candidate":"candidate:4078728680 1 udp 9215 52.26.98.83 58034 typ relay raddr 58.82.194.204 rport 51950 generation 0 ufrag tPAK network-cost 999","sdpMid":"0","sdpMLineIndex":0,"usernameFragment":"tPAK"}
+
+2026-01-08 05:29:59 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: flctFOuSK. Ip: 52.26.98.83:58034. Type: relay. Protocol: udp.
+2026-01-08 05:29:59 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 05:30:00 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:30:00 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 05:30:00 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:30:00 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 05:30:00 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:30:00 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 05:30:00 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:30:00 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 05:30:00 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:30:00 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 05:30:00 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:29:59 DEBUG   turnConnectionStepState(): TurnConnection state changed from TURN_STATE_CHECK_SOCKET_CONNECTION to TURN_STATE_GET_CREDENTIALS
+2026-01-08 05:29:59 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 05:30:00 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 05:29:59 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 05:30:00 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 05:30:00 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:83 | saturation:44 | ev:5976 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:30:00 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:00 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:00 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:00 info    [alarm_in:430]ALARM type=21 last_alarm_state=2, cur alarm_state=2
+
+2026-01-08 05:30:00 DEBUG   handleStunPacket(): Ice candidate pair L7gk6xmUd_ZSegmmUqv is connected. Round trip time: 337ms
+2026-01-08 05:30:00 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"candidate":"candidate:805565042 1 udp 8447 35.160.91.32 57361 typ relay raddr 58.82.194.204 rport 58226 generation 0 ufrag tPAK network-cost 999","sdpMid":"0","sdpMLineIndex":0,"usernameFragment":"tPAK"}
+
+2026-01-08 05:30:00 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: qiH4je37G. Ip: 35.160.91.32:57361. Type: relay. Protocol: udp.
+2026-01-08 05:30:00 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"candidate":"candidate:4078728680 1 udp 8959 52.26.98.83 63496 typ relay raddr 58.82.194.204 rport 56372 generation 0 ufrag tPAK network-cost 999","sdpMid":"0","sdpMLineIndex":0,"usernameFragment":"tPAK"}
+
+2026-01-08 05:30:00 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: LKnZ6xBHf. Ip: 52.26.98.83:63496. Type: relay. Protocol: udp.
+2026-01-08 05:30:00 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"candidate":"candidate:805565042 1 udp 8191 35.160.91.32 65463 typ relay raddr 58.82.194.204 rport 56369 generation 0 ufrag tPAK network-cost 999","sdpMid":"1","sdpMLineIndex":1,"usernameFragment":"tPAK"}
+
+2026-01-08 05:30:00 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: T2SShB3ZQ. Ip: 35.160.91.32:65463. Type: relay. Protocol: udp.
+2026-01-08 05:30:00 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"candidate":"candidate:4078728680 1 udp 8959 52.26.98.83 55234 typ relay raddr 58.82.194.204 rport 56373 generation 0 ufrag tPAK network-cost 999","sdpMid":"1","sdpMLineIndex":1,"usernameFragment":"tPAK"}
+
+2026-01-08 05:30:00 info    [alarm_in:430]ALARM type=11 last_alarm_state=2, cur alarm_state=2
+
+2026-01-08 05:30:00 DEBUG   iceAgentLogNewCandidate(): New local ice candidate discovered. Id: BV8Yujuoa. Ip: 58.82.194.204:52798. Type: srflx. Protocol: udp.
+2026-01-08 05:30:00 DEBUG   sendLwsMessage(): Sending data over web socket: Message type: ICE_CANDIDATE, RecepientId: viewer-vzueamtl
+2026-01-08 05:30:00 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: RRtlGZ0KG. Ip: 52.26.98.83:55234. Type: relay. Protocol: udp.
+2026-01-08 05:30:00 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 05:30:00 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 05:30:00 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"candidate":"candidate:4078728680 1 udp 9215 52.26.98.83 61932 typ relay raddr 58.82.194.204 rport 56371 generation 0 ufrag tPAK network-cost 999","sdpMid":"0","sdpMLineIndex":0,"usernameFragment":"tPAK"}
+
+2026-01-08 05:30:00 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: eONujifGo. Ip: 52.26.98.83:61932. Type: relay. Protocol: udp.
+2026-01-08 05:30:00 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"candidate":"candidate:805565042 1 udp 8447 35.160.91.32 53074 typ relay raddr 58.82.194.204 rport 56368 generation 0 ufrag tPAK network-cost 999","sdpMid":"1","sdpMLineIndex":1,"usernameFragment":"tPAK"}
+
+2026-01-08 05:30:00 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 05:30:00 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 05:30:00 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 05:30:00 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 05:30:00 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 05:30:00 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 05:30:00 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 05:30:00 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 05:30:00 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 05:30:00 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 05:30:00 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:00 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:00 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:00 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:30:00 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: aR4Dv6fLn. Ip: 35.160.91.32:53074. Type: relay. Protocol: udp.
+2026-01-08 05:30:00 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"candidate":"candidate:805565042 1 udp 8447 35.160.91.32 65157 typ relay raddr 58.82.194.204 rport 58227 generation 0 ufrag tPAK network-cost 999","sdpMid":"1","sdpMLineIndex":1,"usernameFragment":"tPAK"}
+
+2026-01-08 05:30:00 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: rOKFpm6Y0. Ip: 35.160.91.32:65157. Type: relay. Protocol: udp.
+2026-01-08 05:30:00 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"candidate":"candidate:805565042 1 udp 8191 35.160.91.32 57419 typ relay raddr 58.82.194.204 rport 58221 generation 0 ufrag tPAK network-cost 999","sdpMid":"0","sdpMLineIndex":0,"usernameFragment":"tPAK"}
+
+2026-01-08 05:30:00 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: fYKwAiH2P. Ip: 35.160.91.32:57419. Type: relay. Protocol: udp.
+2026-01-08 05:30:00 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"candidate":"candidate:805565042 1 udp 8191 35.160.91.32 53814 typ relay raddr 58.82.194.204 rport 58223 generation 0 ufrag tPAK network-cost 999","sdpMid":"1","sdpMLineIndex":1,"usernameFragment":"tPAK"}
+
+2026-01-08 05:30:00 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: zhfmG5qT+. Ip: 35.160.91.32:53814. Type: relay. Protocol: udp.
+2026-01-08 05:30:00 info    [alarm_in:430]ALARM type=11 last_alarm_state=2, cur alarm_state=2
+
+2026-01-08 05:30:00 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:80 | saturation:43 | ev:5757 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:30:00 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:00 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:00 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:00 info    [alarm_in:430]ALARM type=21 last_alarm_state=2, cur alarm_state=2
+
+2026-01-08 05:30:00 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: L7gk6xmUd ZSegmmUqv, state: 3
+2026-01-08 05:30:00 DEBUG   stepIceAgentStateMachine(): Ice agent state changed from ICE_AGENT_STATE_CHECK_CONNECTION to ICE_AGENT_STATE_CONNECTED.
+2026-01-08 05:30:00 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"candidate":"candidate:4078728680 1 udp 9215 52.26.98.83 62769 typ relay raddr 58.82.194.204 rport 56370 generation 0 ufrag tPAK network-cost 999","sdpMid":"1","sdpMLineIndex":1,"usernameFragment":"tPAK"}
+
+2026-01-08 05:30:00 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: w7Jhyi0BV. Ip: 52.26.98.83:62769. Type: relay. Protocol: udp.
+2026-01-08 05:30:00 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_RESPONSE_SUCCESS to ip:192.168.1.130, port:58360
+2026-01-08 05:30:00 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"candidate":"candidate:805565042 1 udp 8191 35.160.91.32 57635 typ relay raddr 58.82.194.204 rport 56937 generation 0 ufrag tPAK network-cost 999","sdpMid":"0","sdpMLineIndex":0,"usernameFragment":"tPAK"}
+
+2026-01-08 05:30:00 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: mI2mxa4rl. Ip: 35.160.91.32:57635. Type: relay. Protocol: udp.
+2026-01-08 05:30:00 DEBUG   turnConnectionStepState(): TurnConnection state changed from TURN_STATE_GET_CREDENTIALS to TURN_STATE_ALLOCATION
+2026-01-08 05:30:00 DEBUG   iceCandidatePairCheckConnection(): remote ip:192.168.1.130, port:192, local ip:63715.168.1.86, port:192
+2026-01-08 05:30:00 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:192.168.1.130, port:58360
+2026-01-08 05:30:00 DEBUG   stepIceAgentStateMachine(): Ice agent state changed from ICE_AGENT_STATE_CONNECTED to ICE_AGENT_STATE_NOMINATING.
+2026-01-08 05:30:01 DEBUG   iceAgentReadyStateSetup(): Selected pair L7gk6xmUd_ZSegmmUqv, local candidate type: host. Round trip time 0 ms. Local candidate priority: 2, ice candidate pair priority: 2130706431
+2026-01-08 05:30:01 DEBUG   iceAgentReadyStateSetup(): Freeing Turn allocations that are not selected. Total turn allocation count 2
+2026-01-08 05:30:01 DEBUG   stepIceAgentStateMachine(): Ice agent state changed from ICE_AGENT_STATE_NOMINATING to ICE_AGENT_STATE_READY.
+2026-01-08 05:30:01 DEBUG   turnConnectionStepState(): TurnConnection state changed from TURN_STATE_ALLOCATION to TURN_STATE_CLEAN_UP
+2026-01-08 05:30:01 DEBUG   turnConnectionStepState(): TurnConnection state changed from TURN_STATE_GET_CREDENTIALS to TURN_STATE_CLEAN_UP
+2026-01-08 05:30:01 DEBUG   iceAgentGatherCandidateTimerCallback(): Candidate gathering completed.
+2026-01-08 05:30:01 DEBUG   onIceCandidateHandler(): ice candidate gathering finished
+2026-01-08 05:30:01 DEBUG   socketConnectionClosed(): Close socket 45
+2026-01-08 05:30:01 DEBUG   turnConnectionStepState(): TurnConnection state changed from TURN_STATE_CLEAN_UP to TURN_STATE_NEW
+2026-01-08 05:30:01 DEBUG   socketConnectionClosed(): Close socket 46
+2026-01-08 05:30:01 DEBUG   turnConnectionStepState(): TurnConnection state changed from TURN_STATE_CLEAN_UP to TURN_STATE_NEW
+2026-01-08 05:30:01 INFO    onConnectionStateChange(): New connection state 3
+2026-01-08 05:30:01 DEBUG   rtcPeerConnectionGetMetrics(): ICE local candidate Stats requested at 17678502010937166
+2026-01-08 05:30:01 DEBUG   logSelectedIceCandidatesInformation(): Local Candidate IP Address: 192.168.1.86
+2026-01-08 05:30:01 DEBUG   logSelectedIceCandidatesInformation(): Local Candidate type: host
+2026-01-08 05:30:01 DEBUG   logSelectedIceCandidatesInformation(): Local Candidate port: 45265
+2026-01-08 05:30:01 DEBUG   logSelectedIceCandidatesInformation(): Local Candidate priority: 2130706431
+2026-01-08 05:30:01 DEBUG   logSelectedIceCandidatesInformation(): Local Candidate transport protocol: udp
+2026-01-08 05:30:01 DEBUG   logSelectedIceCandidatesInformation(): Local Candidate relay protocol: N/A
+2026-01-08 05:30:01 DEBUG   logSelectedIceCandidatesInformation(): Local Candidate Ice server source: N/A
+2026-01-08 05:30:01 DEBUG   rtcPeerConnectionGetMetrics(): ICE remote candidate Stats requested at 17678502010941331
+2026-01-08 05:30:01 DEBUG   logSelectedIceCandidatesInformation(): Remote Candidate IP Address: 192.168.1.130
+2026-01-08 05:30:01 DEBUG   logSelectedIceCandidatesInformation(): Remote Candidate type: prflx
+2026-01-08 05:30:01 DEBUG   logSelectedIceCandidatesInformation(): Remote Candidate port: 58360
+2026-01-08 05:30:01 DEBUG   logSelectedIceCandidatesInformation(): Remote Candidate priority: 1845501695
+2026-01-08 05:30:01 DEBUG   logSelectedIceCandidatesInformation(): Remote Candidate transport protocol: udp
+2026-01-08 05:30:01 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:01 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:01 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:01 DEBUG   dtlsSessionChangeState(): DTLS init completed. Time taken 300 ms
+2026-01-08 05:30:01 info    [alarm_in:430]ALARM type=11 last_alarm_state=2, cur alarm_state=2
+
+2026-01-08 05:30:01 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:80 | saturation:43 | ev:5757 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:30:01 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:01 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:01 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:01 info    [alarm_in:430]ALARM type=21 last_alarm_state=2, cur alarm_state=2
+
+2026-01-08 05:30:01 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:01 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:01 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:01 info    [alarm_in:430]ALARM type=11 last_alarm_state=2, cur alarm_state=2
+
+2026-01-08 05:30:01 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_RESPONSE_SUCCESS to ip:192.168.1.130, port:58360
+2026-01-08 05:30:01 info    [ANC_RF_B2D_put_frame:374]Device not ready, audio sending skipped, devid=0, init=128, speaker_power=1
+
+2026-01-08 05:30:01 debug   [sys_cmd_fifo:97]p_cmd [echo 3 > /proc/sys/vm/drop_caches]
+
+2026-01-08 05:30:01 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:80 | saturation:43 | ev:5757 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:30:02 DEBUG   freeSocketConnection(): close socket with ip: 0000:0000:0000:0000:0000:0000:0000:0000:0. family:0
+2026-01-08 05:30:02 DEBUG   freeSocketConnection(): close socket connected with ip: 52.32.183.102:443. family:1
+2026-01-08 05:30:02 DEBUG   freeSocketConnection(): close socket with ip: 0000:0000:0000:0000:0000:0000:0000:0000:0. family:0
+2026-01-08 05:30:02 DEBUG   freeSocketConnection(): close socket connected with ip: 0000:0000:0000:0000:0000:0000:0000:0000:0. family:0
+[Fifo server]:system ok,cmd:[echo 3 > /proc/sys/vm/drop_caches].
+2026-01-08 05:30:02 debug   [sys_cmd_fifo:150]replay:[OK],cmd:[echo 3 > /proc/sys/vm/drop_caches].
+
+2026-01-08 05:30:02 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:02 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:02 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:02 info    [alarm_in:430]ALARM type=21 last_alarm_state=2, cur alarm_state=2
+
+2026-01-08 05:30:02 info    [alarm_in:443]ALARM type=11 last_alarm_state=2, cur alarm_state=0
+
+2026-01-08 05:30:02 info    [alarm_linkage:654]alarm_linkage, event_type[11]. cmd[2] tick[8197220].
+
+2026-01-08 05:30:02 info    [aws_iot_mqtt_router_cb:1898]context:{"uid":"0VCA245200054","token":"","method":"post","key":"LOUD","ts":1767879002336,"seq":695,"sid":0,"kid":0,"data":{"event_status":false}}
+
+2026-01-08 05:30:02 info    [aws_iot_mqtt_router_cb:1900]get key LOUD
+
+2026-01-08 05:30:02 info    [aws_iot_mqtt_router_cb:1934]alarm_event_status:0
+
+2026-01-08 05:30:02 info    [aws_mqtt_router_cb_alarm_notify_handle:1290]alarm notify type:13
+
+2026-01-08 05:30:02 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:02 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:02 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:02 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:80 | saturation:43 | ev:5757 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:30:02 debug   [router_api_sync:1156]router_api_sync, request[{"uid":"uid","token":"uid","method":"request","key":"get_wifi_rssi","ts":1767879002337,"seq":696,"sid":0,"kid":0}] response[{"uid":"0VCA245200054","token":"uid","method":"response","key":"get_wifi_rssi","ts":1767879002592,"seq":696,"sid":0,"kid":0,"data":{"value":-40,"errcode":0,"errmsg":""}}].
+
+2026-01-08 05:30:02 debug   [aws_iot_mqtt_get_network_rssi_handle:359]aws_iot_mqtt_get_network_rssi_handle, rssi = -40
+
+2026-01-08 05:30:02 debug   [prop_proc_get_temphum:2082]
+
+ get temp = 25, hum = 41
+
+
+2026-01-08 05:30:02 debug   [router_api_sync:1156]router_api_sync, request[{"uid":"uid","token":"uid","method":"request","key":"get_temphum_value","ts":1767879002593,"seq":697,"sid":0,"kid":0}] response[{"uid":"0VCA245200054","token":"uid","method":"response","key":"get_temphum_value","ts":1767879002636,"seq":697,"sid":0,"kid":0,"data":{"temp":25,"hum":41,"errcode":0,"errmsg":""}}].
+
+2026-01-08 05:30:02 info    [aws_iot_mqtt_serialize_detection_status:973]general data id :2059420356
+
+2026-01-08 05:30:02 info    [anc_request_list_add_node:318]add request id:0 malloc publish request request tick:8197521
+
+2026-01-08 05:30:02 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:02 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:02 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:02 info    [alarm_in:430]ALARM type=21 last_alarm_state=2, cur alarm_state=2
+
+2026-01-08 05:30:02 info    [aoni_aws_webrtc_timeout_handler:864]reset webrtc detect
+
+2026-01-08 05:30:02 info    [aoni_aws_webrtc_timeout_handler:900]reset timeout handuler state:1, sesstion cnt:1
+
+2026-01-08 05:30:02 info    [anc_req_timeout_handle:237]excute republish
+
+2026-01-08 05:30:02 info    [anc_mqtt_manage_re_publish:759]repbulish topic:dt/iot/E96TJE8/QDS_BBM/Marcus_0DB3E2_2_THING/res msg:{
+        "data_type":    "data.upload.control",
+        "data_id":      "2059420356",
+        "timestamp":    1767850202637,
+        "data": {
+                "jobs": "detection",
+                "status":       "off",
+                "alarmtype":    "sound",
+                "temperature":  25,
+                "humidity":     41,
+                "signal":       -40
+        }
+}
+
+2026-01-08 05:30:02 info    [anc_req_timeout_handle:263]src id:0 request update new id:327 tick:8197680
+
+2026-01-08 05:30:02 info    [anc_request_list_update_node:465]send publish request success wait response id:327
+
+2026-01-08 05:30:02 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:30:02 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:80 | saturation:43 | ev:5757 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:30:02 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:02 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:02 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+[INFO] [MQTT] [core_mqtt.c:1525] Ack packet deserialized with result: MQTTSuccess.
+[INFO] [MQTT] [core_mqtt.c:1542] State record updated. New state=MQTTPublishDone.
+2026-01-08 05:30:03 info    [anc_request_list_del_node:396]remove pack id:327 request
+
+2026-01-08 05:30:03 info    [anc_mqtt_manage_incoming_ack_handle:217]remove specified packed id :327 request success
+
+2026-01-08 05:30:03 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:03 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:03 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:03 info    [alarm_in:430]ALARM type=21 last_alarm_state=2, cur alarm_state=2
+
+2026-01-08 05:30:03 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:80 | saturation:43 | ev:5757 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:30:03 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:03 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:03 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:03 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:03 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:03 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:03 info    [alarm_in:430]ALARM type=21 last_alarm_state=2, cur alarm_state=2
+
+2026-01-08 05:30:03 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:80 | saturation:43 | ev:5757 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:30:04 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:04 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:04 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:04 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:79 | saturation:43 | ev:5757 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:30:04 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:04 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:04 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:04 info    [alarm_in:430]ALARM type=21 last_alarm_state=2, cur alarm_state=2
+
+2026-01-08 05:30:04 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:04 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:04 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:04 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:79 | saturation:43 | ev:5757 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:30:04 info    [ANC_RF_B2D_put_frame:374]Device not ready, audio sending skipped, devid=0, init=128, speaker_power=1
+
+2026-01-08 05:30:04 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:04 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:04 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:04 info    [alarm_in:430]ALARM type=21 last_alarm_state=2, cur alarm_state=2
+
+2026-01-08 05:30:05 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_RESPONSE_SUCCESS to ip:192.168.1.130, port:58360
+2026-01-08 05:30:05 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:05 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:05 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:05 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:79 | saturation:43 | ev:5757 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:30:05 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:05 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:05 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:05 info    [alarm_in:443]ALARM type=21 last_alarm_state=2, cur alarm_state=0
+
+2026-01-08 05:30:05 info    [alarm_linkage:654]alarm_linkage, event_type[21]. cmd[2] tick[8200465].
+
+2026-01-08 05:30:05 info    [aoni_event_notice:2355]event notice type[21] on[0] hold_time[-1] volume[-1].
+
+2026-01-08 05:30:05 info    [aws_iot_mqtt_router_cb:1898]context:{"uid":"0VCA245200054","token":"","method":"post","key":"human","ts":1767879005581,"seq":698,"sid":0,"kid":0,"data":{"event_status":false}}
+
+2026-01-08 05:30:05 info    [aws_iot_mqtt_router_cb:1900]get key human
+
+2026-01-08 05:30:05 info    [aws_iot_mqtt_router_cb:1958]~~~~ humman alarm_event_status:0
+
+2026-01-08 05:30:05 info    [aws_mqtt_router_cb_alarm_notify_handle:1290]alarm notify type:9
+
+2026-01-08 05:30:05 debug   [router_api_sync:1156]router_api_sync, request[{"uid":"uid","token":"uid","method":"request","key":"get_wifi_rssi","ts":1767879005582,"seq":699,"sid":0,"kid":0}] response[{"uid":"0VCA245200054","token":"uid","method":"response","key":"get_wifi_rssi","ts":1767879005647,"seq":699,"sid":0,"kid":0,"data":{"value":-39,"errcode":0,"errmsg":""}}].
+
+2026-01-08 05:30:05 debug   [aws_iot_mqtt_get_network_rssi_handle:359]aws_iot_mqtt_get_network_rssi_handle, rssi = -39
+
+2026-01-08 05:30:05 debug   [prop_proc_get_temphum:2082]
+
+ get temp = 25, hum = 41
+
+
+2026-01-08 05:30:05 debug   [router_api_sync:1156]router_api_sync, request[{"uid":"uid","token":"uid","method":"request","key":"get_temphum_value","ts":1767879005650,"seq":700,"sid":0,"kid":0}] response[{"uid":"0VCA245200054","token":"uid","method":"response","key":"get_temphum_value","ts":1767879005693,"seq":700,"sid":0,"kid":0,"data":{"temp":25,"hum":41,"errcode":0,"errmsg":""}}].
+
+2026-01-08 05:30:05 info    [aws_mqtt_router_cb_alarm_notify_handle:1305]aws_iot_mqtt_get_temphum 41 25
+2026-01-08 05:30:05 info    [aws_iot_mqtt_serialize_detection_status:973]general data id :1028103192
+
+2026-01-08 05:30:05 info    [anc_request_list_add_node:318]add request id:0 malloc publish request request tick:8200578
+
+2026-01-08 05:30:05 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:76 | saturation:43 | ev:5757 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:30:05 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:05 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:05 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:06 debug   [sys_cmd_fifo:97]p_cmd [echo 3 > /proc/sys/vm/drop_caches]
+
+[Fifo server]:system ok,cmd:[echo 3 > /proc/sys/vm/drop_caches].
+n_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1K],cmd:[echo 3 > /proc/sys/vm/drop_caches].
+
+2026-01-08 05:30:13 info    [ANC_RF_B2D_put_frame:374]Device not ready, audio sending skipped, devid=0, init=128, speaker_power=1
+
+2026-01-08 05:30:13 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:13 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:13 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:14 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:80 | saturation:44 | ev:6199 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:30:14 debug   [sys_cmd_fifo:97]p_cmd [echo 3 > /proc/sys/vm/drop_caches]
+
+2026-01-08 05:30:14 DEBUG   dtlsSessionProcessPacket(): Detected DTLS close_notify alert
+2026-01-08 05:30:14 INFO    onConnectionStateChange(): New connection state 6
+2026-01-08 05:30:14 DEBUG   freeSampleStreamingSession(): Freeing streaming session with peer id: viewer-vzueamtl
+2026-01-08 05:30:14 DEBUG   socketConnectionClosed(): Close socket 44
+2026-01-08 05:30:14 DEBUG   socketConnectionClosed(): Close socket 43
+2026-01-08 05:30:14 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:14 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:14 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+[Fifo server]:system ok,cmd:[echo 3 > /proc/sys/vm/drop_caches].
+2026-01-08 05:30:14 debug   [sys_cmd_fifo:150]replay:[OK],cmd:[echo 3 > /proc/sys/vm/drop_caches].
+
+2026-01-08 05:30:14 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:14 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:14 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:14 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:80 | saturation:44 | ev:6199 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:30:14 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:14 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:14 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:15 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:80 | saturation:44 | ev:6199 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:30:15 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:15 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:15 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:15 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:15 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:15 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:15 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:80 | saturation:44 | ev:6199 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:30:15 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:15 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:15 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+personvehicle detect all time : 47.779999
+personvehicle detect all time : 46.349998
+2026-01-08 05:30:16 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =1
+
+2026-01-08 05:30:16 info    [ivs_PD_Vehi_Nomxu_get_result:446]personvehiclepet location: trackID[-1], classID[0], confidence[0.486425], [622, 61, 639, 149]
+
+2026-01-08 05:30:16 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:16 debug   [anc_hal_motion_and_hum_check:693]hal_pd_res.count:1
+
+2026-01-08 05:30:16 debug   [anc_hal_motion_and_hum_check:696]PD: lx:9718 ly:1694 rx:9984 ry:4138
+
+2026-01-08 05:30:16 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:1 motion_happen:-1
+
+2026-01-08 05:30:16 debug   [anc_hal_motion_and_hum_check:713]HUM HAPPEN =============>>>>
+
+2026-01-08 05:30:16 debug   [alarm_in:388]ALARM type=21 last_alarm_state=0, cur alarm_state=1
+
+2026-01-08 05:30:16 debug   [anc_alarm_push_get_pic:376]the event_type is 21, the fast_get_pic is 0
+
+2026-01-08 05:30:16 debug   [anc_dev_get_snapshot_data:1232]Dev Jpeg encoder query : ret[0] - stat[1]
+
+personvehicle detect all time : 53.959999
+2026-01-08 05:30:16 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:80 | saturation:44 | ev:6199 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:30:16 debug   [anc_alarm_push_get_pic:404]Get pic for alarm push
+
+2026-01-08 05:30:16 info    [anc_alarm_push_get_pic:408]g_pic_len:10862, g_pic_buf_len:65536
+
+2026-01-08 05:30:16 info    [alarm_linkage:646]alarm_linkage, event_type[21]. cmd[1] tick[8211048].
+
+2026-01-08 05:30:16 info    [aoni_event_notice:2355]event notice type[21] on[1] hold_time[-1] volume[-1].
+
+2026-01-08 05:30:16 info    [anc_alarm_event_push:510]anc_alarm_event_push, time diff[25994], event[21]. d_time is [60000]
+
+2026-01-08 05:30:16 debug   [anc_alarm_event_push:511]curent_time :8211049 event[21]
+
+2026-01-08 05:30:16 DEBUG   freeSocketConnection(): close socket with ip: 192.168.1.86:52798. family:1
+2026-01-08 05:30:16 DEBUG   freeSocketConnection(): close socket connected with ip: 0000:0000:0000:0000:0000:0000:0000:0000:0. family:0
+2026-01-08 05:30:16 DEBUG   freeSocketConnection(): close socket with ip: 192.168.1.86:45265. family:1
+2026-01-08 05:30:16 DEBUG   freeSocketConnection(): close socket connected with ip: 0000:0000:0000:0000:0000:0000:0000:0000:0. family:0
+[2026/01/08 05:30:16:4377] N:  -- [wsicli|12|WS/h1/m-72556905.kinesisvideo.us-west-2.amazonaws.c] (0) 16.717min
+[2026/01/08 05:30:16:4399] N:  ++ [wsicli|14|POST/h1/kinesisvideo.us-west-2.amazonaws.com] (1)
+2026-01-08 05:30:16 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:16 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:16 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:16 info    [alarm_in:430]ALARM type=21 last_alarm_state=1, cur alarm_state=1
+
+2026-01-08 05:30:16 debug   [alarm_continue_record:428]rec_obj->m_start_time[0] delay_time_s[30000]
+
+2026-01-08 05:30:16 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:79 | saturation:44 | ev:6199 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:30:16 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:16 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:16 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:16 info    [ANC_RF_B2D_put_frame:374]Device not ready, audio sending skipped, devid=0, init=128, speaker_power=1
+
+2026-01-08 05:30:17 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:17 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:17 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:17 info    [alarm_in:430]ALARM type=21 last_alarm_state=1, cur alarm_state=2
+
+2026-01-08 05:30:17 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:79 | saturation:44 | ev:6199 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:30:17 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:17 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:17 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:17 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:79 | saturation:44 | ev:6199 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:30:17 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:17 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:17 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:17 info    [alarm_in:430]ALARM type=21 last_alarm_state=2, cur alarm_state=2
+
+2026-01-08 05:30:17 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:17 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:17 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:18 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:79 | saturation:44 | ev:6199 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:30:18 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:18 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:18 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:18 info    [alarm_in:430]ALARM type=21 last_alarm_state=2, cur alarm_state=2
+
+2026-01-08 05:30:18 debug   [sys_cmd_fifo:97]p_cmd [echo 3 > /proc/sys/vm/drop_caches]
+
+[Fifo server]:system ok,cmd:[echo 3 > /proc/sys/vm/drop_caches].
+2026-01-08 05:30:18 debug   [sys_cmd_fifo:150]replay:[OK],cmd:[echo 3 > /proc/sys/vm/drop_caches].
+
+2026-01-08 05:30:18 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:18 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:18 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:18 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:78 | saturation:44 | ev:6199 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:30:18 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:18 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:18 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:18 info    [alarm_in:430]ALARM type=21 last_alarm_state=2, cur alarm_state=2
+
+2026-01-08 05:30:19 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:19 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:19 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:19 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:79 | saturation:44 | ev:6199 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:30:19 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:19 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:19 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:19 info    [alarm_in:430]ALARM type=21 last_alarm_state=2, cur alarm_state=2
+
+2026-01-08 05:30:19 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:78 | saturation:44 | ev:6199 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:30:19 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:19 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:19 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:19 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:19 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:19 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:19 info    [alarm_in:430]ALARM type=21 last_alarm_state=2, cur alarm_state=2
+
+2026-01-08 05:30:19 info    [ANC_RF_B2D_put_frame:374]Device not ready, audio sending skipped, devid=0, init=128, speaker_power=1
+
+2026-01-08 05:30:20 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:78 | saturation:44 | ev:6199 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:30:20 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:20 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:20 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:20 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:20 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:20 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:20 info    [alarm_in:430]ALARM type=21 last_alarm_state=2, cur alarm_state=2
+
+2026-01-08 05:30:20 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:79 | saturation:44 | ev:6199 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:30:20 DEBUG   lwsHttpCallbackRoutine(): Client append handshake header
+
+2026-01-08 05:30:20 DEBUG   lwsHttpCallbackRoutine(): Sending the body {
+        "ChannelName": "Marcus_0DB3E2_2"
+}, size 37
+2026-01-08 05:30:20 DEBUG   lwsHttpCallbackRoutine(): Connected with server response: 200
+2026-01-08 05:30:20 DEBUG   lwsHttpCallbackRoutine(): Received client http
+2026-01-08 05:30:20 DEBUG   lwsHttpCallbackRoutine(): Received client http read: 348 bytes
+2026-01-08 05:30:20 DEBUG   lwsHttpCallbackRoutine(): Http client completed
+2026-01-08 05:30:20 DEBUG   lwsHttpCallbackRoutine(): Client http closed
+[2026/01/08 05:30:20:7534] N:  -- [wsicli|14|POST/h1/kinesisvideo.us-west-2.amazonaws.com] (0) 4.313s
+[2026/01/08 05:30:20:7541] N:  ++ [wsicli|15|POST/h1/kinesisvideo.us-west-2.amazonaws.com] (1)
+2026-01-08 05:30:20 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:20 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:20 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:21 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:78 | saturation:44 | ev:6199 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:30:21 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:21 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:21 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:21 info    [alarm_in:430]ALARM type=21 last_alarm_state=2, cur alarm_state=2
+
+2026-01-08 05:30:21 DEBUG   lwsHttpCallbackRoutine(): Client append handshake header
+
+2026-01-08 05:30:21 DEBUG   lwsHttpCallbackRoutine(): Sending the body {
+        "ChannelARN": "arn:aws:kinesisvideo:us-west-2:663530036664:channel/Marcus_0DB3E2_2/1756483251274",
+        "SingleMasterChannelEndpointConfiguration": {
+                "Protocols": ["WSS", "HTTPS"],
+                "Role": "MASTER"
+        }
+}, size 205
+2026-01-08 05:30:21 DEBUG   lwsHttpCallbackRoutine(): Connected with server response: 200
+2026-01-08 05:30:21 DEBUG   lwsHttpCallbackRoutine(): Received client http
+2026-01-08 05:30:21 DEBUG   lwsHttpCallbackRoutine(): Received client http read: 218 bytes
+2026-01-08 05:30:21 DEBUG   lwsHttpCallbackRoutine(): Http client completed
+2026-01-08 05:30:21 DEBUG   lwsHttpCallbackRoutine(): Client http closed
+[2026/01/08 05:30:21:3248] N:  -- [wsicli|15|POST/h1/kinesisvideo.us-west-2.amazonaws.com] (0) 570.652ms
+[2026/01/08 05:30:21:3262] N:  ++ [wsicli|16|POST/h1/r-5ed42e69.kinesisvideo.us-west-2.amazonaws] (1)
+2026-01-08 05:30:21 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:21 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:21 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:21 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:77 | saturation:44 | ev:6199 | history:0 | rb_ratio:1.000000
+
+personvehicle detect all time : 47.779999
+2026-01-08 05:30:21 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:21 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:21 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:21 info    [alarm_in:430]ALARM type=21 last_alarm_state=2, cur alarm_state=2
+
+2026-01-08 05:30:21 DEBUG   lwsHttpCallbackRoutine(): Client append handshake header
+
+2026-01-08 05:30:21 DEBUG   lwsHttpCallbackRoutine(): Sending the body {
+        "ChannelARN": "arn:aws:kinesisvideo:us-west-2:663530036664:channel/Marcus_0DB3E2_2/1756483251274",
+        "ClientId": "ProducerMaster",
+        "Service": "TURN"
+}, size 153
+2026-01-08 05:30:21 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =1
+
+2026-01-08 05:30:21 info    [ivs_PD_Vehi_Nomxu_get_result:446]personvehiclepet location: trackID[-1], classID[0], confidence[0.546191], [622, 61, 639, 150]
+
+2026-01-08 05:30:21 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:21 debug   [anc_hal_motion_and_hum_check:693]hal_pd_res.count:1
+
+2026-01-08 05:30:21 debug   [anc_hal_motion_and_hum_check:696]PD: lx:9718 ly:1694 rx:9984 ry:4166
+
+2026-01-08 05:30:21 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:1 motion_happen:-1
+
+2026-01-08 05:30:21 debug   [anc_hal_motion_and_hum_check:713]HUM HAPPEN =============>>>>
+
+2026-01-08 05:30:21 debug   [alarm_continue_record:428]rec_obj->m_start_time[0] delay_time_s[30000]
+
+2026-01-08 05:30:21 info    [alarm_in:430]ALARM type=21 last_alarm_state=2, cur alarm_state=1
+
+2026-01-08 05:30:22 DEBUG   lwsHttpCallbackRoutine(): Connected with server response: 200
+2026-01-08 05:30:22 DEBUG   lwsHttpCallbackRoutine(): Received client http
+2026-01-08 05:30:22 DEBUG   lwsHttpCallbackRoutine(): Received client http read: 1050 bytes
+2026-01-08 05:30:22 DEBUG   lwsHttpCallbackRoutine(): Http client completed
+2026-01-08 05:30:22 DEBUG   lwsHttpCallbackRoutine(): Client http closed
+2026-01-08 05:30:21 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:76 | saturation:44 | ev:6199 | history:0 | rb_ratio:1.000000
+
+[2026/01/08 05:30:22:0049] N:  -- [wsicli|16|POST/h1/r-5ed42e69.kinesisvideo.us-west-2.amazonaws] (0) 678.688ms
+[2026/01/08 05:30:22:0321] N:  ++ [wsicli|17|WS/h1/m-72556905.kinesisvideo.us-west-2.amazonaws.c] (1)
+2026-01-08 05:30:22 debug   [on_rpc_proc_temphum_cb:181]rpc_proc temphum progress [{"uid":"0VCA245200054","token":"","method":"post","key":"report_temphum_value","ts":1767879022036,"seq":701,"sid":0,"kid":0,"data":{"temp":25,"hum":41,"rssi":-41}}].
+
+2026-01-08 05:30:22 info    [aws_iot_mqtt_router_cb:1898]context:{"uid":"0VCA245200054","token":"","method":"post","key":"report_temphum_value","ts":1767879022036,"seq":701,"sid":0,"kid":0,"data":{"temp":25,"hum":41,"rssi":-41}}
+
+2026-01-08 05:30:22 info    [aws_iot_mqtt_router_cb:1900]get key report_temphum_value
+
+2026-01-08 05:30:22 info    [anc_request_list_add_node:318]add request id:0 malloc publish request request tick:8216920
+
+2026-01-08 05:30:22 info    [anc_req_timeout_handle:237]excute republish
+
+2026-01-08 05:30:22 info    [anc_mqtt_manage_re_publish:759]repbulish topic:dt/iot/E96TJE8/QDS_BBM/Marcus_0DB3E2_2_THING/res msg:{
+        "data_type":    "data.upload.control",
+        "data_id":      "419269549",
+        "timestamp":    1767850222036,
+        "data": {
+                "jobs": "temphum",
+                "temperature":  25,
+                "humidity":     41,
+                "signal":       -41
+        }
+}
+
+2026-01-08 05:30:22 info    [anc_req_timeout_handle:263]src id:0 request update new id:329 tick:8217121
+
+2026-01-08 05:30:22 info    [anc_request_list_update_node:465]send publish request success wait response id:329
+
+2026-01-08 05:30:22 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:22 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:22 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:22 info    [alarm_in:430]ALARM type=21 last_alarm_state=1, cur alarm_state=1
+
+2026-01-08 05:30:22 debug   [alarm_continue_record:428]rec_obj->m_start_time[0] delay_time_s[30000]
+
+2026-01-08 05:30:22 debug   [sys_cmd_fifo:97]p_cmd [echo 3 > /proc/sys/vm/drop_caches]
+
+[Fifo server]:system ok,cmd:[echo 3 > /proc/sys/vm/drop_caches].
+2026-01-08 05:30:22 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:77 | saturation:44 | ev:6296 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:30:22 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:22 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:22 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+[INFO] [MQTT] [core_mqtt.c:1525] Ack packet deserialized with result: MQTTSuccess.
+[INFO] [MQTT] [core_mqtt.c:1542] State record updated. New state=MQTTPublishDone.
+2026-01-08 05:30:22 info    [anc_request_list_del_node:396]remove pack id:329 request
+
+2026-01-08 05:30:22 info    [anc_mqtt_manage_incoming_ack_handle:217]remove specified packed id :329 request success
+
+2026-01-08 05:30:22 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:22 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:22 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:22 info    [alarm_in:430]ALARM type=21 last_alarm_state=1, cur alarm_state=2
+
+2026-01-08 05:30:22 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:77 | saturation:44 | ev:6330 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:30:23 info    [ANC_RF_B2D_put_frame:374]Device not ready, audio sending skipped, devid=0, init=128, speaker_power=1
+
+2026-01-08 05:30:23 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:23 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:23 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:23 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:23 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:23 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:23 info    [alarm_in:430]ALARM type=21 last_alarm_state=2, cur alarm_state=2
+
+2026-01-08 05:30:23 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:78 | saturation:44 | ev:6330 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:30:23 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:23 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:23 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:23 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:75 | saturation:44 | ev:6330 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:30:23 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:23 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:23 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:23 info    [alarm_in:430]ALARM type=21 last_alarm_state=2, cur alarm_state=2
+
+2026-01-08 05:30:24 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:24 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:24 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:24 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:77 | saturation:44 | ev:6429 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:30:24 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:24 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:24 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:24 info    [alarm_in:430]ALARM type=21 last_alarm_state=2, cur alarm_state=2
+
+2026-01-08 05:30:24 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:24 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:24 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:24 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:75 | saturation:44 | ev:6429 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:30:25 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:25 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:25 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:25 info    [alarm_in:430]ALARM type=21 last_alarm_state=2, cur alarm_state=2
+
+2026-01-08 05:30:25 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:82 | saturation:44 | ev:6429 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:30:25 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:25 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:25 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:25 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:25 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:25 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:25 info    [alarm_in:430]ALARM type=21 last_alarm_state=2, cur alarm_state=2
+
+2026-01-08 05:30:25 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:81 | saturation:44 | ev:6264 | history:0 | rb_ratio:1.000000
+
+personvehicle detect all time : 49.820000
+2026-01-08 05:30:26 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =1
+
+2026-01-08 05:30:26 info    [ivs_PD_Vehi_Nomxu_get_result:446]personvehiclepet location: trackID[-1], classID[0], confidence[0.477637], [622, 61, 639, 152]
+
+2026-01-08 05:30:26 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:26 debug   [anc_hal_motion_and_hum_check:693]hal_pd_res.count:1
+
+2026-01-08 05:30:26 debug   [anc_hal_motion_and_hum_check:696]PD: lx:9718 ly:1694 rx:9984 ry:4222
+
+2026-01-08 05:30:26 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:1 motion_happen:-1
+
+2026-01-08 05:30:26 debug   [anc_hal_motion_and_hum_check:713]HUM HAPPEN =============>>>>
+
+2026-01-08 05:30:26 info    [alarm_in:430]ALARM type=21 last_alarm_state=2, cur alarm_state=1
+
+2026-01-08 05:30:26 debug   [alarm_continue_record:428]rec_obj->m_start_time[0] delay_time_s[30000]
+
+2026-01-08 05:30:26 info    [ANC_RF_B2D_put_frame:374]Device not ready, audio sending skipped, devid=0, init=128, speaker_power=1
+
+2026-01-08 05:30:26 debug   [sys_cmd_fifo:97]p_cmd [echo 3 > /proc/sys/vm/drop_caches]
+
+2026-01-08 05:30:26 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:26 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:26 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:26 info    [alarm_in:430]ALARM type=21 last_alarm_state=1, cur alarm_state=1
+
+2026-01-08 05:30:26 debug   [alarm_continue_record:428]rec_obj->m_start_time[0] delay_time_s[30000]
+
+[Fifo server]:system ok,cmd:[echo 3 > /proc/sys/vm/drop_caches].
+2026-01-08 05:30:26 debug   [sys_cmd_fifo:150]replay:[OK],cmd:[echo 3 > /proc/sys/vm/drop_caches].
+
+2026-01-08 05:30:26 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:79 | saturation:44 | ev:6264 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:30:26 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:26 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:26 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:26 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:26 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:26 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:26 info    [alarm_in:430]ALARM type=21 last_alarm_state=1, cur alarm_state=2
+
+2026-01-08 05:30:26 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:78 | saturation:44 | ev:6264 | history:0 | rb_ratio:1.000000
+
+personvehicle detect all time : 48.290001
+2026-01-08 05:30:27 ERROR   connectSignalingChannelLws(): operation returned status code: 0x0000000f
+2026-01-08 05:30:27 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =1
+
+2026-01-08 05:30:27 info    [ivs_PD_Vehi_Nomxu_get_result:446]personvehiclepet location: trackID[-1], classID[0], confidence[0.459726], [624, 62, 639, 151]
+
+2026-01-08 05:30:27 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:27 debug   [anc_hal_motion_and_hum_check:693]hal_pd_res.count:1
+
+2026-01-08 05:30:27 debug   [anc_hal_motion_and_hum_check:696]PD: lx:9750 ly:1722 rx:9984 ry:4194
+
+2026-01-08 05:30:27 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:1 motion_happen:-1
+
+2026-01-08 05:30:27 debug   [anc_hal_motion_and_hum_check:713]HUM HAPPEN =============>>>>
+
+2026-01-08 05:30:27 info    [alarm_in:430]ALARM type=21 last_alarm_state=2, cur alarm_state=1
+
+2026-01-08 05:30:27 debug   [alarm_continue_record:428]rec_obj->m_start_time[0] delay_time_s[30000]
+
+2026-01-08 05:30:27 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:77 | saturation:44 | ev:6264 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:30:27 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2
+ 2026-01-08 05:30:27 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:71 | saturation:44 | ev:6346 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:30:28 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:28 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:28 info    [alarm_in:430]ALARM type=21 last_alarm_state=1, cur alarm_state=2
+
+[2026/01/08 05:30:28:2064] N:  -- [wsicli|17|WS/h1/m-72556905.kinesisvideo.us-west-2.amazonaws.c] (0) 6.174s
+2026-01-08 05:30:28 DEBUG   defaultSignalingStateTransitionHook(): Retry count: 4544075399169
+2026-01-08 05:30:28 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:28 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:28 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:28 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:71 | saturation:44 | ev:6462 | history:0 | rb_ratio:1.000000
+
+[2026/01/08 05:30:28:4021] N:  ++ [wsicli|18|POST/h1/r-5ed42e69.kinesisvideo.us-west-2.amazonaws] (1)
+2026-01-08 05:30:28 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:28 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:28 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:28 info    [alarm_in:430]ALARM type=21 last_alarm_state=2, cur alarm_state=2
+
+2026-01-08 05:30:28 DEBUG   lwsHttpCallbackRoutine(): Client append handshake header
+
+2026-01-08 05:30:28 DEBUG   lwsHttpCallbackRoutine(): Sending the body {
+        "ChannelARN": "arn:aws:kinesisvideo:us-west-2:663530036664:channel/Marcus_0DB3E2_2/1756483251274",
+        "ClientId": "ProducerMaster",
+        "Service": "TURN"
+}, size 153
+2026-01-08 05:30:28 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:75 | saturation:44 | ev:6589 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:30:28 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:28 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:28 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:29 DEBUG   lwsHttpCallbackRoutine(): Connected with server response: 200
+2026-01-08 05:30:29 DEBUG   lwsHttpCallbackRoutine(): Received client http
+2026-01-08 05:30:29 DEBUG   lwsHttpCallbackRoutine(): Received client http read: 1047 bytes
+2026-01-08 05:30:29 DEBUG   lwsHttpCallbackRoutine(): Http client completed
+2026-01-08 05:30:29 DEBUG   lwsHttpCallbackRoutine(): Client http closed
+[2026/01/08 05:30:29:0274] N:  -- [wsicli|18|POST/h1/r-5ed42e69.kinesisvideo.us-west-2.amazonaws] (0) 625.290ms
+[2026/01/08 05:30:29:0285] N:  ++ [wsicli|19|WS/h1/m-72556905.kinesisvideo.us-west-2.amazonaws.c] (1)
+2026-01-08 05:30:29 info    [ANC_RF_B2D_put_frame:374]Device not ready, audio sending skipped, devid=0, init=128, speaker_power=1
+
+2026-01-08 05:30:29 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:29 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:29 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:29 info    [alarm_in:430]ALARM type=21 last_alarm_state=2, cur alarm_state=2
+
+2026-01-08 05:30:29 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:77 | saturation:44 | ev:6723 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:30:29 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:29 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:29 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:29 DEBUG   lwsWssCallbackRoutine(): Connection established
+2026-01-08 05:30:29 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:29 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:29 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:29 info    [alarm_in:430]ALARM type=21 last_alarm_state=2, cur alarm_state=2
+
+2026-01-08 05:30:29 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:30:29 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"sdpMid\":\"0\",\"candidate\":\"candidate:1456035408 1 udp 2122129151 192.168.1.4 49726 typ host generation 0 ufrag pNCS network-id 1 network-cost 10\",\"sdpMLineIndex\":0}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-715E47CE"}'
+2026-01-08 05:30:29 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:30:29 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:77 | saturation:44 | ev:6723 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:30:29 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:30:29 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"sdpMid\":\"0\",\"candidate\":\"candidate:1367278345 1 udp 2122063615 169.254.76.87 56370 typ host generation 0 ufrag pNCS network-id 3 network-cost 10\",\"sdpMLineIndex\":0}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-715E47CE"}'
+2026-01-08 05:30:29 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:30:29 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:30:29 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"sdpMid\":\"0\",\"candidate\":\"candidate:1196945912 1 udp 2121998079 10.176.3.26 57524 typ host generation 0 ufrag pNCS network-id 14 network-cost 900\",\"sdpMLineIndex\":0}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-715E47CE"}'
+2026-01-08 05:30:29 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:30:29 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:30:29 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"sdpMid\":\"0\",\"candidate\":\"candidate:2125134391 1 udp 2121932543 172.25.17.214 58534 typ host generation 0 ufrag pNCS network-id 15 network-cost 900\",\"sdpMLineIndex\":0}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-715E47CE"}'
+2026-01-08 05:30:29 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:30:29 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:30:29 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"sdpMid\":\"0\",\"candidate\":\"candidate:2125134391 1 udp 2121604863 172.25.17.214 56618 typ host generation 0 ufrag pNCS network-id 4 network-cost 50\",\"sdpMLineIndex\":0}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-715E47CE"}'
+2026-01-08 05:30:29 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:30:30 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:30:30 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"sdpMid\":\"0\",\"candidate\":\"candidate:1133493474 1 udp 2121539327 192.0.0.6 56348 typ host generation 0 ufrag pNCS network-id 5 network-cost 50\",\"sdpMLineIndex\":0}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-715E47CE"}'
+2026-01-08 05:30:30 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:30:30 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:30:30 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"sdpMid\":\"0\",\"candidate\":\"candidate:2125134391 1 udp 2121473791 172.25.17.214 54465 typ host generation 0 ufrag pNCS network-id 7 network-cost 50\",\"sdpMLineIndex\":0}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-715E47CE"}'
+2026-01-08 05:30:30 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:30:30 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:30 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:30 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:30 ERROR   receiveLwsMessage(): operation returned status code: 0x40000001
+2026-01-08 05:30:30 WARN    signalingClientError(): Signaling client generated an error 0x40000001 - '{"messagePayload":"{\"sdpMid\":\"0\",\"candidate\":\"candidate:2125134391 1 udp 2121342719 172.25.17.214 61996 typ host generation 0 ufrag pNCS network-id 11 network-cost 50\",\"sdpMLineIndex\":0}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-715E47CE"}'
+2026-01-08 05:30:30 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:30:30 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:30:30 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"sdpMid\":\"0\",\"candidate\":\"candidate:1133493474 1 udp 2121408255 192.0.0.6 52813 typ host generation 0 ufrag pNCS network-id 8 network-cost 50\",\"sdpMLineIndex\":0}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-715E47CE"}'
+2026-01-08 05:30:30 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:30:30 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:30:30 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"sdpMid\":\"0\",\"candidate\":\"candidate:1066356044 1 udp 2122199807 fd98:ac60:af9f:ac49:1429:2c7a:1915:5af6 65271 typ host generation 0 ufrag pNCS network-id 2 network-cost 10\",\"sdpMLineIndex\":0}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-715E47CE"}'
+2026-01-08 05:30:30 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:30:30 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:30:30 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"sdpMid\":\"0\",\"candidate\":\"candidate:432805977 1 udp 2121872127 fd74:6572:6d6e:7573:d:ac93:21c3:94f7 53232 typ host generation 0 ufrag pNCS network-id 6 network-cost 50\",\"sdpMLineIndex\":0}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-715E47CE"}'
+2026-01-08 05:30:30 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:30:30 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:30:30 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"sdpMid\":\"0\",\"candidate\":\"candidate:721562695 1 udp 2121806591 fd74:6572:6d6e:7573:c:ac93:21c3:94f7 64875 typ host generation 0 ufrag pNCS network-id 9 network-cost 50\",\"sdpMLineIndex\":0}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-715E47CE"}'
+2026-01-08 05:30:30 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:30:30 debug   [sys_cmd_fifo:97]p_cmd [echo 3 > /proc/sys/vm/drop_caches]
+
+2026-01-08 05:30:30 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:30:30 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"sdpMid\":\"0\",\"candidate\":\"candidate:432805977 1 udp 2121741055 fd74:6572:6d6e:7573:d:ac93:21c3:94f7 61066 typ host generation 0 ufrag pNCS network-id 10 network-cost 50\",\"sdpMLineIndex\":0}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-715E47CE"}'
+2026-01-08 05:30:30 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:30:30 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:76 | saturation:44 | ev:6723 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:30:30 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:30:30 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"sdpMid\":\"0\",\"candidate\":\"candidate:403263438 1 udp 2121675519 fde8:648b:d9bb::1 52010 typ host generation 0 ufrag pNCS network-id 17 network-cost 50\",\"sdpMLineIndex\":0}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-715E47CE"}'
+2026-01-08 05:30:30 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:30:30 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:30 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:30 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:30 info    [alarm_in:430]ALARM type=21 last_alarm_state=2, cur alarm_state=2
+
+2026-01-08 05:30:30 ERROR   receiveLwsMessage(): operation returned status code: 0x40000001
+2026-01-08 05:30:30 WARN    signalingClientError(): Signaling client generated an error 0x40000001 - '{"messagePayload":"{\"sdpMid\":\"0\",\"candidate\":\"candidate:2147495587 1 tcp 1518280447 172.25.17.214 52174 typ host tcptype passive generation 0 ufrag pNCS network-id 16 network-cost 50\",\"sdpMLineIndex\":0}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-715E47CE"}'
+2026-01-08 05:30:30 DEBUG   lwsWssCallbackRoutine(): Client is writable
+[Fifo server]:system ok,cmd:[echo 3 > /proc/sys/vm/drop_caches].
+2026-01-08 05:30:30 debug   [sys_cmd_fifo:150]replay:[OK],cmd:[echo 3 > /proc/sys/vm/drop_caches].
+
+2026-01-08 05:30:30 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:30:30 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"sdpMid\":\"0\",\"candidate\":\"candidate:2825093828 1 tcp 1518149375 192.168.1.4 52175 typ host tcptype passive generation 0 ufrag pNCS network-id 1 network-cost 10\",\"sdpMLineIndex\":0}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-715E47CE"}'
+2026-01-08 05:30:30 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:30:30 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:30:30 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"sdpMid\":\"0\",\"candidate\":\"candidate:2950027165 1 tcp 1518083839 169.254.76.87 52176 typ host tcptype passive generation 0 ufrag pNCS network-id 3 network-cost 10\",\"sdpMLineIndex\":0}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-715E47CE"}'
+2026-01-08 05:30:30 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:30:30 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:30:30 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"sdpMid\":\"0\",\"candidate\":\"candidate:3120375148 1 tcp 1518018303 10.176.3.26 52177 typ host tcptype passive generation 0 ufrag pNCS network-id 14 network-cost 900\",\"sdpMLineIndex\":0}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-715E47CE"}'
+2026-01-08 05:30:30 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:30:30 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:30:30 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"sdpMid\":\"0\",\"candidate\":\"candidate:2147495587 1 tcp 1517952767 172.25.17.214 52178 typ host tcptype passive generation 0 ufrag pNCS network-id 15 network-cost 900\",\"sdpMLineIndex\":0}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-715E47CE"}'
+2026-01-08 05:30:30 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:30:30 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:30:30 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"sdpMid\":\"0\",\"candidate\":\"candidate:2147495587 1 tcp 1517625087 172.25.17.214 52179 typ host tcptype passive generation 0 ufrag pNCS network-id 4 network-cost 50\",\"sdpMLineIndex\":0}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-715E47CE"}'
+2026-01-08 05:30:30 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:30:30 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:30:30 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"sdpMid\":\"0\",\"candidate\":\"candidate:3173345398 1 tcp 1517559551 192.0.0.6 52180 typ host tcptype passive generation 0 ufrag pNCS network-id 5 network-cost 50\",\"sdpMLineIndex\":0}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-715E47CE"}'
+2026-01-08 05:30:30 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:30:30 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:30:30 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"sdpMid\":\"0\",\"candidate\":\"candidate:2147495587 1 tcp 1517494015 172.25.17.214 52181 typ host tcptype passive generation 0 ufrag pNCS network-id 7 network-cost 50\",\"sdpMLineIndex\":0}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-715E47CE"}'
+2026-01-08 05:30:30 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:30:30 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:30 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:30 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:30 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:30:30 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"sdpMid\":\"0\",\"candidate\":\"candidate:3173345398 1 tcp 1517428479 192.0.0.6 52182 typ host tcptype passive generation 0 ufrag pNCS network-id 8 network-cost 50\",\"sdpMLineIndex\":0}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-715E47CE"}'
+2026-01-08 05:30:30 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:30:30 ERROR   receiveLwsMessage(): operation returned status code: 0x40000001
+2026-01-08 05:30:30 WARN    signalingClientError(): Signaling client generated an error 0x40000001 - '{"messagePayload":"{\"sdpMid\":\"0\",\"candidate\":\"candidate:2147495587 1 tcp 1517362943 172.25.17.214 52183 typ host tcptype passive generation 0 ufrag pNCS network-id 11 network-cost 50\",\"sdpMLineIndex\":0}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-715E47CE"}'
+2026-01-08 05:30:30 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:30:30 debug   [aoni_wifi_ip_droped:690]wifi got ip :192.168.1.86
+
+2026-01-08 05:30:30 debug   [aoni_wifi_check_error:863]wifi running.
+
+2026-01-08 05:30:30 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:77 | saturation:44 | ev:6723 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:30:30 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:30:30 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"sdpMid\":\"0\",\"candidate\":\"candidate:3240466904 1 tcp 1518220031 fd98:ac60:af9f:ac49:1429:2c7a:1915:5af6 52184 typ host tcptype passive generation 0 ufrag pNCS network-id 2 network-cost 10\",\"sdpMLineIndex\":0}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-715E47CE"}'
+2026-01-08 05:30:30 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:30:30 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:30:30 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"sdpMid\":\"0\",\"candidate\":\"candidate:3882273997 1 tcp 1517892351 fd74:6572:6d6e:7573:d:ac93:21c3:94f7 52185 typ host tcptype passive generation 0 ufrag pNCS network-id 6 network-cost 50\",\"sdpMLineIndex\":0}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-715E47CE"}'
+2026-01-08 05:30:30 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:30:30 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:30:30 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"sdpMid\":\"0\",\"candidate\":\"candidate:3584620755 1 tcp 1517826815 fd74:6572:6d6e:7573:c:ac93:21c3:94f7 52186 typ host tcptype passive generation 0 ufrag pNCS network-id 9 network-cost 50\",\"sdpMLineIndex\":0}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-715E47CE"}'
+2026-01-08 05:30:30 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:30:30 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:30 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:30 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:30 info    [alarm_in:430]ALARM type=21 last_alarm_state=2, cur alarm_state=2
+
+2026-01-08 05:30:30 ERROR   receiveLwsMessage(): operation returned status code: 0x40000001
+2026-01-08 05:30:30 WARN    signalingClientError(): Signaling client generated an error 0x40000001 - '{"messagePayload":"{\"sdpMLineIndex\":0,\"sdpMid\":\"0\",\"candidate\":\"candidate:3869481818 1 tcp 1517695743 fde8:648b:d9bb::1 52188 typ host tcptype passive generation 0 ufrag pNCS network-id 17 network-cost 50\"}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-715E47CE"}'
+2026-01-08 05:30:31 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:30:31 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:30:31 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"candidate\":\"candidate:3882273997 1 tcp 1517761279 fd74:6572:6d6e:7573:d:ac93:21c3:94f7 52187 typ host tcptype passive generation 0 ufrag pNCS network-id 10 network-cost 50\",\"sdpMLineIndex\":0,\"sdpMid\":\"0\"}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-715E47CE"}'
+2026-01-08 05:30:31 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:30:31 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:30:31 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"candidate\":\"candidate:372450553 1 udp 1685921535 58.82.194.204 49726 typ srflx raddr 192.168.1.4 rport 49726 generation 0 ufrag pNCS network-id 1 network-cost 10\",\"sdpMLineIndex\":0,\"sdpMid\":\"0\"}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-715E47CE"}'
+2026-01-08 05:30:31 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:30:31 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:30:31 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"sdpMid\":\"0\",\"candidate\":\"candidate:2387402631 1 udp 41755135 35.160.91.32 58151 typ relay raddr 58.82.194.204 rport 49726 generation 0 ufrag pNCS network-id 1 network-cost 10\",\"sdpMLineIndex\":0}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-715E47CE"}'
+2026-01-08 05:30:31 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:30:31 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:31 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:31 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:31 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:30:31 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"sdpMid\":\"0\",\"candidate\":\"candidate:4207115771 1 udp 41755903 44.250.231.168 56093 typ relay raddr 58.82.194.204 rport 49726 generation 0 ufrag pNCS network-id 1 network-cost 10\",\"sdpMLineIndex\":0}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-715E47CE"}'
+2026-01-08 05:30:31 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:30:31 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:30:31 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"candidate\":\"candidate:128811857 1 udp 1685790463 182.239.119.157 28065 typ srflx raddr 10.176.3.26 rport 57524 generation 0 ufrag pNCS network-id 14 network-cost 900\",\"sdpMid\":\"0\",\"sdpMLineIndex\":0}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-715E47CE"}'
+2026-01-08 05:30:31 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:30:31 ERROR   receiveLwsMessage(): operation returned status code: 0x40000001
+2026-01-08 05:30:31 WARN    signalingClientError(): Signaling client generated an error 0x40000001 - '{"messagePayload":"{\"candidate\":\"candidate:3613561264 1 udp 8200447 35.160.91.32 55069 typ relay raddr 58.82.194.204 rport 52133 generation 0 ufrag pNCS network-id 1 network-cost 10\",\"sdpMLineIndex\":0,\"sdpMid\":\"0\"}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-715E47CE"}'
+2026-01-08 05:30:31 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:30:31 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:30:31 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"candidate\":\"candidate:2750231500 1 udp 8201215 44.250.231.168 62505 typ relay raddr 58.82.194.204 rport 52135 generation 0 ufrag pNCS network-id 1 network-cost 10\",\"sdpMLineIndex\":0,\"sdpMid\":\"0\"}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-715E47CE"}'
+2026-01-08 05:30:31 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:30:31 ERROR   receiveLwsMessage(): operation returned status code: 0x40000001
+2026-01-08 05:30:31 WARN    signalingClientError(): Signaling client generated an error 0x40000001 - '{"messagePayload":"{\"candidate\":\"candidate:3613561264 1 udp 8200191 35.160.91.32 54864 typ relay raddr 58.82.194.204 rport 52134 generation 0 ufrag pNCS network-id 1 network-cost 10\",\"sdpMLineIndex\":0,\"sdpMid\":\"0\"}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-715E47CE"}'
+2026-01-08 05:30:31 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:30:31 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:30:31 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"sdpMid\":\"0\",\"sdpMLineIndex\":0,\"candidate\":\"candidate:4207115771 1 udp 41624831 44.250.231.168 62862 typ relay raddr 182.239.119.157 rport 8982 generation 0 ufrag pNCS network-id 14 network-cost 900\"}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-715E47CE"}'
+2026-01-08 05:30:31 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:30:31 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:30:31 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"sdpMid\":\"0\",\"sdpMLineIndex\":0,\"candidate\":\"candidate:2387402631 1 udp 41624063 35.160.91.32 57041 typ relay raddr 182.239.119.157 rport 17400 generation 0 ufrag pNCS network-id 14 network-cost 900\"}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-715E47CE"}'
+2026-01-08 05:30:31 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:30:31 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:30:31 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"sdpMid\":\"0\",\"candidate\":\"candidate:2750231500 1 udp 8200959 44.250.231.168 61310 typ relay raddr 58.82.194.204 rport 52136 generation 0 ufrag pNCS network-id 1 network-cost 10\",\"sdpMLineIndex\":0}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-715E47CE"}'
+2026-01-08 05:30:31 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:30:31 ERROR   receiveLwsMessage(): operation returned status code: 0x40000001
+2026-01-08 05:30:31 WARN    signalingClientError(): Signaling client generated an error 0x40000001 - '{"messagePayload":"{\"sdpMLineIndex\":0,\"sdpMid\":\"0\",\"candidate\":\"candidate:3613561264 1 udp 8069375 35.160.91.32 53821 typ relay raddr 182.239.119.157 rport 52128 generation 0 ufrag pNCS network-id 14 network-cost 900\"}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-715E47CE"}'
+2026-01-08 05:30:31 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:30:31 ERROR   receiveLwsMessage(): operation returned status code: 0x40000001
+2026-01-08 05:30:31 WARN    signalingClientError(): Signaling client generated an error 0x40000001 - '{"messagePayload":"{\"sdpMLineIndex\":0,\"sdpMid\":\"0\",\"candidate\":\"candidate:3613561264 1 udp 8069119 35.160.91.32 54915 typ relay raddr 182.239.119.157 rport 52127 generation 0 ufrag pNCS network-id 14 network-cost 900\"}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-715E47CE"}'
+2026-01-08 05:30:31 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:30:31 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:30:31 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"sdpMid\":\"0\",\"candidate\":\"candidate:2750231500 1 udp 8070143 44.250.231.168 57409 typ relay raddr 182.239.119.157 rport 37995 generation 0 ufrag pNCS network-id 14 network-cost 900\",\"sdpMLineIndex\":0}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-715E47CE"}'
+2026-01-08 05:30:31 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:30:31 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:31 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:31 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:31 info    [alarm_in:430]ALARM type=21 last_alarm_state=2, cur alarm_state=2
+
+2026-01-08 05:30:31 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:77 | saturation:44 | ev:6723 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:30:32 info    [ANC_RF_B2D_put_frame:374]Device not ready, audio sending skipped, devid=0, init=128, speaker_power=1
+
+2026-01-08 05:30:32 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:32 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:32 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:32 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:77 | saturation:44 | ev:6723 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:30:32 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:32 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:32 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:32 info    [alarm_in:430]ALARM type=21 last_alarm_state=2, cur alarm_state=2
+
+2026-01-08 05:30:32 info    [aoni_aws_webrtc_timeout_handler:864]reset webrtc detect
+
+2026-01-08 05:30:32 info    [aoni_aws_webrtc_timeout_handler:879]session count is 0 reset webrtc
+
+2026-01-08 05:30:32 info    [aoni_aws_webrtc_stop:407]stop aws webrtc
+
+2026-01-08 05:30:32 info    [stream_service_live_stop:639]stream_service_live_stop, uid[aws_uid] token[aws_token] sid[1] all pubs[3]
+
+2026-01-08 05:30:32 warn    [stream_service_session_destroy:240]stream_service_session_destroy, sid[1] pub_num[1]
+
+2026-01-08 05:30:32 info    [publisher_destroy:46]publisher_destroy, sid[1] stream_id[0]chn[1] stream_type[0]ts[0] video_type[128] audio_type[145] media_type[3]consumer[3]
+
+2026-01-08 05:30:32 warn    [stream_service_live_stop:668]stream_service_live_stop, remove session_object from clientuid[aws_uid] sid[0].
+
+2026-01-08 05:30:32 info    [stream_service_live_stop:674]stream_service all pubs[2]
+
+2026-01-08 05:30:32 debug   [stream_service_deregister_frame_cb:729]stream_service_deregister_frame_cb consumer_type [3]
+
+2026-01-08 05:30:32 warn    [stream_service_client_destroy:273]stream_service_client_destroy, uid[aws_uid] token[aws_token] ts[0] session_num[0]
+
+2026-01-08 05:30:32 warn    [stream_service_client_destroy:284]stream_service_client_destroy, uid[aws_uid]
+
+2026-01-08 05:30:32 debug   [stream_service_client_destroy:314]stream_service_client_destroy, client number[2]
+
+2026-01-08 05:30:32 info    [stream_service_client_del:531]uid[aws_uid] token[aws_token] done.
+
+2026-01-08 05:30:32 info    [aoni_status_notice:2267]aoni_status_notice : 0
+
+2026-01-08 05:30:32 info    [aoni_aws_webrtc_timeout_handler:890]reset timeout handuler
+
+2026-01-08 05:30:32 debug   [notice_object_init:1663]color_enum[8] r[0] g[0] b[0] w[100] step[0].
+
+2026-01-08 05:30:32 debug   [notice_object_calc_step:1640]step 0.
+
+2026-01-08 05:30:32 debug   [notice_object_calc_step:1640]step 0.
+
+2026-01-08 05:30:32 debug   [notice_object_calc_step:1640]step 0.
+
+2026-01-08 05:30:32 debug   [notice_object_calc_step:1640]step 0.
+
+2026-01-08 05:30:32 debug   [notice_object_init:1703]r step[0] g step[0] b step[0] w step[0].
+
+2026-01-08 05:30:32 debug   [notice_object_start:1897]notice_object start_time[8227704].
+
+2026-01-08 05:30:32 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:32 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:32 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:32 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:30:32 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"sdpMLineIndex\":0,\"candidate\":\"candidate:2750231500 1 udp 8069887 44.250.231.168 60634 typ relay raddr 182.239.119.157 rport 37996 generation 0 ufrag pNCS network-id 14 network-cost 900\",\"sdpMid\":\"0\"}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-715E47CE"}'
+2026-01-08 05:30:32 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:30:32 debug   [aoni_send_data_dec_stop:215]anc_hal_ao_FlushBuff ret:0
+
+2026-01-08 05:30:33 error   [anc_hal_setSpeakerPowerEnable:84]enable:0
+
+2026-01-08 05:30:33 info    [notice_audio_ctrl:1393]astate.chn_busy_num=0, chn_total_num=20, chn_free_num=20
+
+2026-01-08 05:30:33 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:33 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:33 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:33 info    [alarm_in:430]ALARM type=21 last_alarm_state=2, cur alarm_state=2
+
+2026-01-08 05:30:33 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:33 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:33 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:33 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:76 | saturation:44 | ev:6723 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:30:33 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:33 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:33 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:33 info    [alarm_in:430]ALARM type=21 last_alarm_state=2, cur alarm_state=2
+
+2026-01-08 05:30:33 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:77 | saturation:44 | ev:6723 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:30:33 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:33 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:33 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:34 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:34 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:34 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:34 info    [alarm_in:430]ALARM type=21 last_alarm_state=2, cur alarm_state=2
+
+2026-01-08 05:30:34 debug   [sys_cmd_fifo:97]p_cmd [echo 3 > /proc/sys/vm/drop_caches]
+
+2026-01-08 05:30:34 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:77 | saturation:44 | ev:6723 | history:0 | rb_ratio:1.000000
+
+[Fifo server]:system ok,cmd:[echo 3 > /proc/sys/vm/drop_caches].
+2026-01-08 05:30:34 debug   [sys_cmd_fifo:150]replay:[OK],cmd:[echo 3 > /proc/sys/vm/drop_caches].
+
+2026-01-08 05:30:34 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:34 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:34 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:34 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:34 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:34 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:34 info    [alarm_in:430]ALARM type=21 last_alarm_state=2, cur alarm_state=2
+
+2026-01-08 05:30:34 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:76 | saturation:44 | ev:6723 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:30:35 info    [ANC_RF_B2D_put_frame:374]Device not ready, audio sending skipped, devid=0, init=128, speaker_power=1
+
+2026-01-08 05:30:35 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:35 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:35 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:35 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:76 | saturation:44 | ev:6723 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:30:35 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:35 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:35 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:35 info    [alarm_in:430]ALARM type=21 last_alarm_state=2, cur alarm_state=2
+
+2026-01-08 05:30:35 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:35 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:35 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:35 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:77 | saturation:44 | ev:6723 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:30:36 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:36 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:36 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:36 info    [alarm_in:430]ALARM type=21 last_alarm_state=2, cur alarm_state=2
+
+2026-01-08 05:30:36 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:36 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:36 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:36 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:77 | saturation:44 | ev:6723 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:30:36 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:36 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:36 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:36 info    [alarm_in:430]ALARM type=21 last_alarm_state=2, cur alarm_state=2
+
+personvehicle detect all time : 50.950001
+2026-01-08 05:30:36 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:74 | saturation:44 | ev:6723 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:30:36 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:36 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:36 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:37 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:37 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:37 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:37 info    [alarm_in:430]ALARM type=21 last_alarm_state=2, cur alarm_state=2
+
+2026-01-08 05:30:37 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:75 | saturation:44 | ev:6793 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:30:37 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:37 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:37 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:37 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:37 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:37 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+202
+   2026-01-08 05:30:45 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:45 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:45 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+
+Ingenic-uc1_1 login: 2026-01-08 05:29:40 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+40 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:29:40 info    [ANC_RF_B2D_put_frame:374]Device not ready, audio sending skipped, devid=0, init=128, speaker_power=1
+
+2026-01-08 05:29:40 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:29:40 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"sdpMLineIndex\":0,\"candidate\":\"candidate:1845535903 1 udp 41624063 35.160.91.32 56401 typ relay raddr 182.239.119.157 rport 17399 generation 0 ufrag GkQ0 network-id 14 network-cost 900\",\"sdpMid\":\"0\"}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-3B707AE5"}'
+2026-01-08 05:29:40 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:29:40 ERROR   signalingMessageReceived(): operation returned status code: 0x12026-01-08 05:30:45 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:80 | saturation:44 | ev:6937 | history:0 | rb_ratio:1.000000
+
+500000c
+2026-01-08 05:29:40 ERROR   receiveLwsMessageWrapper(): operation returned status code: 0x1500000c
+2026-01-08 05:29:40 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:29:40 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:81 | saturation:43 | ev:5945 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:29:41 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:29:41 debug Password:
+ebug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:29:41 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:29:41 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:29:41 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:29:41 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:81 | saturation:43 | ev:5945 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:29:41 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:29:41 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:29:41 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:29:41 debug   [sys_cmd_fifo:97]p_cmd [echo 3 > /proc/sys/vm/drop_caches]
+
+2026-01-08 05:29:41 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:81 | saturation:43 | ev:5945 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:29:41 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:29:41 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:29:41 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+[Fifo server]:system ok,cmd:[echo 3 > /proc/sys/vm/drop_caches].
+2026-01-08 05:29:41 debug   [sys_cmd_fifo:150]replay:[OK],cmd:[echo 3 > /proc/sys/vm/drop_caches].
+
+2026-01-08 05:29:41 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:29:42 ERROR   receiveLwsMessage(): operation returned status code: 0x40000001
+2026-01-08 05:29:42 WARN    signalingClientError(): Signaling client generated an error 0x40000001 - '{"messagePayload":"{\"can2026-01-08 05:30:45 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:45 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:45 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:45 info    [alarm_in:430]ALARM type=21 last_alarm_state=2, cur alarm_state=2
+
+didate\":\"candidate:4084434147 1 udp 8069119 35.160.91.32 54771 typ relay raddr 182.239.119.157 rport 52126 generation 0 ufrag GkQ0 network-id 14 network-cost 900\",\"sdpMid\":\"0\",\"sdpMLineIndex\":0}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-3B707AE5"}'
+2026-01-08 05:29:42 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:29:42 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:29:42 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"candidate\":\"candidate:3815432510 1 udp 8069887 52.26.98.83 57350 typ relay raddr 182.239.119.157 rport 4748 generation 0 ufrag GkQ0 network-id 14 network-cost 900\",\"sdpMid\":\"0\",\"sdpMLineIndex\":0}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-3B707AE5"}'
+2026-01-08 05:29:42 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:29:42 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:29:42 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:29:42 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:29:42 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:81 | saturation:43 | ev:5945 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:29:42 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:29:42 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:29:42 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:29:42 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:29:42 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:29:42 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:29:42 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:81 | saturation:43 | ev:5945 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:29:43 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:29:43 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:29:43 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:29:43 ERROR   receiveLwsMessage(): operation returned status code: 0x40000001
+2026-01-08 05:29:43 WARN  2026-01-08 05:30:46 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:46 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:46 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:46 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:80 | saturation:44 | ev:6937 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:30:46 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:46 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:46 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:46 info    [alarm_in:430]ALARM type=21 last_alarm_state=2, cur alarm_state=2
+
+2026-01-08 05:30:46 debug   [sys_cmd_fifo:97]p_cmd [echo 3 > /proc/sys/vm/drop_caches]
+
+[Fifo server]:system ok,cmd:[echo 3 > /proc/sys/vm/drop_caches].
+2026-01-08 05:30:46 debug   [sys_cmd_fifo:150]replay:[OK],cmd:[echo 3 > /proc/sys/vm/drop_caches].
+
+2026-01-08 05:30:46 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:78 | saturation:44 | ev:6937 | history:0 | rb_ratio:1.000000
+
+2
+
+2026-01-08 05:31:09 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:31:09 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:76 | saturation:44 | ev:6221 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:31:10 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:31:10 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:31:10 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:31:10 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:31:10 debug   [sys_cmd_fifo:97]p_cmd [echo 3 > /proc/sys/vm/drop_caches]
+
+[Fifo server]:system ok,cmd:[echo 3 > /proc/sys/vm/drop_caches].
+2026-01-08 05:31:10 debug   [sys_cmd_fifo:150]replay:[OK],cmd:[echo 3 > /proc/sys/vm/drop_caches].
+
+2026-01-08 05:31:10 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:76 | saturation:44 | ev:6221 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:31:10 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:31:10 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:31:10 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:31:10 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:31:10 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:31:10 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:31:10 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:76 | saturation:44 | ev:6221 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:31:11 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:31:11 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:31:11 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:31:11 info    [ANC_RF_B2D_put_frame:374]Device not ready, audio sending skipped, devid=0, init=128, speaker_power=1
+
+2026-01-08 05:31:11 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:31:11 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:31:11 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:31:11 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:76 | saturation:44 | ev:6221 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:31:11 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:31:11 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:31:11 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:31:11 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:76 | saturation:44 | ev:6221 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:31:11 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:31:11 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:31:11 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+Login incorrect
+Ingenic-uc1_1 login: ived(): check condition..
+
+2026-01-08Password:
+:29:59 DEBUG   turnConnectionStepState(): TurnConnection state changed from TURN_STATE_CHECK_SOCKET_CONNECTION to TURN_STATE_GET_CREDENTIALS
+2026-01-08 05:29:59 DEBUG   turnConnectionStepState(): TurnConnection state chan2026-01-08 05:31:12 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:31:12 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:31:12 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:31:12 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:76 | saturation:44 | ev:6221 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:31:12 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:31:12 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:31:12 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:31:12 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:31:12 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:31:12 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:31:12 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:76 | saturation:44 | ev:6221 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:31:13 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:31:13 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:31:13 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:31:13 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:76 | saturation:44 | ev:6221 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:31:13 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:31:13 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:31:13 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:31:13 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:31:13 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:31:13 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:31:13 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:77 | saturation:44 | ev:6221 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:31:13 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:31:13 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:31:13 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+ged from TURN_STATE_NEW to TURN_STATE_CHECK_SOCKET_CONNECTION
+2026-01-08 05:29:59 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:35.165.173.98, port:443
+2026-01-08 05:29:59 DEBUG   iceAgentLogNewCandidate(): New local ice candidate discovered. Id: L7gk6xmUd. Ip: 192.168.1.86:45265. Type: host. Protocol: udp.
+2026-01-08 05:29:58 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 05:29:59 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:29:58 DEBUG   sendLwsMessage(): Sending data over web socket: Message type: SDP_ANSWER, RecepientId: viewer-vzueamtl
+2026-01-08 05:29:59 DEBUG   handleOffer(): time taken to send answer 1767850199240 ms
+2026-01-08 05:29:59 DEBUG   handleOffer(): create sample recive audio video sender tid
+
+2026-01-08 05:29:59 ERROR   iceAgentAddRemoteCandidate(): operation returned status code: 0x5a000003
+2026-01-08 05:29:59 ERROR   iceAgentAddRemoteCandidate(): operation returned status code: 0x5a000003
+2026-01-08 05:29:59 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: SY2sU8sn6. Ip: 58.82.194.204:58360. Type: srflx. Protocol: udp.
+2026-01-08 05:29:59 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:29:59 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:29:59 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:29:59 DEBUG   sendLwsMessage(): Sending data over web socket: Message type: ICE_CANDIDATE, RecepientId: viewer-vzueamtl
+2026-01-08 05:29:59 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: K8q49nOfq. Ip: 58.82.194.204:58362. Type: srflx. Protocol: udp.
+2026-01-08 05:29:59 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"candidate":"candidate:2438210039 1 udp 33563135 35.160.91.32 52424 typ relay raddr 58.82.194.204 rport 58360 generation 0 ufrag tPAK network-cost 999","sdpMid":"0","sdpMLineIndex":0,"usernameFragment":"tPAK"}
+
+2026-01-08 05:29:59 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: 7Kt1iFUB0. Ip: 35.160.91.32:52424. Type: relay. Protocol: udp.
+2026-01-08 05:29:59 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"candidate":"candidate:2438210039 1 udp 33563135 35.160.91.32 59138 typ relay raddr 58.82.194.204 rport 58362 generation 0 ufrag tPAK network-cost 999","sdpMid":"1","sdpMLineIndex":1,"usernameFragment":"tPAK"}
+
+2026-01-08 05:29:59 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: 8KsPmPRct. Ip: 35.160.91.32:59138. Type: relay. Protocol: udp.
+2026-01-08 05:29:59 DEBUG   signalingMessageReceived(): recv msg type:2 payload:2026-01-08 05:31:14 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+{"candidate":"candidate:13802026-01-08 05:31:14 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:31:14 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+689517 1 udp 33563903 52.26.98.83 60273 typ relay raddr 58.82.194.204 rport 58362 generation 0 ufrag tPAK network-cost 999","sdpMid":"1","sdpMLineIndex":1,"usernameFragment":"tPAK"}
+
+2026-01-08 05:29:59 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 05:29:59 DEBUG   lwsWssCallbackRoutine(): Client is writable
+22026-01-08 05:31:14 debug   [sys_cmd_fifo:97]p_cmd [echo 3 > /proc/sys/vm/drop_caches]
+
+026-01-08 05:29:59 info    [sampleReceiveVideoFrame:589]aws sampleReceiveVideoFrame tid:4632,pid:892
+
+2026-01-08 05:29:59 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 05:29:59 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:82 | saturation:44 | ev:6330 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:29:59 DEBUG   iceAgentCheckPeerReflexiveCan2026-01-08 05:31:14 info    [ANC_RF_B2D_put_frame:374]Device not ready, audio sending skipped, devid=0, init=128, speaker_power=1
+
+didate(): New remote peer reflexive candidate found
+2026-01-08 05:29:59 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:29:59 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 05:29:59 de2026-01-08 05:31:14 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:77 | saturation:44 | ev:6221 | history:0 | rb_ratio:1.000000
+
+bug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:29:59 d[Fifo server]:system ok,cmd:[echo 3 > /proc/sys/vm/drop_caches].
+2026-01-08 05:31:14 debug   [sys_cmd_fifo:150]replay:[OK],cmd:[echo 3 > /proc/sys/vm/drop_caches].
+
+2026-01-08 05:31:14 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:31:14 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:31:14 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:31:14 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:76 | saturation:44 | ev:6221 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:31:14 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:31:14 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:31:14 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:31:15 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:31:15 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:31:15 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+Login incorrect
+Ingenic-uc1_1 login: ebug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:29:59 info    [alarm_in:430]ALARM type=21 last_alarm_state=2, cur alarm_state=2
+
+2026-01-08 05:29:59 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: ZSegmmUqv. Ip: 192.168.1.130:58360. Type: prflx. Protocol: UNKNOWN.
+2026-01-08 05:29:59 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_RESPONSE_SUCCESS to ip:192.168.1.130, port:58360
+2026-01-08 05:29:59 DEBUG   handleStunPacket(): received candidate with USE_CANDIDATE flag, local candidate type host.
+2026-01-08 05:29:59 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: FCY3JtwLZ. Ip: 52.26.98.83:60273. Type: relay. Protocol: udp.
+2026-01-08 05:29:59 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"candidate":"candidate:1380689517 1 udp 33563903 52.26.98.83 52473 typ relay raddr 58.82.194.204 rport 58360 generation 0 ufrag tPAK network-cost 999","sdpMid":"0","sdpMLineIndex":0,"usernameFragment":"tPAK"}
+
+2026-01-08 05:29:59 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: ApkAx21Ko. Ip: 52.26.98.83:52473. Type: relay. Protocol: udp.
+2026-01-08 05:29:59 DEBUG   signalingMessageReceived(): recv msg type:2 2026-01-08 05:31:15 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:77 | saturation:44 | ev:6221 | history:0 | rb_ratio:1.000000
+
+payload:{"candidate":"candidate:4078728680 1 udp 8959 52.26.98.83 59371 typ relay raddr 58.82.194.204 rport 53699 generation 0 ufrag tPAK network-cost 999","sdpMid":"0","sdpMLineIndex":0,"usernameFragment":"tPAK"}
+
+2026-01-08 05:29:59 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: QlOHIqvya. Ip: 52.26.98.83:59371. Type: relay. Protocol: udp.
+2026-01-08 05:29:59 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"candidate":"candidate:4078728680 1 udp 9215 52.26.98.83 52349 typ relay raddr 58.82.194.204 rport 58224 generation 0 ufrag tPAK network-cost 999","sdpMid":"1","sdpMLineIndex":1,"usernameFragment":"tPAK"}
+
+2026-01-08 05:29:59 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: fQPZfb5jv. Ip: 52.26.98.83:52349. Type: relay. Protocol: udp.
+2026-01-08 05:29:59 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"candidate":"candidate:805565042 1 udp 8447 35.160.91.32 60548 typ relay raddr 58.82.194.204 rport 58225 generation 0 ufrag tPAK network-cost 999","sdpMid":"2026-01-08 05:31:15 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:31:15 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:31:15 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+0","sdpMLineIndex":0,"usernameFragment":"tPAK"}
+
+2026-01-08 05:29:59 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: ydEVn1Dyy. Ip: 35.160.91.32:60548. Type: relay. Protocol: udp.
+2026-01-08 05:29:59 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"candidate":"candidate:4078728680 1 udp 8959 52.26.98.83 65414 typ relay raddr 58.82.194.204 rport 58222 generation 0 ufrag tPAK network-cost 999","sdpMid":"1","sdpMLineIndex":1,"usernameFragment":"tPAK"}
+
+2026-01-08 05:29:59 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: FzG1N/PeH. Ip: 52.26.98.83:65414. Type: relay. Protocol: udp.
+2026-01-08 05:29:59 info    [alarm_in:430]ALARM type=11 last_alarm_state=2, cur alarm_state=2
+
+2026-01-08 05:29:59 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 05:29:59 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:29:59 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 05:29:59 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:29:59 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 05:29:59 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 05:29:59 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:29:59 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:29:59 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:29:59 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: L7gk6xmUd ZSegmmUqv, state: 1
+2026-01-08 05:29:59 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: BV8Yujuoa ZSegmmUqv, state: 1
+2026-01-08 05:29:59 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: L7gk6xmUd K8q49nOfq, state: 1
+2026-01-08 05:292026-01-08 05:31:15 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:31:15 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:31:15 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+
+Ingenic-uc1_1 login: gentState(): Checking pair: L7gk6xmUd QlOHIqvya, state: 1
+Password: : BV8Yujuoa FzG1
+:59 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: BV8Yujuoa QlOHIqvya, state: 1
+2026-01-08 05:29:59 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: L7gk6xmUd ydEVn1Dyy, state: 1
+2026-01-08 05:29:59 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: BV8Yujuoa ydEVn1Dyy, state: 1
+2026-01-08 05:29:59 DEBUG   iceCandidatePairCheckConnection(): remote ip:192.168.1.130, port:192, local ip:63715.168.1.86, port:192
+2026-01-08 05:29:59 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:192.168.1.130, port:58360
+2026-01-08 05:29:59 DEBUG   socketConnectionIsConnected(): connect ip: 0000:0000:0000:0000:0000:0000:0000:0000:0. family:0 with ip: 52.32.183.102:443. family:1
+2026-01-08 05:29:59 DEBUG   iceUtilsSendStunP2026-01-08 05:31:15 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:76 | saturation:44 | ev:6221 | history:0 | rb_ratio:1.000000
+
+acket(): Sending BINDING_RESPONSE_SUCCESS to ip:192.168.1.130, port:58360
+2026-01-08 05:29:59 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_RESPONSE_SUCCESS to ip:192.168.1.130, port:58360
+2026-01-08 05:29:59 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"candidate":"candidate:4078728680 1 udp 9215 52.26.98.83 58034 typ relay raddr 58.82.194.204 rport 51950 generation 0 ufrag tPAK network-cost 999","sdpMid":"0","sdpMLineIndex":0,"usernameFragment":"tPAK"}
+
+2026-01-08 05:29:59 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: flctFOuSK. Ip: 52.26.98.83:58034. Type: relay. Protocol: udp.
+2026-01-08 05:29:59 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 05:30:00 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:30:00 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 05:30:00 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:30:00 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 05:30:00 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:30:00 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 05:30:00 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:30:00 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 05:30:00 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:30:00 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 05:30:00 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:29:59 DEBUG   turnConnectionStepState(): TurnConnection state changed from TURN_STATE_CHECK_SOCKET_CONNECTION to TURN_STATE_GET_CREDENTIALS
+2026-01-08 05:29:59 DEBUG   signalingMess2026-01-08 05:31:15 debug   [mb_no_space_handler:243]mb_no_space_handler, drop next slice.
+
+ageReceived(): signaling received message
+
+2026-01-08 05:30:00 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 05:29:59 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 05:30:00 DEBUG   signalingMessageReceived():2026-01-08 05:31:15 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:31:15 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:31:15 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+ check condition..
+
+2026-01-08 05:30:00 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:83 | saturation:44 | ev:5976 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:30:00 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:00 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:00 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:00 info    [alarm_in:430]ALARM type=21 last_alarm_state=2, cur alarm_state=2
+
+2026-01-08 05:30:00 DEBUG   handleStunPacket(): Ice candidate pair L7gk6xmUd_ZSegmmUqv is connected. Round trip time: 337ms
+2026-01-08 05:30:00 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"candidate":"candidate:805565042 1 udp 8447 35.160.91.32 57361 typ relay raddr 58.82.194.204 rport 58226 generation 0 ufrag tPAK network-cost 999","sdpMid":"0","sdpMLineIndex":0,"usernameFragment":"tPAK"}
+
+2026-01-08 05:30:00 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: qiH4je37G. Ip: 35.160.91.32:57361. Type: relay. Protocol: udp.
+2026-01-08 05:30:00 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"candi2026-01-08 05:31:16 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:31:16 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:31:16 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:31:16 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:75 | saturation:44 | ev:6221 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:31:16 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:31:16 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:31:16 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:31:16 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:75 | saturation:44 | ev:6221 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:31:16 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:31:16 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:31:16 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:31:17 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:31:17 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:31:17 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:31:17 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:75 | saturation:44 | ev:6221 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:31:17 info    [ANC_RF_B2D_put_frame:374]Device not ready, audio sending skipped, devid=0, init=128, speaker_power=1
+
+2026-01-08 05:31:17 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:31:17 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:31:17 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+personvehicle detect all time : 50.290001
+2026-01-08 05:31:17 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =1
+
+2026-01-08 05:31:17 info    [ivs_PD_Vehi_Nomxu_get_result:446]personvehiclepet location: trackID[-1], classID[0], confidence[0.501180], [624, 61, 639, 149]
+
+2026-01-08 05:31:17 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:31:17 debug   [anc_hal_motion_and_hum_check:693]hal_pd_res.count:1
+
+2026-01-08 05:31:17 debug   [anc_hal_motion_and_hum_check:696]PD: lx:9750 ly:1694 rx:9984 ry:4138
+
+2026-01-08 05:31:17 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:1 motion_happen:-1
+
+2026-01-08 05:31:17 debug   [anc_hal_motion_and_hum_check:713]HUM HAPPEN =============>>>>
+
+2026-01-08 05:31:17 debug   [alarm_in:388]ALARM type=21 last_alarm_state=0, cur alarm_state=1
+
+2026-01-08 05:31:17 debug   [anc_alarm_push_get_pic:376]the event_type is 21, the fast_get_pic is 0
+
+2026-01-08 05:31:17 debug   [anc_dev_get_snapshot_data:1232]Dev Jpeg encoder query : ret[0] - stat[1]
+
+2026-01-08 05:31:17 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:74 | saturation:44 | ev:6301 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:31:17 debug   [anc_alarm_push_get_pic:404]Get pic for alarm push
+
+2026-01-08 05:31:17 info    [anc_alarm_push_get_pic:408]g_pic_len:10771, g_pic_buf_len:65536
+
+2026-01-08 05:31:17 info    [alarm_linkage:646]alarm_linkage, event_type[21]. cmd[1] tick[8272783].
+
+2026-01-08 05:31:17 info    [aoni_event_notice:2355]event notice type[21] on[1] hold_time[-1] volume[-1].
+
+2026-01-08 05:31:17 info    [anc_alarm_event_push:510]anc_alarm_event_push, time diff[87728], event[21]. d_time is [60000]
+
+2026-01-08 05:31:17 debug   [anc_alarm_event_push:511]curent_time :8272783 event[21]
+
+2026-01-08 05:31:17 debug   [anc_alarm_push_timeout_handler:195]curent_time :8272807 event[21]
+
+2026-01-08 05:31:17 info    [aws_iot_mqtt_router_cb:1898]context:{"uid":"0VCA245200054","token":"","method":"post","key":"human","ts":1767879077899,"seq":706,"sid":0,"kid":0,"data":{"event_status":true}}
+
+2026-01-08 05:31:17 info    [aws_iot_mqtt_router_cb:1900]get key human
+
+2026-01-08 05:31:17 info    [aws_iot_mqtt_router_cb:1958]~~~~ humman alarm_event_status:1
+
+2026-01-08 05:31:17 info    [aws_mqtt_router_cb_alarm_notify_handle:1290]alarm notify type:9
+
+2026-01-08 05:31:17 debug   [router_api_sync:1156]router_api_sync, request[{"uid":"uid","token":"uid","method":"request","key":"get_wifi_rssi","ts":1767879077923,"seq":707,"sid":0,"kid":0}] response[{"uid":"0VCA245200054","token":"uid","method":"response","key":"get_wifi_rssi","ts":1767879077946,"seq":707,"sid":0,"kid":0,"data":{"value":-40,"errcode":0,"errmsg":""}}].
+
+2026-01-08 05:31:17 debug   [aws_iot_mqtt_get_network_rssi_handle:359]aws_iot_mqtt_get_network_rssi_handle, rssi = -40
+
+2026-01-08 05:31:17 debug   [prop_proc_get_temphum:2082]
+
+ get temp = 25, hum = 41
+
+
+2026-01-08 05:31:17 debug   [router_api_sync:1156]router_api_sync, request[{"uid":"uid","token":"uid","method":"request","key":"get_temphum_value","ts":1767879077947,"seq":708,"sid":0,"kid":0}] response[{"uid":"0VCA245200054","token":"uid","method":"response","key":"get_temphum_value","ts":1767879077990,"seq":708,"sid":0,"kid":0,"data":{"temp":25,"hum":41,"errcode":0,"errmsg":""}}].
+
+2026-01-08 05:31:17 info    [aws_mqtt_router_cb_alarm_notify_handle:1305]aws_iot_mqtt_get_temphum 41 25
+2026-01-08 05:31:17 info    [aws_iot_mqtt_serialize_detection_status:973]general data id :1301077138
+
+2026-01-08 05:31:17 debug   [anc_alarm_push_timeout_handler:208]router_msg_up ret[0].
+
+2026-01-08 05:31:18 info    [anc_req_timeout_handle:237]excute republish
+
+2026-01-08 05:31:18 info    [anc_mqtt_manage_re_publish:759]repbulish topic:dt/iot/E96TJE8/QDS_BBM/Marcus_0DB3E2_2_THING/res msg:{
+        "data_type":    "data.upload.control",
+        "data_id":      "1301077138",
+        "timestamp":    1767850277991,
+        "data": {
+                "jobs": "detection",
+                "status":       "on",
+                "alarmtype":    "human",
+                "temperature":  25,
+                "humidity":     41,
+                "signal":       -40
+        }
+}
+
+2026-01-08 05:31:18 info    [anc_req_timeout_handle:263]src id:0 request update new id:332 tick:8273040
+
+2026-01-08 05:31:18 info    [anc_request_list_update_node:465]send publish request success wait response id:332
+
+2026-01-08 05:31:18 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:31:18 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:31:18 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:31:18 info    [alarm_in:430]ALARM type=21 last_alarm_state=1, cur alarm_state=1
+
+2026-01-08 05:31:18 debug   [alarm_continue_record:428]rec_obj->m_start_time[0] delay_time_s[30000]
+
+2026-01-08 05:31:18 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:77 | saturation:44 | ev:6440 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:31:18 debug   [sys_cmd_fifo:97]p_cmd [echo 3 > /proc/sys/vm/drop_caches]
+
+[Fifo server]:system ok,cmd:[echo 3 > /proc/sys/vm/drop_caches].
+2026-01-08 05:31:18 debug   [sys_cmd_fifo:150]replay:[OK],cmd:[echo 3 > /proc/sys/vm/drop_caches].
+
+2026-01-08 05:31:18 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:31:18 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"sdpMLineIndex\":0,\"sdpMid\":\"0\",\"candidate\":\"candidate:349117372 1 udp 2122260223 172.25.17.214 50280 typ host generation 0 ufrag 4Oqp network-id 16 network-cost 50\"}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-A8DDCE92"}'
+2026-01-08 05:31:18 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:31:18 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:31:18 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"sdpMLineIndex\":0,\"sdpMid\":\"0\",\"candidate\":\"candidate:1017952219 1 udp 2122129151 192.168.1.4 57245 typ host generation 0 ufrag 4Oqp network-id 1 network-cost 10\"}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-A8DDCE92"}'
+2026-01-08 05:31:18 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:31:18 DEBUG   receiveLwsMessage(): Client received message of type: SDP_OFFER
+2026-01-08 05:31:18 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:31:18 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:31:18 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"sdpMLineIndex\":0,\"sdpMid\":\"0\",\"candidate\":\"candidate:991617666 1 udp 2122063615 169.254.76.87 59908 typ host generation 0 ufrag 4Oqp network-id 3 network-cost 10\"}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-A8DDCE92"}'
+2026-01-08 05:31:18 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:31:18 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:31:18 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"sdpMLineIndex\":0,\"sdpMid\":\"0\",\"candidate\":\"candidate:349117372 1 udp 2121473791 172.25.17.214 57287 typ host generation 0 ufrag 4Oqp network-id 7 network-cost 50\"}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-A8DDCE92"}'
+2026-01-08 05:31:18 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:31:18 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:31:18 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"sdpMLineIndex\":0,\"sdpMid\":\"0\",\"candidate\":\"candidate:758255731 1 udp 2121998079 10.176.3.26 56608 typ host generation 0 ufrag 4Oqp network-id 14 network-cost 900\"}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-A8DDCE92"}'
+2026-01-08 05:31:18 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:31:18 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:31:18 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"sdpMLineIndex\":0,\"sdpMid\":\"0\",\"candidate\":\"candidate:349117372 1 udp 2121342719 172.25.17.214 64597 typ host generation 0 ufrag 4Oqp network-id 11 network-cost 50\"}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-A8DDCE92"}'
+2026-01-08 05:31:18 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:31:18 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 05:31:18 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 05:31:18 DEBUG   signalingMessageReceived(): recv msg type:0 payload:▒
+
+2026-01-08 05:31:18 DEBUG   refreshIceConfiguration(): Refreshing the ICE Server Configuration
+2026-01-08 05:31:18 DEBUG   refreshIceConfiguration(): Refreshing the ICE Server Configuration
+2026-01-08 05:31:18 DEBUG   iceAgentValidateKvsRtcConfig():
+        iceLocalCandidateGatheringTimeout: 10000 ms
+        iceConnectionCheckTimeout: 0 ms
+        iceCandidateNominationTimeout: 10000 ms
+        iceConnectionCheckPollingInterval: 0 ms
+2026-01-08 05:31:18 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:31:18 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:31:18 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+[INFO] [MQTT] [core_mqtt.c:1525] Ack packet deserialized with result: MQTTSuccess.
+[INFO] [MQTT] [core_mqtt.c:1542] State record updated. New state=MQTTPublishDone.
+2026-01-08 05:31:18 info    [anc_request_list_del_node:396]remove pack id:332 request
+
+2026-01-08 05:31:18 info    [anc_mqtt_manage_incoming_ack_handle:217]remove specified packed id :332 request success
+
+2026-01-08 05:31:18 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:31:18 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"sdpMLineIndex\":0,\"sdpMid\":\"0\",\"candidate\":\"candidate:349117372 1 udp 2121604863 172.25.17.214 55868 typ host generation 0 ufrag 4Oqp network-id 4 network-cost 50\"}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-A8DDCE92"}'
+2026-01-08 05:31:18 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:31:18 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:31:18 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"sdpMLineIndex\":0,\"sdpMid\":\"0\",\"candidate\":\"candidate:703225193 1 udp 2121539327 192.0.0.6 62796 typ host generation 0 ufrag 4Oqp network-id 5 network-cost 50\"}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-A8DDCE92"}'
+2026-01-08 05:31:18 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:31:18 ERROR   receiveLwsMessage(): operation returned status code: 0x40000001
+2026-01-08 05:31:18 WARN    signalingClientError(): Signaling client generated an error 0x40000001 - '{"messagePayload":"{\"sdpMLineIndex\":0,\"sdpMid\":\"0\",\"candidate\":\"candidate:349117372 1 udp 2121932543 172.25.17.214 53708 typ host generation 0 ufrag 4Oqp net,"messageType":"ICE_CANDIDATE","senderClientId":"viewer-A8DDCE92"}'
+2026-01-08 05:31:18 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:31:18 ERROR   receiveLwsMessage(): operation returned status code: 0x40000001
+2026-01-08 05:31:18 WARN    signalingClientError(): Signaling client generated an error 0x40000001 - '{"messagePayload":"{\"sdpMLineIndex\":0,\"sdpMid\":\"0\",\"candidate\":\"candidate:3932540712 1 tcp 1518280447 172.25.17.214 52221 typ host tcptype passive generation 0 ufrag 4Oqp network-id 16 network-cost 50\"}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-A8DDCE92"}'
+2026-01-08 05:31:18 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:31:18 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:31:18 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"sdpMLineIndex\":0,\"sdpMid\":\"0\",\"candidate\":\"candidate:3255198543 1 tcp 1518149375 192.168.1.4 52222 typ host tcptype passive generation 0 ufrag 4Oqp network-id 1 network-cost 10\"}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-A8DDCE92"}'
+2026-01-08 05:31:18 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:31:18 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:31:18 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"sdpMLineIndex\":0,\"sdpMid\":\"0\",\"candidate\":\"candidate:3611331069 1 tcp 1517559551 192.0.0.6 52227 typ host tcptype passive generation 0 ufrag 4Oqp network-id 5 network-cost 50\"}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-A8DDCE92"}'
+BUG   iceAgentLogNewCandidate():2026-01-08 05:31:18 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:31:18 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:31:18 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"sdpMLineIndex\":0,\"sdpMid\":\"0\",\"candidate\":\"candidate:3932540712 1 tcp 1517952767 172.25.17.214 52225 typ host tcptype passive generation 0 ufrag 4Oqp network-id 15 network-cost 900\"}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-A8DDCE92"}'
+2026-01-08 05:31:18 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:31:18 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:31:18 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"sdpMLineIndex\":0,\"sdpMid\":\"0\",\"candidate\":\"candidate:3611331069 1 tcp 1517428479 192.0.0.6 52229 typ host tcptype passive generation 0 ufrag 4Oqp network-id 8 network-cost 50\"}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-A8DDCE92"}'
+2026-01-08 05:31:18 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:31:18 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:31:18 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:31:18 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:31:18 info    [alarm_in:430]ALARM type=21 last_alarm_state=1, cur alarm_state=2
+
+2026-01-08 05:31:18 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:77 | saturation:44 | ev:6440 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:31:18 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:31:18 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"sdpMLineIndex\":0,\"sdpMid\":\"0\",\"candidate\":\"candidate:3550004455 1 tcp 1518018303 10.176.3.26 52224 typ host tcptype passive generation 0 ufrag 4Oqp network-id 14 network-cost 900\"}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-A8DDCE92"}'
+ New remote ice candidate discovered. Id: LKnZ6xBHf. Ip: 52.26.98.83:63496. Type: relay. Protocol: udp.
+2026-01-08 05:30:00 DEBUG   signalingMessageReceived(): r2026-01-08 05:31:18 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:31:18 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:31:18 WARN    signalingClientEecv msg type:2 payload:{"candidate":"candidate:805565042 1 udp 8191 35.160.91.32 65463 typ relay raddr 58.82.194.204 rport 56369 generation 0 ufrag tPAK network-cost 999","sdpMid":"1","sdpMLineIndex":1,"usernameFragment":"tPAK"}
+
+2026-01-08 05:30:00 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: T2SShB3ZQ. Ip: 35.160.91.32:65463. Type: relay. Protocol: udp.
+2026-01-08 05:30:00 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"candidate":"candidate:4078728680 1 udp 8959 52.26.98.83 55234 typ relay raddr 58.82.194.204 rport 56373 generation 0 ufrag tPAK network-cost 999","sdpMid":"1","sdpMLineIndex":1,"usernameFragment":"tPAK"}
+
+2026-01-08 05:30:00 info    [alarm_in:430]ALARM type=11 last_alarm_state=2, cur alarm_state=2
+
+2026-01-08 05:30:00 DEBUG   iceAgentLogNewCandidate(): New local ice candidate discovered. Id: BV8Yujuoa. Ip: 58.82.194.204:52798. Type: srflx. Protocol: udp.
+2026-01-08 05:30:00 DEBUG   sendLwsMessage(): Sending data over web socket: Message type: ICE_CANDIDATE, RecepientId: viewer-vzueamtl
+2026-01-08 05:30:00 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: RRtlGZ0KG. Ip: 52.26.98.83:55234. Type: relay. Protocol: udp.
+2026-01-08 05:30:00 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 05:30:00 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 05:30:00 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"candidate":"candidate:4078728680 1 udp 9215 52.26.98.83 61932 typ relay raddr 58.82.194.204 rport 56371 generation 0 ufrag tPAK network-cost 999","sdpMid":"0","sdpMLineIndex":0,"usernameFragment":"tPAK"}
+
+2026-01-08 05:30:00 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: eONujifGo. Ip: 52.26.98.83:61932. Type: relay. Protocol: udp.
+2026-01-08 05:30:00 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"candidate":"candidate:805565042 1 udp 8447 35.160.91.32 53074 typ relay raddr 58.82.194.204 rport 56368 generation 0 ufrag tPAK network-cost 999","sdpMid":"1","sdpMLineIndex":1,"usernameFragment":"tPAK"}
+
+2026-01-08 05:30:00 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 05:30:00 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 05:30:00 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 05:30:00 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 05:30:00 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 05:30:00 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 05:30:00 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 05:30:00 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 05:30:00 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 05:30:00 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 05:30:00 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:30:00 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:00 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:00 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:30:00 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: aR4Dv6fLn. Ip: 35.160.91.32:53074. Type: relay. Protocol: udp.
+2026-01-08 05:30:00 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"candidate":"candidate:805565042 1 udp 8447 35.160.91.32 65157 typ relay raddr 58.82.194.204 rport 58227 generation 0 ufrag tPAK network-cost 999","sdpMid":"1","sdpMLineIndex":1,"usernameFragment":"tPAK"}
+
+2026-01-08 05:30:00 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: rOKFpm6Y0. Ip: 35.160.91.3rror(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"sdpMLineIndex\":0,\"sdpMid\":\"0\",\"candidate\":\"candidate:3932540712 1 tcp 1517625087 172.25.17.214 52226 typ host tcptype passive generation 0 ufrag 4Oqp network-id 4 network-cost 50\"}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-A8DDCE92"}'
+2:65157. Type: relay. Protocol: udp.
+2026-01-08 05:30:02026-01-08 05:31:19 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:31:19 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:31:19 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:31:19 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:31:19 info    [alarm_in:430]ALARM type=21 last_alarm_state=2, cur alarm_state=2
+
+2026-01-08 05:31:19 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:78 | saturation:44 | ev:6440 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:31:19 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:31:19 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"sdpMLineIndex\":0,\"candidate\":\"candidate:3217889624 1 tcp 1517826815 fd74:6572:6d6e:7573:c:ac93:21c3:94f7 52233 typ host tcptype passive generation 0 ufrag 4Oqp network-id 9 network-cost 50\",\"sdpMid\":\"0\"}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-A8DDCE92"}'
+2026-01-08 05:31:19 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:31:19 ERROR   receiveLwsMessage(): operation returned status code: 0x40000001
+2026-01-08 05:31:19 WARN    signalingClientError(): Signaling client generated an error 0x40000001 - '{"messagePayload":"{\"sdpMLineIndex\":0,\"sdpMid\":\"0\",\"candidate\":\"candidate:3932540712 1 tcp 1517362943 172.25.17.214 52230 typ host tcptype passive generation 0 ufrag 4Oqp network-id 11 network-cost 50\"}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-A8DDCE92"}'
+2026-01-08 05:31:19 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:31:19 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:31:19 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"sdpMLineIndex\":0,\"sdpMid\":\"0\",\"candidate\":\"candidate:2873129043 1 tcp 1518220031 fd98:ac60:af9f:ac49:1429:2c7a:1915:5af6 52231 typ host tcptype passive generation 0 ufrag 4Oqp network-id 2 network-cost 10\"}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-A8DDCE92"}'
+2026-01-08 05:31:19 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:31:19 ERROR   receiveLwsMessage(): operation returned status code: 0x40000001
+2026-01-08 05:31:19 WARN    signalingClientError(): Signaling client generated an error 0x40000001 - '{"messagePayload":"{\"sdpMLineIndex\":0,\"sdpMid\":\"0\",\"candidate\":\"candidate:2361817809 1 tcp 1517695743 fde8:648b:d9bb::1 52235 typ host tcptype passive generation 0 ufrag 4Oqp network-id 17 network-cost 50\"}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-A8DDCE92"}'
+2026-01-08 05:31:19 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:31:19 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:31:19 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"sdpMLineIndex\":0,\"sdpMid\":\"0\",\"candidate\":\"candidate:2365795654 1 tcp 1517892351 fd74:6572:6d6e:7573:d:ac93:21c3:94f7 52232 typ host tcptype passive generation 0 ufrag 4Oqp network-id 6 network-cost 50\"}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-A8DDCE92"}'
+2026-01-08 05:31:19 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:31:19 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:31:19 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"sdpMLineIndex\":0,\"candidate\":\"candidate:2365795654 1 tcp 1517761279 fd74:6572:6d6e:7573:d:ac93:21c3:94f7 52234 typ host tcptype passive generation 0 ufrag 4Oqp network-id 10 network-cost 50\",\"sdpMid\":\"0\"}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-A8DDCE92"}'
+2026-01-08 05:31:19 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:31:19 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:31:19 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:31:19 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:31:19 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:31:19 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"sdpMLineIndex\":0,\"sdpMid\":\"0\",\"candidate\":\"candidate:3932540712 1 tcp 1517494015 172.25.17.214 52228 typ host tcptype passive generation 0 ufrag 4Oqp network-id 7 network-cost 50\"}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-A8DDCE92"}'
+2026-01-08 05:31:19 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:31:19 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:31:19 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"candidate\":\"candidate:2086061426 1 udp 1685921535 58.82.194.204 57245 typ srflx raddr 192.168.1.4 rport 57245 generation 0 ufrag 4Oqp network-id 1 network-cost 10\",\"sdpMLineIndex\":0,\"sdpMid\":\"0\"}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-A8DDCE92"}'
+2026-01-08 05:31:19 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:31:19 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:31:19 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"candidate\":\"candidate:2233620399 1 udp 41755903 52.32.183.102 54255 typ relay raddr 58.82.194.204 rport 57245 generation 0 ufrag 4Oqp network-id 1 network-cost 10\",\"sdpMLineIndex\":0,\"sdpMid\":\"0\"}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-A8DDCE92"}'
+2026-01-08 05:31:19 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:31:19 ERROR   receiveLwsMessage(): operation returned status code: 0x40000001
+2026-01-08 05:31:19 WARN    signalingClientError(): Signaling client generated an error 0x40000001 - '{"messagePayload":"{\"candidate\":\"candidate:4274754267 1 udp 41755135 54.70.56.41 54017 typ relay raddr 58.82.194.204 rport 57245 generation 0 ufrag 4Oqp network-id 1 network-cost 10\",\"sdpMLineIndex\":0,\"sdpMid\":\"0\"}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-A8DDCE92"}'
+2026-01-08 05:31:19 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:31:19 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:31:19 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"sdpMid\":\"0\",\"candidate\":\"candidate:1841849050 1 udp 1685790463 182.239.119.157 28066 typ srflx raddr 10.176.3.26 rport 56608 generation 0 ufrag 4Oqp network-id 14 network-cost 900\",\"sdpMLineIndex\":0}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-A8DDCE92"}'
+2026-01-08 05:31:19 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:31:19 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:31:19 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"sdpMid\":\"0\",\"candidate\":\"candidate:3691780504 1 udp 8200959 52.32.183.102 56623 typ relay raddr 58.82.194.204 rport 52210 generation 0 ufrag 4Oqp network-id 1 network-cost 10\",\"sdpMLineIndex\":0}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-A8DDCE92"}'
+2026-01-08 05:31:20 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:31:20 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:31:20 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"sdpMid\":\"0\",\"candidate\":\"candidate:3691780504 1 udp 8201215 52.32.183.102 50142 typ relay raddr 58.82.194.204 rport 52205 generation 0 ufrag 4Oqp network-id 1 network-cost 10\",\"sdpMLineIndex\":0}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-A8DDCE92"}'
+2026-01-08 05:31:20 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:31:20 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:31:20 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"sdpMid\":\"0\",\"candidate\":\"candidate:2816859372 1 udp 8200447 54.70.56.41 50568 typ relay raddr 58.82.194.204 rport 52271 generation 0 ufrag 4Oqp network-id 1 network-cost 10\",\"sdpMLineIndex\":0}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-A8DDCE92"}'
+2026-01-08 05:31:20 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:31:20 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:31:20 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"sdpMid\":\"0\",\"candidate\":\"candidate:2816859372 1 udp 8200191 54.70.56.41 58217 typ relay raddr 58.82.194.204 rport 52270 generation 0 ufrag 4Oqp network-id 1 network-cost 10\",\"sdpMLineIndex\":0}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-A8DDCE92"}'
+2026-01-08 05:31:20 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:31:20 ERROR   receiveLwsMessage(): operation returned status code: 0x5d00002a
+2026-01-08 05:31:20 WARN    signalingClientError(): Signaling client generated an error 0x5d00002a - '{"messagePayload":"{\"sdpMid\":\"0\",\"candidate\":\"candidate:2233620399 1 udp 41624831 52.32.183.102 56515 typ relay raddr 182.239.119.157 rport 11703 generation 0 ufrag 4Oqp network-id 14 network-cost 900\",\"sdpMLineIndex\":0}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-A8DDCE92"}'
+2026-01-08 05:31:20 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:78 | saturation:44 | ev:6440 | history:0 | rb_ratio:1.000000
+
+2026-01-08 05:31:20 DEBUG   initializePeerConnection(): time taken to create peer connection 1683 ms
+2026-01-08 05:31:20 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:31:20 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:31:20 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:31:20 info    [alarm_in:430]ALARM type=21 last_alarm_state=2, cur alarm_state=2
+
+2026-01-08 05:31:20 ERROR   handleOffer(): operation returned status code: 0x1500000c
+2026-01-08 05:31:20 DEBUG   freeSampleStreamingSession(): Freeing streaming session with peer id: viewer-A8DDCE92
+2026-01-08 05:31:20 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:31:20 ERROR   receiveLwsMessage(): operation returned status code: 0x40000001
+2026-01-08 05:31:20 WARN    signalingClientError(): Signaling client generated an error 0x40000001 - '{"messagePayload":"{\"sdpMid\":\"0\",\"candidate\":\"candidate:4274754267 1 udp 41624063 54.70.56.41 54166 typ relay raddr 182.239.119.157 rport 46686 generation 0 ufrag 4Oqp network-id 14 network-cost 900\",\"sdpMLineIndex\":0}","messageType":"ICE_CANDIDATE","senderClientId":"viewer-A8DDCE92"}'
+2026-01-08 05:31:20 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:31:20 info    [ANC_RF_B2D_put_frame:374]Device not ready, audio sending skipped, devid=0, init=128, speaker_power=1
+
+2026-01-08 05:31:20 ERROR   signalingMessageReceived(): operation returned status code: 0x1500000c
+2026-01-08 05:31:20 ERROR   receiveLwsMessageWrapper(): operation returned status code: 0x1500000c
+2026-01-08 05:31:20 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:31:20 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:31:20 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:31:20 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 05:31:20 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:78 | saturation:44 | ev:6440 | history:0 | rb_ratio:1.000000
+
+
+Ingenic-uc1_1 login: 1.000000
+Password:
+1-08 05:30:00 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:30:00 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:30:00 info    [alarm_in:430]ALARM type=21 last_alarm_state=2, cur alarm_state=2
+
+2026-01-08 05:30:00 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: L7gk6xmUd ZSegmmUqv, state: 3
+2026-01-08 05:30:00 DEBUG   stepIceAgentStateMachine(): Ice agent state changed from ICE_AGENT_STATE_CHECK_CONNECTION to ICE_AGENT_STATE_CONNECTED.
+2026-01-08 05:30:00 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"candidate":"candidate:4078728680 1 udp 9215 52.26.98.83 62769 typ relay raddr 58.82.194.204 rport 56370 generation 0 ufrag tPAK network-cost 999","sdpMid":"1","sdpMLineIndex":1,"usernameFragment":"tPAK"}
+
+2026-01-08 05:30:00 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: w7Jhyi0BV. Ip: 52.26.98.83:62769. Type: relay. Protocol: udp.
+2026-01-08 05:30:00 DEBUG   iceUtilsSendStunPacket(2026-01-08 05:31:20 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:31:20 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:31:20 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:31:20 info    [alarm_in:430]ALARM type=21 last_alarm_state=2, cur alarm_state=2
+
+): Sending BINDING_RESPONSE_SUCCESS to ip:192.168.1.130, port:58360
+2026-01-08 05:30:00 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"candidate":"candidate:805565042 1 udp 8191 35.160.91.32 57635 typ relay raddr 58.82.194.204 rport 56937 generation 0 ufrag tPAK network-cost 999","sdpMid":"0","sdpMLineIndex":0,"usernameFragment":"tPAK"}
+
+2026-01-08 05:30:00 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: mI2mxa4rl. Ip: 35.160.91.32:57635. Type: relay. Protocol: udp.
+2026-01-08 05:30:00 DEBUG   turnConnectionStepState(): TurnConnection state changed from TURN_STATE_GET_CREDENTIALS to TURN_STATE_ALLOCATION
+2026-01-08 05:30:00 DEBUG   iceCandidatePairCheckConnection(): remote ip:192.168.1.130, port:192, local ip:63715.168.1.86, port:192
+2026-01-08 05:30:00 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:192.168.1.130, port:58360
+2026-01-08 05:30:00 DEBUG   stepIceAgentStateMachine(): Ice agent state changed from ICE_AGENT_STATE_CONNECTED to ICE_AGENT_STATE_NOMINATING.
+2026-01-08 05:30:01 DEBUG   iceAgentReadyStateSetup(): Selected pair L7gk6xmUd_ZSegmmUqv, local candidate type: host. Round trip time 0 ms. Local candidate priority: 2, ice candidate pair priority: 2130706431
+2026-01-08 05:30:01 DEBUG   iceAgentReadyStateSetup(): Freeing Turn allocations that are not selected. Total turn allocation count 2
+2026-01-08 05:30:01 DEBUG   stepIceAgentStateMachine(): Ice agent state changed from ICE_AGENT_STATE_NOMINATING to ICE_AGENT_STATE_READY.
+2026-01-08 05:30:01 DEBUG   turnConnectionStepState(): TurnConnection state changed from TURN_STATE_ALLOCATION to TURN_STATE_CLEAN_UP
+2026-01-08 05:30:01 DEBUG   turnConnectionStepState(): TurnConnection state changed from TURN_STATE_GET_CREDENTIALS to TURN_STATE_CLEAN_UP
+2026-01-08 05:30:01 DEBUG   iceAgentGatherCandidateTimerCallback(): Candidate gathering completed.
+2026-01-08 05:30:01 DEBUG   onIceCandidateHandler(): ice candidate gathering finished
+2026-01-08 05:30:01 DEBUG   socketConnectionClosed(): Close socket 45
+2026-01-08 05:30:01 DEBUG   turnConnectionStepState(): TurnConnection state changed from TURN_STATE_CLEAN_UP to TURN_STATE_NEW
+2026-01-08 05:30:01 DEBUG   socketConnectionClosed(): Close socket 46
+2026-01-08 05:30:01 DEBUG   turnConnectionStepState(): TurnConnection state changed from TURN_STATE_CLEAN_UP to TURN_STATE_NEW
+2026-01-08 05:30:01 INFO    onConnectionStateChange(): New connection state 3
+2026-01-08 05:30:01 DEBUG   rtcPeerConnectionGetMetrics(): ICE local candidate Stats requested at 17678502010937166
+2026-01-08 05:30:01 DEBUG   logSelectedIceCandidatesInformation(): Local Candidate IP Address: 192.168.1.86
+2026-01-08 05:30:01 DEBUG   logSelectedIceCandidatesInformation(): Local Candidate type: host
+2026-01-08 05:30:01 DEBUG   logSelectedIceCandidatesInformation(): Local Candidate port: 45265
+2026-01-08 05:30:01 DEBUG   logSelectedIceCandidatesInformation(): Local Candidate priority: 2130706431
+2026-01-08 05:30:01 DEBUG   logSelectedIceCandidatesInformation(): Local Candida2026-01-08 05:31:21 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 05:31:21 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 05:31:21 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 05:31:21 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:78 | saturation:44 | ev:6440 | history:0 | rb_ratio:1.000000
+
+2

@@ -1,0 +1,1132 @@
+026-01-08 06:41:59 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 06:41:59 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 06:41:59 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 06:41:59 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:83 | saturation:45 | ev:4012 | history:0 | rb_ratio:1.000000
+
+2026-01-08 06:41:59 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 06:41:59 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 06:41:59 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 06:41:59 info    [ANC_RF_B2D_put_frame:374]Device not ready, audio sending skipped, devid=0, init=128, speaker_power=1
+
+2026-01-08 06:42:00 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 06:42:00 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 06:42:00 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 06:42:00 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 06:42:00 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:83 | saturation:45 | ev:4012 | history:0 | rb_ratio:1.000000
+
+2026-01-08 06:42:00 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 06:42:00 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 06:42:00 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 06:42:00 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 06:42:00 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 06:42:00 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 06:42:00 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:83 | saturation:45 | ev:4012 | history:0 | rb_ratio:1.000000
+
+2026-01-08 06:42:00 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 06:42:00 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 06:42:00 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 06:42:01 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_RESPONSE_SUCCESS to ip:192.168.1.130, port:63736
+2026-01-08 06:42:01 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:83 | saturation:45 | ev:4012 | history:0 | rb_ratio:1.000000
+
+2026-01-08 06:42:01 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 06:42:01 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 06:42:01 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 06:42:01 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 06:42:01 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 06:42:01 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 06:42:01 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:83 | saturation:45 | ev:4012 | history:0 | rb_ratio:1.000000
+
+2026-01-08 06:42:01 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 06:42:01 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 06:42:01 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 06:42:02 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 06:42:02 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 06:42:02 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 06:42:02 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:83 | saturation:45 | ev:4012 | history:0 | rb_ratio:1.000000
+
+2026-01-08 06:42:02 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 06:42:02 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 06:42:02 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 06:42:02 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:83 | saturation:45 | ev:4012 | history:0 | rb_ratio:1.000000
+
+2026-01-08 06:42:02 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 06:42:02 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 06:42:02 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 06:42:02 debug   [sys_cmd_fifo:97]p_cmd [echo 3 > /proc/sys/vm/drop_caches]
+
+2026-01-08 06:42:02 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 06:42:02 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 06:42:02 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+[Fifo server]:system ok,cmd:[echo 3 > /proc/sys/vm/drop_caches].
+2026-01-08 06:42:02 debug   [sys_cmd_fifo:150]replay:[OK],cmd:[echo 3 > /proc/sys/vm/drop_caches].
+
+2026-01-08 06:42:02 info    [ANC_RF_B2D_put_frame:374]Device not ready, audio sending skipped, devid=0, init=128, speaker_power=1
+
+2026-01-08 06:42:03 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:83 | saturation:45 | ev:4012 | history:0 | rb_ratio:1.000000
+
+2026-01-08 06:42:03 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 06:42:03 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 06:42:03 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 06:42:03 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 06:42:03 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 06:42:03 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 06:42:03 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:83 | saturation:45 | ev:4012 | history:0 | rb_ratio:1.000000
+
+2026-01-08 06:42:03 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_RESPONSE_SUCCESS to ip:192.168.1.130, port:63736
+2026-01-08 06:42:03 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 06:42:03 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 06:42:03 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 06:42:04 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:83 | saturation:45 | ev:4012 | history:0 | rb_ratio:1.000000
+
+2026-01-08 06:42:04 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 06:42:04 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 06:42:04 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 06:42:04 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 06:42:04 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 06:42:04 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 06:42:04 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:83 | saturation:45 | ev:4012 | history:0 | rb_ratio:1.000000
+
+2026-01-08 06:42:04 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 06:42:04 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 06:42:04 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 06:42:04 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 06:42:04 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 06:42:04 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 06:42:05 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:83 | saturation:45 | ev:4012 | history:0 | rb_ratio:1.000000
+
+2026-01-08 06:42:05 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 06:42:05 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 06:42:05 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 06:42:05 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:83 | saturation:45 | ev:4012 | history:0 | rb_ratio:1.000000
+
+2026-01-08 06:42:05 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 06:42:05 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 06:42:05 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 06:42:05 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 06:42:05 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 06:42:05 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 06:42:05 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 06:42:05 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 06:42:05 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 06:42:05 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 06:42:05 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"sdpMid":"0","sdpMLineIndex":0,"candidate":"candidate:1818169646 1 udp 2121604864 172.25.17.214 58868 typ host generation 0 ufrag 0SeO network-id 4 network-cost 50"}
+
+2026-01-08 06:42:05 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 06:42:05 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 06:42:05 DEBUG   receiveLwsMessage(): Client received message of type: SDP_OFFER
+2026-01-08 06:42:05 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 06:42:05 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 06:42:05 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 06:42:05 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 06:42:05 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 06:42:05 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 06:42:05 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 06:42:05 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 06:42:05 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 06:42:05 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 06:42:05 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 06:42:05 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"candidate":"candidate:1818169646 1 udp 2122260224 172.25.17.214 59667 typ host generation 0 ufrag 0SeO network-id 16 network-cost 50","sdpMid":"0","sdpMLineIndex":0}
+
+2026-01-08 06:42:05 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 06:42:05 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 06:42:05 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"sdpMid":"0","candidate":"candidate:763012693 1 udp 2122199808 fd98:ac60:af9f:ac49:1429:2c7a:1915:5af6 60306 typ host generation 0 ufrag 0SeO network-id 2 network-cost 10","sdpMLineIndex":0}
+
+2026-01-08 06:42:05 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 06:42:05 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 06:42:05 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"sdpMLineIndex":0,"candidate":"candidate:1436687073 1 udp 2121998080 10.176.3.26 50285 typ host generation 0 ufrag 0SeO network-id 14 network-cost 900","sdpMid":"0"}
+
+2026-01-08 06:42:05 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 06:42:05 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 06:42:05 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"sdpMid":"0","candidate":"candidate:1366972411 1 udp 2121408256 192.0.0.6 61526 typ host generation 0 ufrag 0SeO network-id 8 network-cost 50","sdpMLineIndex":0}
+
+2026-01-08 06:42:05 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 06:42:05 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 06:42:05 DEBUG   signalingMessageReceived(): recv msg type:0 payload:{"type":"offer","sdp":"v=0\r\no=- 7867121765235719203 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0 1\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=video 9 UDP\/TLS\/RTP\/SAVPF 96 97 98 99 100 101 127 103 35 36 104 105 106 37\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:0SeO\r\na=ice-pwd:x4Torg7JHonJKK5W6jcu9Nd9\r\na=ice-options:trickle renomination\r\na=fingerprint:sha-256 41:74:10:03:F1:F9:DF:8E:0E:67:9B:71:A7:8D:B1:8A:E0:F3:6E:AB:BA:EC:BD:99:7D:D1:64:30:2E:5A:54:31\r\na=setup:actpass\r\na=mid:0\r\na=extmap:1 urn:ietf:params:rtp-hdrext:toffset\r\na=extmap:2 http:\/\/www.webrtc.org\/experiments\/rtp-hdrext\/abs-send-time\r\na=extmap:3 urn:3gpp:video-orientation\r\na=extmap:4 http:\/\/www.ietf.org\/id\/draft-holmer-rmcat-transport-wide-cc-extensions-01\r\na=extmap:5 http:\/\/www.webrtc.org\/experiments\/rtp-hdrext\/playout-delay\r\na=extmap:6 http:\/\/www.webrtc.org\/experiments\/rtp-hdrext\/video-content-type\r\na=extmap:7 http:\/\/www.webrtc.org\/experiments\/rtp-hdrext\/video-timing\r\na=extmap:8 http:\/\/www.webrtc.org\/experiments\/rtp-hdrext\/color-space\r\na=extmap:9 urn:ietf:params:rtp-hdrext:sdes:mid\r\na=extmap:10 urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id\r\na=extmap:11 urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id\r\na=recvonly\r\na=rtcp-mux\r\na=rtcp-rsize\r\na=rtpmap:96 H264\/90000\r\na=rtcp-fb:96 goog-remb\r\na=rtcp-fb:96 transport-cc\r\na=rtcp-fb:96 ccm fir\r\na=rtcp-fb:96 nack\r\na=rtcp-fb:96 nack pli\r\na=fmtp:96 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=640c29\r\na=rtpmap:97 rtx\/90000\r\na=fmtp:97 apt=96\r\na=rtpmap:98 H264\/90000\r\na=rtcp-fb:98 goog-remb\r\na=rtcp-fb:98 transport-cc\r\na=rtcp-fb:98 ccm fir\r\na=rtcp-fb:98 nack\r\na=rtcp-fb:98 nack pli\r\na=fmtp:98 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e029\r\na=rtpmap:99 rtx\/90000\r\na=fmtp:99 apt=98\r\na=rtpmap:100 VP8\/90000\r\na=rtcp-fb:100 goog-remb\r\na=rtcp-fb:100 transport-cc\r\na=rtcp-fb:100 ccm fir\r\na=rtcp-fb:100 nack\r\na=rtcp-fb:100 nack pli\r\na=rtpmap:101 rtx\/90000\r\na=fmtp:101 apt=100\r\na=rtpmap:127 VP9\/90000\r\na=rtcp-fb:127 goog-remb\r\na=rtcp-fb:127 transport-cc\r\na=rtcp-fb:127 ccm fir\r\na=rtcp-fb:127 nack\r\na=rtcp-fb:127 nack pli\r\na=rtpmap:103 rtx\/90000\r\na=fmtp:103 apt=127\r\na=rtpmap:35 AV1\/90000\r\na=rtcp-fb:35 goog-remb\r\na=rtcp-fb:35 transport-cc\r\na=rtcp-fb:35 ccm fir\r\na=rtcp-fb:35 nack\r\na=rtcp-fb:35 nack pli\r\na=rtpmap:36 rtx\/90000\r\na=fmtp:36 apt=35\r\na=rtpmap:104 red\/90000\r\na=rtpmap:105 rtx\/90000\r\na=fmtp:105 apt=104\r\na=rtpmap:106 ulpfec\/90000\r\na=rtpmap:37 flexfec-03\/90000\r\na=rtcp-fb:37 goog-remb\r\na=rtcp-fb:37 transport-cc\r\na=fmtp:37 repair-window=10000000\r\nm=audio 9 UDP\/TLS\/RTP\/SAVPF 111 63 9 102 0 8 13 110 126\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:0SeO\r\na=ice-pwd:x4Torg7JHonJKK5W6jcu9Nd9\r\na=ice-options:trickle renomination\r\na=fingerprint:sha-256 41:74:10:03:F1:F9:DF:8E:0E:67:9B:71:A7:8D:B1:8A:E0:F3:6E:AB:BA:EC:BD:99:7D:D1:64:30:2E:5A:54:31\r\na=setup:actpass\r\na=mid:1\r\na=extmap:14 urn:ietf:params:rtp-hdrext:ssrc-audio-level\r\na=extmap:2 http:\/\/www.webrtc.org\/experiments\/rtp-hdrext\/abs-send-time\r\na=extmap:4 http:\/\/www.ietf.org\/id\/draft-holmer-rmcat-transport-wide-cc-extensions-01\r\na=extmap:9 urn:ietf:params:rtp-hdrext:sdes:mid\r\na=recvonly\r\na=rtcp-mux\r\na=rtpmap:111 opus\/48000\/2\r\na=rtcp-fb:111 transport-cc\r\na=fmtp:111 minptime=10;useinbandfec=1\r\na=rtpmap:63 red\/48000\/2\r\na=fmtp:63 111\/111\r\na=rtpmap:9 G722\/8000\r\na=rtpmap:102 ILBC\/8000\r\na=rtpmap:0 PCMU\/8000\r\na=rtpmap:8 PCMA\/8000\r\na=rtpmap:13 CN\/8000\r\na=rtpmap:110 telephone-event\/48000\r\na=rtpmap:126 telephone-event\/8000\r\n"}
+
+2026-01-08 06:42:05 debug   [mb_no_space_handler:243]mb_no_space_handler, drop next slice.
+
+2026-01-08 06:42:06 info    [ANC_RF_B2D_put_frame:374]Device not ready, audio sending skipped, devid=0, init=128, speaker_power=1
+
+2026-01-08 06:42:05 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 06:42:06 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 06:42:05 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:83 | saturation:45 | ev:4012 | history:0 | rb_ratio:1.000000
+
+2026-01-08 06:42:06 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 06:42:06 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 06:42:06 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 06:42:06 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 06:42:06 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 06:42:06 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 06:42:06 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 06:42:06 DEBUG   refreshIceConfiguration(): Refreshing the ICE Server Configuration
+2026-01-08 06:42:06 DEBUG   refreshIceConfiguration(): Refreshing the ICE Server Configuration
+2026-01-08 06:42:06 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 06:42:06 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 06:42:06 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 06:42:06 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 06:42:06 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 06:42:06 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 06:42:06 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 06:42:06 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 06:42:06 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 06:42:06 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 06:42:06 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 06:42:06 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 06:42:06 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 06:42:06 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 06:42:06 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_RESPONSE_SUCCESS to ip:192.168.1.130, port:63736
+2026-01-08 06:42:06 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 06:42:06 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 06:42:06 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 06:42:06 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 06:42:06 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 06:42:06 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 06:42:06 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 06:42:06 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 06:42:06 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 06:42:06 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 06:42:06 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 06:42:06 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 06:42:06 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 06:42:06 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 06:42:06 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 06:42:06 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 06:42:06 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 06:42:06 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 06:42:06 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 06:42:06 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 06:42:06 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 06:42:06 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 06:42:06 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 06:42:06 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 06:42:06 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 06:42:06 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 06:42:06 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 06:42:06 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 06:42:06 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 06:42:06 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 06:42:06 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 06:42:06 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 06:42:06 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 06:42:06 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 06:42:06 DEBUG   iceAgentValidateKvsRtcConfig():
+        iceLocalCandidateGatheringTimeout: 10000 ms
+        iceConnectionCheckTimeout: 0 ms
+        iceCandidateNominationTimeout: 10000 ms
+        iceConnectionCheckPollingInterval: 0 ms
+2026-01-08 06:42:06 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 06:42:06 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 06:42:07 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 06:42:06 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 06:42:07 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 06:42:06 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 06:42:07 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 06:42:06 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 06:42:07 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 06:42:06 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 06:42:07 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 06:42:06 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 06:42:07 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 06:42:06 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 06:42:07 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 06:42:06 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 06:42:07 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 06:42:06 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 06:42:07 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 06:42:06 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 06:42:07 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 06:42:06 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 06:42:07 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 06:42:06 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 06:42:07 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 06:42:06 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 06:42:07 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 06:42:06 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 06:42:07 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 06:42:06 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 06:42:07 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 06:42:06 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 06:42:07 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 06:42:07 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 06:42:07 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 06:42:07 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 06:42:07 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 06:42:07 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 06:42:07 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 06:42:07 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 06:42:07 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 06:42:07 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 06:42:07 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 06:42:07 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 06:42:07 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 06:42:06 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:83 | saturation:45 | ev:4012 | history:0 | rb_ratio:1.000000
+
+2026-01-08 06:42:06 debug   [sys_cmd_fifo:97]p_cmd [echo 3 > /proc/sys/vm/drop_caches]
+
+2026-01-08 06:42:06 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 06:42:07 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 06:42:07 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 06:42:07 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 06:42:07 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 06:42:07 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 06:42:07 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 06:42:07 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 06:42:07 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 06:42:07 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 06:42:07 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 06:42:07 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 06:42:07 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 06:42:07 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 06:42:07 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 06:42:07 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 06:42:07 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 06:42:07 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 06:42:07 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 06:42:07 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 06:42:07 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 06:42:07 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 06:42:07 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 06:42:07 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 06:42:07 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 06:42:07 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 06:42:07 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 06:42:07 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 06:42:07 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 06:42:07 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 06:42:07 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 06:42:07 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 06:42:07 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 06:42:07 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 06:42:07 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 06:42:07 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 06:42:07 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 06:42:07 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 06:42:07 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 06:42:07 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 06:42:07 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 06:42:07 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 06:42:07 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 06:42:07 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 06:42:07 DEBUG   signalingMessageReceived(): check condition..
+
+[Fifo server]:system ok,cmd:[echo 3 > /proc/sys/vm/drop_caches].
+2026-01-08 06:42:07 debug   [sys_cmd_fifo:150]replay:[OK],cmd:[echo 3 > /proc/sys/vm/drop_caches].
+
+2026-01-08 06:42:07 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:83 | saturation:45 | ev:4012 | history:0 | rb_ratio:1.000000
+
+2026-01-08 06:42:07 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 06:42:07 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 06:42:07 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 06:42:07 DEBUG   initializePeerConnection(): time taken to create peer connection 1087 ms
+2026-01-08 06:42:07 DEBUG   createSocket(): setsockopt() NO_SIGNAL failed with errno Protocol not available
+2026-01-08 06:42:07 DEBUG   createSocket(): setsockopt() NO_SIGNAL failed with errno Protocol not available
+2026-01-08 06:42:07 DEBUG   createSocket(): setsockopt() NO_SIGNAL failed with errno Protocol not available
+2026-01-08 06:42:07 DEBUG   createSocket(): setsockopt() NO_SIGNAL failed with errno Protocol not available
+2026-01-08 06:42:07 DEBUG   iceAgentCheckConnectionStateSetup(): ice candidate pair count 0
+2026-01-08 06:42:07 DEBUG   stepIceAgentStateMachine(): Ice agent state changed from ICE_AGENT_STATE_NEW to ICE_AGENT_STATE_CHECK_CONNECTION.
+2026-01-08 06:42:07 INFO    onConnectionStateChange(): New connection state 2
+2026-01-08 06:42:07 DEBUG   sendLwsMessage(): Sending data over web socket: Message type: SDP_ANSWER, RecepientId: viewer-B6AE4D76
+2026-01-08 06:42:07 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 06:42:07 DEBUG   turnConnectionStepState(): TurnConnection state changed from TURN_STATE_NEW to TURN_STATE_CHECK_SOCKET_CONNECTION
+2026-01-08 06:42:07 DEBUG   turnConnectionStepState(): TurnConnection state changed from TURN_STATE_NEW to TURN_STATE_CHECK_SOCKET_CONNECTION
+2026-01-08 06:42:07 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:54.200.157.178, port:443
+2026-01-08 06:42:07 DEBUG   iceAgentLogNewCandidate(): New local ice candidate discovered. Id: 1/7UcBUaL. Ip: 192.168.1.86:51857. Type: host. Protocol: udp.
+2026-01-08 06:42:07 DEBUG   sendLwsMessage(): Sending data over web socket: Message type: ICE_CANDIDATE, RecepientId: viewer-B6AE4D76
+2026-01-08 06:42:07 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 06:42:07 DEBUG   handleOffer(): time taken to send answer 1767854527713 ms
+2026-01-08 06:42:07 DEBUG   handleOffer(): create sample recive audio video sender tid
+
+2026-01-08 06:42:07 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: NbndIqtNq. Ip: 172.25.17.214:58868. Type: host. Protocol: udp.
+2026-01-08 06:42:07 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: ShRaZhjZa. Ip: 172.25.17.214:59667. Type: host. Protocol: udp.
+2026-01-08 06:42:07 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: QCsrb3CQs. Ip: fd98:ac60:af9f:ac49:1429:2c7a:1915:5af6:60306. Type: host. Protocol: udp.
+2026-01-08 06:42:07 ERROR   iceAgentAddRemoteCandidate(): operation returned status code: 0x00000002
+2026-01-08 06:42:07 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: oO3Nle8Nw. Ip: 10.176.3.26:50285. Type: host. Protocol: udp.
+2026-01-08 06:42:07 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: yEHngyCEW. Ip: 192.0.0.6:61526. Type: host. Protocol: udp.
+2026-01-08 06:42:07 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"candidate":"candidate:80138208 1 udp 1685921536 58.82.194.204 49668 typ srflx raddr 192.168.1.4 rport 49668 generation 0 ufrag 0SeO network-id 1 network-cost 10","sdpMid":"0","sdpMLineIndex":0}
+
+2026-01-08 06:42:07 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: tx3RLFIAq. Ip: 58.82.194.204:49668. Type: srflx. Protocol: udp.
+2026-01-08 06:42:07 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"sdpMid":"0","candidate":"candidate:1818169646 1 udp 2121473792 172.25.17.214 53404 typ host generation 0 ufrag 0SeO network-id 7 network-cost 50","sdpMLineIndex":0}
+
+2026-01-08 06:42:07 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: LNFB9dEWM. Ip: 172.25.17.214:53404. Type: host. Protocol: udp.
+2026-01-08 06:42:07 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"sdpMLineIndex":0,"candidate":"candidate:1366972411 1 udp 2121539328 192.0.0.6 64604 typ host generation 0 ufrag 0SeO network-id 5 network-cost 50","sdpMid":"0"}
+
+2026-01-08 06:42:07 info    [sampleReceiveVideoFrame:589]aws sampleReceiveVideoFrame tid:7268,pid:892
+
+2026-01-08 06:42:07 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: 1/7UcBUaL ShRaZhjZa, state: 1
+2026-01-08 06:42:08 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: 1/7UcBUaL oO3Nle8Nw, state: 1
+2026-01-08 06:42:07 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 06:42:08 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 06:42:08 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+personvehicle detect all time : 48.639999
+2026-01-08 06:42:07 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:83 | saturation:45 | ev:4012 | history:0 | rb_ratio:1.000000
+
+2026-01-08 06:42:08 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: 1/7UcBUaL NbndIqtNq, state: 1
+2026-01-08 06:42:08 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: 1/7UcBUaL LNFB9dEWM, state: 1
+2026-01-08 06:42:08 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: 1/7UcBUaL yEHngyCEW, state: 1
+2026-01-08 06:42:08 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: 1/7UcBUaL tx3RLFIAq, state: 1
+2026-01-08 06:42:08 DEBUG   iceCandidatePairCheckConnection(): remote ip:172.25.17.214, port:172, local ip:5097.168.1.86, port:192
+2026-01-08 06:42:08 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:172.25.17.214, port:59667
+2026-01-08 06:42:08 DEBUG   iceCandidatePairCheckConnection(): remote ip:10.176.3.26, port:10, local ip:28100.168.1.86, port:192
+2026-01-08 06:42:08 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:10.176.3.26, port:50285
+2026-01-08 06:42:08 DEBUG   iceCandidatePairCheckConnection(): remote ip:172.25.17.214, port:172, local ip:62693.168.1.86, port:192
+2026-01-08 06:42:08 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:172.25.17.214, port:58868
+2026-01-08 06:42:08 DEBUG   iceCandidatePairCheckConnection(): remote ip:172.25.17.214, port:172, local ip:40144.168.1.86, port:192
+2026-01-08 06:42:08 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:172.25.17.214, port:53404
+2026-01-08 06:42:08 DEBUG   iceCandidatePairCheckConnection(): remote ip:192.0.0.6, port:192, local ip:22256.168.1.86, port:192
+2026-01-08 06:42:08 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:192.0.0.6, port:61526
+2026-01-08 06:42:08 DEBUG   iceCandidatePairCheckConnection(): remote ip:58.82.194.204, port:58, local ip:1218.168.1.86, port:192
+2026-01-08 06:42:08 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:58.82.194.204, port:49668
+2026-01-08 06:42:08 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: KACxSunL1. Ip: 192.0.0.6:64604. Type: host. Protocol: udp.
+2026-01-08 06:42:08 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"sdpMLineIndex":0,"sdpMid":"0","candidate":"candidate:2254149705 1 udp 41754880 54.70.56.41 62482 typ relay raddr 58.82.194.204 rport 49668 generation 0 ufrag 0SeO network-id 1 network-cost 10"}
+
+2026-01-08 06:42:08 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: D3oNDOnBg. Ip: 54.70.56.41:62482. Type: relay. Protocol: udp.
+2026-01-08 06:42:08 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"candidate":"candidate:2465580474 1 tcp 1517952768 172.25.17.214 57278 typ host tcptype passive generation 0 ufrag 0SeO network-id 15 network-cost 900","sdpMid":"0","sdpMLineIndex":0}
+
+2026-01-08 06:42:08 ERROR   iceAgentAddRemoteCandidate(): operation returned status code: 0x5a000005
+2026-01-08 06:42:08 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"sdpMid":"0","candidate":"candidate:184329431 1 udp 2121675520 fde8:648b:d9bb::1 61833 typ host generation 0 ufrag 0SeO network-id 17 network-cost 50","sdpMLineIndex":0}
+
+2026-01-08 06:42:08 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: 1/7UcBUaL ShRaZhjZa, state: 2
+2026-01-08 06:42:08 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: 1/7UcBUaL oO3Nle8Nw, state: 2
+2026-01-08 06:42:08 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: 1/7UcBUaL NbndIqtNq, state: 2
+2026-01-08 06:42:08 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: 1/7UcBUaL KACxSunL1, state: 1
+2026-01-08 06:42:08 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: 1/7UcBUaL LNFB9dEWM, state: 2
+2026-01-08 06:42:08 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: 1/7UcBUaL yEHngyCEW, state: 2
+2026-01-08 06:42:08 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: 1/7UcBUaL tx3RLFIAq, state: 2
+2026-01-08 06:42:08 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: 1/7UcBUaL D3oNDOnBg, state: 1
+2026-01-08 06:42:08 DEBUG   iceCandidatePairCheckConnection(): remote ip:172.25.17.214, port:172, local ip:5097.168.1.86, port:192
+2026-01-08 06:42:08 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:172.25.17.214, port:59667
+2026-01-08 06:42:08 DEBUG   iceCandidatePairCheckConnection(): remote ip:10.176.3.26, port:10, local ip:28100.168.1.86, port:192
+2026-01-08 06:42:08 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:10.176.3.26, port:50285
+2026-01-08 06:42:08 DEBUG   iceCandidatePairCheckConnection(): remote ip:172.25.17.214, port:172, local ip:62693.168.1.86, port:192
+2026-01-08 06:42:08 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:172.25.17.214, port:58868
+2026-01-08 06:42:08 DEBUG   iceCandidatePairCheckConnection(): remote ip:192.0.0.6, port:192, local ip:23804.168.1.86, port:192
+2026-01-08 06:42:08 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:192.0.0.6, port:64604
+2026-01-08 06:42:08 DEBUG   iceCandidatePairCheckConnection(): remote ip:172.25.17.214, port:172, local ip:40144.168.1.86, port:192
+2026-01-08 06:42:08 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:172.25.17.214, port:53404
+2026-01-08 06:42:08 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 06:42:08 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 06:42:08 DEBUG   iceCandidatePairCheckConnection(): remote ip:192.0.0.6, port:192, local ip:22256.168.1.86, port:192
+2026-01-08 06:42:08 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:192.0.0.6, port:61526
+2026-01-08 06:42:08 DEBUG   iceCandidatePairCheckConnection(): remote ip:58.82.194.204, port:58, local ip:1218.168.1.86, port:192
+2026-01-08 06:42:08 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:58.82.194.204, port:49668
+2026-01-08 06:42:08 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 06:42:08 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 06:42:08 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 06:42:08 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 06:42:08 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 06:42:08 DEBUG   iceCandidatePairCheckConnection(): remote ip:54.70.56.41, port:54, local ip:4852.168.1.86, port:192
+2026-01-08 06:42:08 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:54.70.56.41, port:62482
+2026-01-08 06:42:08 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: eSgcDbO8F. Ip: fde8:648b:d9bb:0000:0000:0000:0000:0001:61833. Type: host. Protocol: udp.
+2026-01-08 06:42:08 ERROR   iceAgentAddRemoteCandidate(): operation returned status code: 0x00000002
+2026-01-08 06:42:08 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"sdpMLineIndex":0,"sdpMid":"0","candidate":"candidate:358115400 1 udp 1685790464 182.239.119.157 16667 typ srflx raddr 10.176.3.26 rport 50285 generation 0 ufrag 0SeO network-id 14 network-cost 900"}
+
+2026-01-08 06:42:08 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: U/ADYB5u0. Ip: 182.239.119.157:16667. Type: srflx. Protocol: udp.
+2026-01-08 06:42:08 DEBUG   turnConnectionStepState(): TurnConnection state changed from TURN_STATE_CHECK_SOCKET_CONNECTION to TURN_STATE_GET_CREDENTIALS
+2026-01-08 06:42:08 DEBUG   socketConnectionIsConnected(): connect ip: 0000:0000:0000:0000:0000:0000:0000:0000:0. family:0 with ip: 35.160.91.32:443. family:1
+2026-01-08 06:42:08 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 06:42:08 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 06:42:08 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 06:42:08 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 06:42:08 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:83 | saturation:45 | ev:4012 | history:0 | rb_ratio:1.000000
+
+2026-01-08 06:42:08 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 06:42:08 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 06:42:08 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 06:42:08 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"sdpMLineIndex":0,"sdpMid":"0","candidate":"candidate:3895891682 1 udp 41755904 44.250.231.168 52414 typ relay raddr 58.82.194.204 rport 49668 generation 0 ufrag 0SeO network-id 1 network-cost 10"}
+
+2026-01-08 06:42:08 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: Bd1APDAf7. Ip: 44.250.231.168:52414. Type: relay. Protocol: udp.
+2026-01-08 06:42:08 DEBUG   turnConnectionStepState(): TurnConnection state changed from TURN_STATE_CHECK_SOCKET_CONNECTION to TURN_STATE_GET_CREDENTIALS
+2026-01-08 06:42:08 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"candidate":"candidate:1133176848 1 udp 2122063616 169.254.76.87 61813 typ host generation 0 ufrag 0SeO network-id 3 network-cost 10","sdpMid":"0","sdpMLineIndex":0}
+
+2026-01-08 06:42:08 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: t8lJoLWOj. Ip: 169.254.76.87:61813. Type: host. Protocol: udp.
+2026-01-08 06:42:08 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"sdpMid":"0","candidate":"candidate:1144831305 1 udp 2122129152 192.168.1.4 49668 typ host generation 0 ufrag 0SeO network-id 1 network-cost 10","sdpMLineIndex":0}
+
+2026-01-08 06:42:08 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: ed8S58cIg. Ip: 192.168.1.4:49668. Type: host. Protocol: udp.
+2026-01-08 06:42:08 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"candidate":"candidate:1818169646 1 udp 2121932544 172.25.17.214 55443 typ host generation 0 ufrag 0SeO network-id 15 network-cost 900","sdpMid":"0","sdpMLineIndex":0}
+
+2026-01-08 06:42:08 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: nOZoZApjZ. Ip: 172.25.17.214:55443. Type: host. Protocol: udp.
+2026-01-08 06:42:08 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"sdpMLineIndex":0,"candidate":"candidate:2869481077 1 tcp 1518018304 10.176.3.26 57277 typ host tcptype passive generation 0 ufrag 0SeO network-id 14 network-cost 900","sdpMid":"0"}
+
+2026-01-08 06:42:08 ERROR   iceAgentAddRemoteCandidate(): operation returned status code: 0x5a000005
+2026-01-08 06:42:08 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"sdpMid":"0","candidate":"candidate:972539742 1 udp 2121806592 fd74:6572:6d6e:7573:c:ac93:21c3:94f7 64534 typ host generation 0 ufrag 0SeO network-id 9 network-cost 50","sdpMLineIndex":0}
+
+2026-01-08 06:42:09 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: kKt27CYVw. Ip: fd74:6572:6d6e:7573:000c:ac93:21c3:94f7:64534. Type: host. Protocol: udp.
+2026-01-08 06:42:09 ERROR   iceAgentAddRemoteCandidate(): operation returned status code: 0x00000002
+2026-01-08 06:42:08 DEBUG   iceAgentLogNewCandidate(): New local ice candidate discovered. Id: f945MsgDL. Ip: 58.82.194.204:44383. Type: srflx. Protocol: udp.
+2026-01-08 06:42:09 DEBUG   sendLwsMessage(): Sending data over web socket: Message type: ICE_CANDIDATE, RecepientId: viewer-B6AE4D76
+2026-01-08 06:42:09 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"sdpMid":"0","candidate":"candidate:1818169646 1 udp 2121342720 172.25.17.214 53692 typ host generation 0 ufrag 0SeO network-id 11 network-cost 50","sdpMLineIndex":0}
+
+2026-01-08 06:42:09 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 06:42:09 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 06:42:09 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 06:42:09 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 06:42:09 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: B62dBADUr. Ip: 172.25.17.214:53692. Type: host. Protocol: udp.
+2026-01-08 06:42:09 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"sdpMid":"0","candidate":"candidate:188347200 1 udp 2121741056 fd74:6572:6d6e:7573:d:ac93:21c3:94f7 56639 typ host generation 0 ufrag 0SeO network-id 10 network-cost 50","sdpMLineIndex":0}
+
+2026-01-08 06:42:09 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: /sOnPYa66. Ip: fd74:6572:6d6e:7573:000d:ac93:21c3:94f7:56639. Type: host. Protocol: udp.
+2026-01-08 06:42:09 ERROR   iceAgentAddRemoteCandidate(): operation returned status code: 0x00000002
+2026-01-08 06:42:09 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"sdpMLineIndex":0,"sdpMid":"0","candidate":"candidate:3130419677 1 tcp 1518149376 192.168.1.4 57275 typ host tcptype passive generation 0 ufrag 0SeO network-id 1 network-cost 10"}
+
+2026-01-08 06:42:09 ERROR   iceAgentAddRemoteCandidate(): operation returned status code: 0x5a000005
+2026-01-08 06:42:09 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"sdpMid":"0","candidate":"candidate:188347200 1 udp 2121872128 fd74:6572:6d6e:7573:d:ac93:21c3:94f7 52751 typ host generation 0 ufrag 0SeO network-id 6 network-cost 50","sdpMLineIndex":0}
+
+2026-01-08 06:42:09 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: b+Ijidakk. Ip: fd74:6572:6d6e:7573:000d:ac93:21c3:94f7:52751. Type: host. Protocol: udp.
+2026-01-08 06:42:09 ERROR   iceAgentAddRemoteCandidate(): operation returned status code: 0x00000002
+2026-01-08 06:42:09 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"sdpMLineIndex":0,"sdpMid":"0","candidate":"candidate:2465580474 1 tcp 1518280448 172.25.17.214 57274 typ host tcptype passive generation 0 ufrag 0SeO network-id 16 network-cost 50"}
+
+2026-01-08 06:42:09 ERROR   iceAgentAddRemoteCandidate(): operation returned status code: 0x5a000005
+2026-01-08 06:42:09 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"candidate":"candidate:2465580474 1 tcp 1517494016 172.25.17.214 57281 typ host tcptype passive generation 0 ufrag 0SeO network-id 7 network-cost 50","sdpMid":"0","sdpMLineIndex":0}
+
+2026-01-08 06:42:09 ERROR   iceAgentAddRemoteCandidate(): operation returned status code: 0x5a000005
+2026-01-08 06:42:09 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"sdpMid":"0","candidate":"candidate:2949677935 1 tcp 1517559552 192.0.0.6 57280 typ host tcptype passive generation 0 ufrag 0SeO network-id 5 network-cost 50","sdpMLineIndex":0}
+
+2026-01-08 06:42:09 ERROR   iceAgentAddRemoteCandidate(): operation returned status code: 0x5a000005
+2026-01-08 06:42:09 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: 1/7UcBUaL ShRaZhjZa, state: 2
+2026-01-08 06:42:09 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: 1/7UcBUaL ed8S58cIg, state: 1
+2026-01-08 06:42:09 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: 1/7UcBUaL t8lJoLWOj, state: 1
+2026-01-08 06:42:09 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: 1/7UcBUaL oO3Nle8Nw, state: 2
+2026-01-08 06:42:09 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: 1/7UcBUaL nOZoZApjZ, state: 1
+2026-01-08 06:42:09 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: 1/7UcBUaL NbndIqtNq, state: 2
+2026-01-08 06:42:09 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: 1/7UcBUaL KACxSunL1, state: 2
+2026-01-08 06:42:09 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: 1/7UcBUaL LNFB9dEWM, state: 2
+2026-01-08 06:42:09 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: 1/7UcBUaL yEHngyCEW, state: 2
+2026-01-08 06:42:09 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: 1/7UcBUaL B62dBADUr, state: 1
+2026-01-08 06:42:09 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: f945MsgDL ShRaZhjZa, state: 1
+2026-01-08 06:42:09 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: f945MsgDL ed8S58cIg, state: 1
+2026-01-08 06:42:09 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: f945MsgDL ed8S58cIg, state: 1
+2026-01-08 06:42:09 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: f945MsgDL t8lJoLWOj, state: 1
+2026-01-08 06:42:09 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: f945MsgDL t8lJoLWOj, state: 1
+2026-01-08 06:42:09 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: f945MsgDL oO3Nle8Nw, state: 1
+2026-01-08 06:42:09 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: f945MsgDL nOZoZApjZ, state: 1
+2026-01-08 06:42:09 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: f945MsgDL nOZoZApjZ, state: 1
+2026-01-08 06:42:09 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: f945MsgDL NbndIqtNq, state: 1
+2026-01-08 06:42:09 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: f945MsgDL KACxSunL1, state: 1
+2026-01-08 06:42:09 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: f945MsgDL LNFB9dEWM, state: 1
+2026-01-08 06:42:09 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: f945MsgDL yEHngyCEW, state: 1
+2026-01-08 06:42:09 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: f945MsgDL B62dBADUr, state: 1
+2026-01-08 06:42:09 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: 1/7UcBUaL tx3RLFIAq, state: 2
+2026-01-08 06:42:09 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: f945MsgDL tx3RLFIAq, state: 1
+2026-01-08 06:42:09 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: 1/7UcBUaL U/ADYB5u0, state: 1
+2026-01-08 06:42:09 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: f945MsgDL U/ADYB5u0, state: 1
+2026-01-08 06:42:09 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: f945MsgDL U/ADYB5u0, state: 1
+2026-01-08 06:42:09 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: 1/7UcBUaL Bd1APDAf7, state: 1
+2026-01-08 06:42:09 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: f945MsgDL Bd1APDAf7, state: 1
+2026-01-08 06:42:09 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: f945MsgDL Bd1APDAf7, state: 1
+2026-01-08 06:42:09 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: 1/7UcBUaL D3oNDOnBg, state: 2
+2026-01-08 06:42:09 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: f945MsgDL D3oNDOnBg, state: 1
+2026-01-08 06:42:09 DEBUG   iceCandidatePairCheckConnection(): remote ip:172.25.17.214, port:172, local ip:5097.168.1.86, port:192
+2026-01-08 06:42:09 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:172.25.17.214, port:59667
+2026-01-08 06:42:09 DEBUG   iceCandidatePairCheckConnection(): remote ip:192.168.1.4, port:192, local ip:1218.168.1.86, port:192
+2026-01-08 06:42:09 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:192.168.1.4, port:49668
+2026-01-08 06:42:09 DEBUG   iceCandidatePairCheckConnection(): remote ip:169.254.76.87, port:169, local ip:30193.168.1.86, port:192
+2026-01-08 06:42:09 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:169.254.76.87, port:61813
+2026-01-08 06:42:09 DEBUG   iceCandidatePairCheckConnection(): remote ip:10.176.3.26, port:10, local ip:28100.168.1.86, port:192
+2026-01-08 06:42:09 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:10.176.3.26, port:50285
+2026-01-08 06:42:09 DEBUG   iceCandidatePairCheckConnection(): remote ip:172.25.17.214, port:172, local ip:37848.168.1.86, port:192
+2026-01-08 06:42:09 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:172.25.17.214, port:55443
+2026-01-08 06:42:09 DEBUG   iceCandidatePairCheckConnection(): remote ip:172.25.17.214, port:172, local ip:62693.168.1.86, port:192
+2026-01-08 06:42:09 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:172.25.17.214, port:58868
+2026-01-08 06:42:09 DEBUG   iceCandidatePairCheckConnection(): remote ip:192.0.0.6, port:192, local ip:23804.168.1.86, port:192
+2026-01-08 06:42:09 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 06:42:09 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 06:42:09 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 06:42:09 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"sdpMLineIndex":0,"sdpMid":"0","candidate":"candidate:3173006468 1 tcp 1518083840 169.254.76.87 57276 typ host tcptype passive generation 0 ufrag 0SeO network-id 3 network-cost 10"}
+
+2026-01-08 06:42:09 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_RESPONSE_SUCCESS to ip:192.168.1.130, port:63736
+2026-01-08 06:42:09 info    [ANC_RF_B2D_put_frame:374]Device not ready, audio sending skipped, devid=0, init=128, speaker_power=1
+
+2026-01-08 06:42:09 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:83 | saturation:45 | ev:4012 | history:0 | rb_ratio:1.000000
+
+2026-01-08 06:42:09 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:192.0.0.6, port:64604
+2026-01-08 06:42:09 DEBUG   iceCandidatePairCheckConnection(): remote ip:172.25.17.214, port:172, local ip:40144.168.1.86, port:192
+2026-01-08 06:42:09 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:172.25.17.214, port:53404
+2026-01-08 06:42:09 DEBUG   iceCandidatePairCheckConnection(): remote ip:192.0.0.6, port:192, local ip:22256.168.1.86, port:192
+2026-01-08 06:42:09 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:192.0.0.6, port:61526
+2026-01-08 06:42:09 DEBUG   iceCandidatePairCheckConnection(): remote ip:172.25.17.214, port:172, local ip:48337.168.1.86, port:192
+2026-01-08 06:42:09 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:172.25.17.214, port:53692
+2026-01-08 06:42:09 DEBUG   iceCandidatePairCheckConnection(): remote ip:172.25.17.214, port:172, local ip:5097.82.194.204, port:58
+2026-01-08 06:42:09 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:172.25.17.214, port:59667
+2026-01-08 06:42:09 DEBUG   iceCandidatePairCheckConnection(): remote ip:192.168.1.4, port:192, local ip:1218.82.194.204, port:58
+2026-01-08 06:42:09 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:192.168.1.4, port:49668
+2026-01-08 06:42:09 DEBUG   iceCandidatePairCheckConnection(): remote ip:192.168.1.4, port:192, local ip:1218.82.194.204, port:58
+2026-01-08 06:42:09 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:192.168.1.4, port:49668
+2026-01-08 06:42:09 DEBUG   iceCandidatePairCheckConnection(): remote ip:169.254.76.87, port:169, local ip:30193.82.194.204, port:58
+2026-01-08 06:42:09 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:169.254.76.87, port:61813
+2026-01-08 06:42:10 DEBUG   iceCandidatePairCheckConnection(): remote ip:169.254.76.87, port:169, local ip:30193.82.194.204, port:58
+2026-01-08 06:42:10 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:169.254.76.87, port:61813
+2026-01-08 06:42:10 DEBUG   iceCandidatePairCheckConnection(): remote ip:10.176.3.26, port:10, local ip:28100.82.194.204, port:58
+2026-01-08 06:42:10 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:10.176.3.26, port:50285
+2026-01-08 06:42:10 DEBUG   iceCandidatePairCheckConnection(): remote ip:172.25.17.214, port:172, local ip:37848.82.194.204, port:58
+2026-01-08 06:42:10 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:172.25.17.214, port:55443
+2026-01-08 06:42:10 DEBUG   iceCandidatePairCheckConnection(): remote ip:172.25.17.214, port:172, local ip:37848.82.194.204, port:58
+2026-01-08 06:42:10 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:172.25.17.214, port:55443
+2026-01-08 06:42:10 DEBUG   iceCandidatePairCheckConnection(): remote ip:172.25.17.214, port:172, local ip:62693.82.194.204, port:58
+2026-01-08 06:42:10 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:172.25.17.214, port:58868
+2026-01-08 06:42:10 DEBUG   iceCandidatePairCheckConnection(): remote ip:192.0.0.6, port:192, local ip:23804.82.194.204, port:58
+2026-01-08 06:42:10 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:192.0.0.6, port:64604
+2026-01-08 06:42:10 DEBUG   iceCandidatePairCheckConnection(): remote ip:172.25.17.214, port:172, local ip:40144.82.194.204, port:58
+2026-01-08 06:42:10 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:172.25.17.214, port:53404
+2026-01-08 06:42:10 DEBUG   iceCandidatePairCheckConnection(): remote ip:192.0.0.6, port:192, local ip:22256.82.194.204, port:58
+2026-01-08 06:42:10 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:192.0.0.6, port:61526
+2026-01-08 06:42:10 DEBUG   iceCandidatePairCheckConnection(): remote ip:172.25.17.214, port:172, local ip:48337.82.194.204, port:58
+2026-01-08 06:42:10 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:172.25.17.214, port:53692
+2026-01-08 06:42:10 DEBUG   iceCandidatePairCheckConnection(): remote ip:58.82.194.204, port:58, local ip:1218.168.1.86, port:192
+2026-01-08 06:42:10 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:58.82.194.204, port:49668
+2026-01-08 06:42:10 DEBUG   iceCandidatePairCheckConnection(): remote ip:58.82.194.204, port:58, local ip:1218.82.194.204, port:58
+2026-01-08 06:42:10 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:58.82.194.204, port:49668
+2026-01-08 06:42:10 DEBUG   iceCandidatePairCheckConnection(): remote ip:182.239.119.157, port:182, local ip:6977.168.1.86, port:192
+2026-01-08 06:42:10 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 06:42:10 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 06:42:10 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 06:42:10 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:182.239.119.157, port:16667
+2026-01-08 06:42:10 DEBUG   iceCandidatePairCheckConnection(): remote ip:182.239.119.157, port:182, local ip:6977.82.194.204, port:58
+2026-01-08 06:42:10 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:182.239.119.157, port:16667
+2026-01-08 06:42:10 DEBUG   iceCandidatePairCheckConnection(): remote ip:182.239.119.157, port:182, local ip:6977.82.194.204, port:58
+2026-01-08 06:42:10 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:182.239.119.157, port:16667
+2026-01-08 06:42:10 DEBUG   iceCandidatePairCheckConnection(): remote ip:44.250.231.168, port:44, local ip:48844.168.1.86, port:192
+2026-01-08 06:42:10 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:44.250.231.168, port:52414
+2026-01-08 06:42:10 DEBUG   iceCandidatePairCheckConnection(): remote ip:44.250.231.168, port:44, local ip:48844.82.194.204, port:58
+2026-01-08 06:42:10 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:44.250.231.168, port:52414
+2026-01-08 06:42:10 DEBUG   iceCandidatePairCheckConnection(): remote ip:44.250.231.168, port:44, local ip:48844.82.194.204, port:58
+2026-01-08 06:42:10 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 06:42:10 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:83 | saturation:45 | ev:4012 | history:0 | rb_ratio:1.000000
+
+2026-01-08 06:42:10 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 06:42:10 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 06:42:10 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 06:42:10 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:44.250.231.168, port:52414
+2026-01-08 06:42:10 DEBUG   iceCandidatePairCheckConnection(): remote ip:54.70.56.41, port:54, local ip:4852.168.1.86, port:192
+2026-01-08 06:42:10 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:54.70.56.41, port:62482
+2026-01-08 06:42:10 DEBUG   iceCandidatePairCheckConnection(): remote ip:54.70.56.41, port:54, local ip:4852.82.194.204, port:58
+2026-01-08 06:42:10 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:54.70.56.41, port:62482
+2026-01-08 06:42:10 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: 1/7UcBUaL ShRaZhjZa, state: 2
+2026-01-08 06:42:10 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: 1/7UcBUaL ed8S58cIg, state: 2
+2026-01-08 06:42:10 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: 1/7UcBUaL t8lJoLWOj, state: 2
+2026-01-08 06:42:10 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: 1/7UcBUaL oO3Nle8Nw, state: 2
+2026-01-08 06:42:10 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: 1/7UcBUaL nOZoZApjZ, state: 2
+2026-01-08 06:42:10 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: 1/7UcBUaL NbndIqtNq, state: 2
+2026-01-08 06:42:10 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: 1/7UcBUaL KACxSunL1, state: 2
+2026-01-08 06:42:10 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: 1/7UcBUaL LNFB9dEWM, state: 2
+2026-01-08 06:42:10 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: 1/7UcBUaL yEHngyCEW, state: 2
+2026-01-08 06:42:10 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: 1/7UcBUaL B62dBADUr, state: 2
+2026-01-08 06:42:10 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: f945MsgDL ShRaZhjZa, state: 2
+2026-01-08 06:42:10 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: f945MsgDL ed8S58cIg, state: 2
+2026-01-08 06:42:10 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: f945MsgDL ed8S58cIg, state: 2
+2026-01-08 06:42:10 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: f945MsgDL t8lJoLWOj, state: 2
+2026-01-08 06:42:10 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: f945MsgDL t8lJoLWOj, state: 2
+2026-01-08 06:42:10 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: f945MsgDL oO3Nle8Nw, state: 2
+2026-01-08 06:42:10 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: f945MsgDL nOZoZApjZ, state: 2
+2026-01-08 06:42:10 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: f945MsgDL nOZoZApjZ, state: 2
+2026-01-08 06:42:10 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: f945MsgDL NbndIqtNq, state: 2
+2026-01-08 06:42:10 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: f945MsgDL KACxSunL1, state: 2
+2026-01-08 06:42:10 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: f945MsgDL LNFB9dEWM, state: 2
+2026-01-08 06:42:10 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: f945MsgDL yEHngyCEW, state: 2
+2026-01-08 06:42:10 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: f945MsgDL B62dBADUr, state: 2
+2026-01-08 06:42:10 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: 1/7UcBUaL tx3RLFIAq, state: 2
+2026-01-08 06:42:10 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: f945MsgDL tx3RLFIAq, state: 2
+2026-01-08 06:42:10 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: 1/7UcBUaL U/ADYB5u0, state: 2
+2026-01-08 06:42:10 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: f945MsgDL U/ADYB5u0, state: 2
+2026-01-08 06:42:10 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: f945MsgDL U/ADYB5u0, state: 2
+2026-01-08 06:42:10 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: 1/7UcBUaL Bd1APDAf7, state: 2
+2026-01-08 06:42:10 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: f945MsgDL Bd1APDAf7, state: 2
+2026-01-08 06:42:10 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: f945MsgDL Bd1APDAf7, state: 2
+2026-01-08 06:42:10 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: 1/7UcBUaL D3oNDOnBg, state: 2
+2026-01-08 06:42:10 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: f945MsgDL D3oNDOnBg, state: 2
+2026-01-08 06:42:10 DEBUG   iceCandidatePairCheckConnection(): remote ip:172.25.17.214, port:172, local ip:5097.168.1.86, port:192
+2026-01-08 06:42:10 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:172.25.17.214, port:59667
+2026-01-08 06:42:10 DEBUG   iceCandidatePairCheckConnection(): remote ip:192.168.1.4, port:192, local ip:1218.168.1.86, port:192
+2026-01-08 06:42:10 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:192.168.1.4, port:49668
+2026-01-08 06:42:10 DEBUG   iceCandidatePairCheckConnection(): remote ip:169.254.76.87, port:169, local ip:30193.168.1.86, port:192
+2026-01-08 06:42:10 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:169.254.76.87, port:61813
+2026-01-08 06:42:10 DEBUG   iceCandidatePairCheckConnection(): remote ip:10.176.3.26, port:10, local ip:28100.168.1.86, port:192
+2026-01-08 06:42:10 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:10.176.3.26, port:50285
+2026-01-08 06:42:10 DEBUG   iceCandidatePairCheckConnection(): remote ip:172.25.17.214, port:172, local ip:37848.168.1.86, port:192
+2026-01-08 06:42:10 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:172.25.17.214, port:55443
+2026-01-08 06:42:10 DEBUG   iceCandidatePairCheckConnection(): remote ip:172.25.17.214, port:172, local ip:62693.168.1.86, port:192
+2026-01-08 06:42:10 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:172.25.17.214, port:58868
+2026-01-08 06:42:10 DEBUG   iceCandidatePairCheckConnection(): remote ip:192.0.0.6, port:192, local ip:23804.168.1.86, port:192
+2026-01-08 06:42:10 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:192.0.0.6, port:64604
+2026-01-08 06:42:10 DEBUG   iceCandidatePairCheckConnection(): remote ip:172.25.17.214, port:172, local ip:40144.168.1.86, port:192
+2026-01-08 06:42:10 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:172.25.17.214, port:53404
+2026-01-08 06:42:10 DEBUG   iceCandidatePairCheckConnection(): remote ip:192.0.0.6, port:192, local ip:22256.168.1.86, port:192
+2026-01-08 06:42:10 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:192.0.0.6, port:61526
+2026-01-08 06:42:10 DEBUG   iceCandidatePairCheckConnection(): remote ip:172.25.17.214, port:172, local ip:48337.168.1.86, port:192
+2026-01-08 06:42:10 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:172.25.17.214, port:53692
+2026-01-08 06:42:10 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 06:42:10 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 06:42:10 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-15 06:42:10 DEBUG   iceCandidatePairCheckConnection(): remote ip:172.25.17.214, port:172, local ip:5097.82.194.204, port:58
+2026-01-08 06:42:10 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:172.25.17.214, port:59667
+2026-01-08 06:42:11 DEBUG   iceCandidatePairCheckConnection(): remote ip:192.168.1.4, port:192, local ip:1218.82.194.204, port:58
+2026-01-08 06:42:11 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:192.168.1.4, port:49668
+2026-01-08 06:42:11 DEBUG   iceCandidatePairCheckConnection(): remote ip:192.168.1.4, port:192, local ip:1218.82.194.204, port:58
+2026-01-08 06:42:11 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:192.168.1.4, port:49668
+2026-01-08 06:42:11 DEBUG   iceCandidatePairCheckConnection(): remote ip:169.254.76.87, port:169, local ip:30193.82.194.204, port:58
+2026-01-08 06:42:11 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:169.254.76.87, port:61813
+2026-01-08 06:42:11 DEBUG   iceCandidatePairCheckConnection(): remote ip:169.254.76.87, port:169, local ip:30193.82.194.204, port:58
+2026-01-08 06:42:11 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:169.254.76.87, port:61813
+2026-01-08 06:42:11 DEBUG   iceCandidatePairCheckConnection(): remote ip:10.176.3.26, port:10, local ip:28100.82.194.204, port:58
+2026-01-08 06:42:11 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:10.176.3.26, port:50285
+2026-01-08 06:42:11 DEBUG   iceCandidatePairCheckConnection(): remote ip:172.25.17.214, port:172, local ip:37848.82.194.204, port:58
+2026-01-08 06:42:11 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:172.25.17.214, port:55443
+2026-01-08 06:42:11 DEBUG   iceCandidatePairCheckConnection(): remote ip:172.25.17.214, port:172, local ip:37848.82.194.204, port:58
+2026-01-08 06:42:11 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:172.25.17.214, port:55443
+2026-01-08 06:42:11 DEBUG   iceCandidatePairCheckConnection(): remote ip:172.25.17.214, port:172, local ip:62693.82.194.204, port:58
+2026-01-08 06:42:11 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:172.25.17.214, port:58868
+2026-01-08 06:42:10 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 06:42:11 DEBUG   lwsWssCallbackRoutine(): Client is writable
+2026-01-08 06:42:11 DEBUG   receiveLwsMessage(): Client received message of type: ICE_CANDIDATE
+2026-01-08 06:42:11 DEBUG   lwsWssCallbackRoutine(): Client is writable
+personvehicle detect all time : 53.610001
+2026-01-08 06:42:10 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:83 | saturation:45 | ev:4012 | history:0 | rb_ratio:1.000000
+
+2026-01-08 06:42:11 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 06:42:11 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 06:42:11 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 06:42:11 DEBUG   iceCandidatePairCheckConnection(): remote ip:192.0.0.6, port:192, local ip:23804.82.194.204, port:58
+2026-01-08 06:42:11 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:192.0.0.6, port:64604
+2026-01-08 06:42:11 DEBUG   iceCandidatePairCheckConnection(): remote ip:172.25.17.214, port:172, local ip:40144.82.194.204, port:58
+2026-01-08 06:42:11 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:172.25.17.214, port:53404
+2026-01-08 06:42:11 DEBUG   iceCandidatePairCheckConnection(): remote ip:192.0.0.6, port:192, local ip:22256.82.194.204, port:58
+2026-01-08 06:42:11 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:192.0.0.6, port:61526
+2026-01-08 06:42:11 DEBUG   iceCandidatePairCheckConnection(): remote ip:172.25.17.214, port:172, local ip:48337.82.194.204, port:58
+2026-01-08 06:42:11 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:172.25.17.214, port:53692
+2026-01-08 06:42:11 DEBUG   iceCandidatePairCheckConnection(): remote ip:58.82.194.204, port:58, local ip:1218.168.1.86, port:192
+2026-01-08 06:42:11 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:58.82.194.204, port:49668
+2026-01-08 06:42:11 DEBUG   iceCandidatePairCheckConnection(): remote ip:58.82.194.204, port:58, local ip:1218.82.194.204, port:58
+2026-01-08 06:42:11 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:58.82.194.204, port:49668
+2026-01-08 06:42:11 DEBUG   iceCandidatePairCheckConnection(): remote ip:182.239.119.157, port:182, local ip:6977.168.1.86, port:192
+2026-01-08 06:42:11 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:182.239.119.157, port:16667
+2026-01-08 06:42:11 DEBUG   iceCandidatePairCheckConnection(): remote ip:182.239.119.157, port:182, local ip:6977.82.194.204, port:58
+2026-01-08 06:42:11 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:182.239.119.157, port:16667
+2026-01-08 06:42:11 DEBUG   iceCandidatePairCheckConnection(): remote ip:182.239.119.157, port:182, local ip:6977.82.194.204, port:58
+2026-01-08 06:42:11 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:182.239.119.157, port:16667
+2026-01-08 06:42:11 DEBUG   iceCandidatePairCheckConnection(): remote ip:44.250.231.168, port:44, local ip:48844.168.1.86, port:192
+2026-01-08 06:42:11 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:44.250.231.168, port:52414
+2026-01-08 06:42:11 DEBUG   iceCandidatePairCheckConnection(): remote ip:44.250.231.168, port:44, local ip:48844.82.194.204, port:58
+2026-01-08 06:42:11 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:44.250.231.168, port:52414
+2026-01-08 06:42:11 DEBUG   iceCandidatePairCheckConnection(): remote ip:44.250.231.168, port:44, local ip:48844.82.194.204, port:58
+2026-01-08 06:42:11 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:44.250.231.168, port:52414
+2026-01-08 06:42:11 DEBUG   iceCandidatePairCheckConnection(): remote ip:54.70.56.41, port:54, local ip:4852.168.1.86, port:192
+2026-01-08 06:42:11 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:54.70.56.41, port:62482
+2026-01-08 06:42:11 DEBUG   iceCandidatePairCheckConnection(): remote ip:54.70.56.41, port:54, local ip:4852.82.194.204, port:58
+2026-01-08 06:42:11 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:54.70.56.41, port:62482
+2026-01-08 06:42:11 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_RESPONSE_SUCCESS to ip:192.168.1.4, port:49668
+2026-01-08 06:42:11 DEBUG   handleStunPacket(): received candidate with USE_CANDIDATE flag, local candidate type host.
+2026-01-08 06:42:11 DEBUG   handleStunPacket(): Ice candidate pair 1/7UcBUaL_ed8S58cIg is connected. Round trip time: 1728ms
+2026-01-08 06:42:11 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_RESPONSE_SUCCESS to ip:192.168.1.4, port:49668
+2026-01-08 06:42:11 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_RESPONSE_SUCCESS to ip:192.168.1.4, port:49668
+2026-01-08 06:42:11 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_RESPONSE_SUCCESS to ip:192.168.1.4, port:49668
+2026-01-08 06:42:11 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 06:42:11 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 06:42:11 DEBUG   signalingMessageReceived(): signaling received message
+
+2026-01-08 06:42:11 DEBUG   signalingMessageReceived(): check condition..
+
+2026-01-08 06:42:11 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 06:42:11 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 06:42:11 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 06:42:11 debug   [sys_cmd_fifo:97]p_cmd [echo 3 > /proc/sys/vm/drop_caches]
+
+2026-01-08 06:42:11 DEBUG   handleStunPacket(): local candidate ip address does not match with xor mapped address in binding response
+2026-01-08 06:42:11 DEBUG   iceAgentLogNewCandidate(): New local ice candidate discovered. Id: f945MsgDL. Ip: 192.168.1.86:44383. Type: prflx. Protocol: udp.
+[Fifo server]:system ok,cmd:[echo 3 > /proc/sys/vm/drop_caches].
+2026-01-08 06:42:11 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:83 | saturation:45 | ev:4012 | history:0 | rb_ratio:1.000000
+
+2026-01-08 06:42:11 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 06:42:11 WARN    handleStunPacket(): Unable to fetch request Timestamp from the hash table. No update to RTT for the pair (error code: 0x40100001)
+2026-01-08 06:42:11 WARN    handleStunPacket(): Dropping response packet because transaction id does not match
+2026-01-08 06:42:11 ERROR   handleStunPacket(): operation returned status code: 0x40100001
+2026-01-08 06:42:11 ERROR   incomingDataHandler(): operation returned status code: 0x40100001
+2026-01-08 06:42:11 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_RESPONSE_SUCCESS to ip:192.168.1.4, port:49668
+2026-01-08 06:42:11 DEBUG   handleStunPacket(): received candidate with USE_CANDIDATE flag, local candidate type prflx.
+2026-01-08 06:42:11 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_RESPONSE_SUCCESS to ip:192.168.1.4, port:49668
+2026-01-08 06:42:11 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_RESPONSE_SUCCESS to ip:44.250.231.168, port:52414
+2026-01-08 06:42:11 DEBUG   handleStunPacket(): received candidate with USE_CANDIDATE flag, local candidate type prflx.
+2026-01-08 06:42:11 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_RESPONSE_SUCCESS to ip:54.70.56.41, port:62482
+2026-01-08 06:42:11 DEBUG   handleStunPacket(): received candidate with USE_CANDIDATE flag, local candidate type prflx.
+2026-01-08 06:42:11 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: 1/7UcBUaL ShRaZhjZa, state: 2
+2026-01-08 06:42:11 DEBUG   fromCheckConnectionIceAgentState(): Checking pair: 1/7UcBUaL ed8S58cIg, state: 3
+2026-01-08 06:42:11 DEBUG   stepIceAgentStateMachine(): Ice agent state changed from ICE_AGENT_STATE_CHECK_CONNECTION to ICE_AGENT_STATE_CONNECTED.
+2026-01-08 06:42:11 ERROR   iceAgentAddRemoteCandidate(): operation returned status code: 0x5a000005
+2026-01-08 06:42:11 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"sdpMid":"0","sdpMLineIndex":0,"candidate":"candidate:4120061908 1 tcp 1517892352 fd74:6572:6d6e:7573:d:ac93:21c3:94f7 57285 typ host tcptype passive generation 0 ufrag 0SeO network-id 6 network-cost 50"}
+
+2026-01-08 06:42:11 ERROR   iceAgentAddRemoteCandidate(): operation returned status code: 0x5a000005
+2026-01-08 06:42:11 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"candidate":"candidate:3553653441 1 tcp 1518220032 fd98:ac60:af9f:ac49:1429:2c7a:1915:5af6 57284 typ host tcptype passive generation 0 ufrag 0SeO network-id 2 network-cost 10","sdpMid":"0","sdpMLineIndex":0}
+
+2026-01-08 06:42:11 ERROR   iceAgentAddRemoteCandidate(): operation returned status code: 0x5a000005
+2026-01-08 06:42:11 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"sdpMid":"0","sdpMLineIndex":0,"candidate":"candidate:4120061908 1 tcp 1517761280 fd74:6572:6d6e:7573:d:ac93:21c3:94f7 57287 typ host tcptype passive generation 0 ufrag 0SeO network-id 10 network-cost 50"}
+
+2026-01-08 06:42:11 ERROR   iceAgentAddRemoteCandidate(): operation returned status code: 0x5a000005
+2026-01-08 06:42:11 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"sdpMid":"0","sdpMLineIndex":0,"candidate":"candidate:3344765898 1 tcp 1517826816 fd74:6572:6d6e:7573:c:ac93:21c3:94f7 57286 typ host tcptype passive generation 0 ufrag 0SeO network-id 9 network-cost 50"}
+
+2026-01-08 06:42:11 ERROR   iceAgentAddRemoteCandidate(): operation returned status code: 0x5a000005
+2026-01-08 06:42:11 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"candidate":"candidate:2465580474 1 tcp 1517362944 172.25.17.214 57283 typ host tcptype passive generation 0 ufrag 0SeO network-id 11 network-cost 50","sdpMid":"0","sdpMLineIndex":0}
+
+2026-01-08 06:42:11 debug   [sys_cmd_fifo:150]replay:[OK],cmd:[echo 3 > /proc/sys/vm/drop_caches].
+
+2026-01-08 06:42:11 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 06:42:12 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 06:42:11 DEBUG   handleStunPacket(): Ice candidate pair f945MsgDL_ed8S58cIg is connected. Round trip time: 686ms
+2026-01-08 06:42:12 WARN    handleStunPacket(): Unable to fetch request Timestamp from the hash table. No update to RTT for the pair (error code: 0x40100001)
+2026-01-08 06:42:12 WARN    handleStunPacket(): Dropping response packet because transaction id does not match
+2026-01-08 06:42:12 ERROR   handleStunPacket(): operation returned status code: 0x40100001
+2026-01-08 06:42:12 ERROR   incomingDataHandler(): operation returned status code: 0x40100001
+2026-01-08 06:42:12 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_RESPONSE_SUCCESS to ip:192.168.1.4, port:49668
+2026-01-08 06:42:12 DEBUG   handleStunPacket(): local candidate ip address does not match with xor mapped address in binding response
+2026-01-08 06:42:12 DEBUG   iceAgentLogNewCandidate(): New local ice candidate discovered. Id: f945MsgDL. Ip: 58.82.194.204:44383. Type: prflx. Protocol: udp.
+2026-01-08 06:42:12 DEBUG   handleStunPacket(): Ice candidate pair f945MsgDL_Bd1APDAf7 is connected. Round trip time: 679ms
+2026-01-08 06:42:12 WARN    handleStunPacket(): Unable to fetch request Timestamp from the hash table. No update to RTT for the pair (error code: 0x40100001)
+2026-01-08 06:42:12 WARN    handleStunPacket(): Dropping response packet because transaction id does not match
+2026-01-08 06:42:12 ERROR   handleStunPacket(): operation returned status code: 0x40100001
+2026-01-08 06:42:12 ERROR   incomingDataHandler(): operation returned status code: 0x40100001
+2026-01-08 06:42:12 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_RESPONSE_SUCCESS to ip:192.168.1.4, port:49668
+2026-01-08 06:42:11 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_RESPONSE_SUCCESS to ip:192.168.1.130, port:63736
+2026-01-08 06:42:12 DEBUG   iceCandidatePairCheckConnection(): remote ip:192.168.1.4, port:192, local ip:1218.168.1.86, port:192
+2026-01-08 06:42:12 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_REQUEST to ip:192.168.1.4, port:49668
+2026-01-08 06:42:12 DEBUG   stepIceAgentStateMachine(): Ice agent state changed from ICE_AGENT_STATE_CONNECTED to ICE_AGENT_STATE_NOMINATING.
+2026-01-08 06:42:12 DEBUG   turnConnectionStepState(): TurnConnection state changed from TURN_STATE_GET_CREDENTIALS to TURN_STATE_ALLOCATION
+2026-01-08 06:42:12 DEBUG   socketConnectionTlsSessionOnStateChange(): TLS handshake done. Time taken 3423 ms
+2026-01-08 06:42:12 ERROR   iceAgentAddRemoteCandidate(): operation returned status code: 0x5a000005
+2026-01-08 06:42:12 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"sdpMid":"0","sdpMLineIndex":0,"candidate":"candidate:2465580474 1 tcp 1517625088 172.25.17.214 57279 typ host tcptype passive generation 0 ufrag 0SeO network-id 4 network-cost 50"}
+
+2026-01-08 06:42:12 DEBUG   iceAgentReadyStateSetup(): Selected pair 1/7UcBUaL_ed8S58cIg, local candidate type: host. Round trip time 0 ms. Local candidate priority: 677, ice candidate pair priority: 2130706431
+2026-01-08 06:42:12 DEBUG   iceAgentReadyStateSetup(): Freeing Turn allocations that are not selected. Total turn allocation count 2
+2026-01-08 06:42:12 DEBUG   stepIceAgentStateMachine(): Ice agent state changed from ICE_AGENT_STATE_NOMINATING to ICE_AGENT_STATE_READY.
+2026-01-08 06:42:12 DEBUG   turnConnectionStepState(): TurnConnection state changed from TURN_STATE_ALLOCATION to TURN_STATE_CLEAN_UP
+2026-01-08 06:42:12 DEBUG   turnConnectionStepState(): TurnConnection state changed from TURN_STATE_GET_CREDENTIALS to TURN_STATE_CLEAN_UP
+2026-01-08 06:42:12 DEBUG   iceAgentGatherCandidateTimerCallback(): Candidate gathering completed.
+2026-01-08 06:42:12 DEBUG   onIceCandidateHandler(): ice candidate gathering finished
+2026-01-08 06:42:12 DEBUG   socketConnectionClosed(): Close socket 47
+2026-01-08 06:42:12 DEBUG   turnConnectionStepState(): TurnConnection state changed from TURN_STATE_CLEAN_UP to TURN_STATE_NEW
+2026-01-08 06:42:12 DEBUG   socketConnectionClosed(): Close socket 48
+2026-01-08 06:42:12 DEBUG   turnConnectionStepState(): TurnConnection state changed from TURN_STATE_CLEAN_UP to TURN_STATE_NEW
+2026-01-08 06:42:12 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:83 | saturation:45 | ev:4012 | history:0 | rb_ratio:1.000000
+
+2026-01-08 06:42:12 ERROR   iceAgentAddRemoteCandidate(): operation returned status code: 0x5a000005
+2026-01-08 06:42:12 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 06:42:12 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 06:42:12 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 06:42:12 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_RESPONSE_SUCCESS to ip:192.168.1.4, port:49668
+2026-01-08 06:42:12 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"sdpMLineIndex":0,"sdpMid":"0","candidate":"candidate:2949677935 1 tcp 1517428480 192.0.0.6 57282 typ host tcptype passive generation 0 ufrag 0SeO network-id 8 network-cost 50"}
+
+2026-01-08 06:42:12 ERROR   iceAgentAddRemoteCandidate(): operation returned status code: 0x5a000005
+2026-01-08 06:42:12 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"candidate":"candidate:3895891682 1 udp 41624831 44.250.231.168 53767 typ relay raddr 182.239.119.157 rport 9221 generation 0 ufrag 0SeO network-id 14 network-cost 900","sdpMLineIndex":0,"sdpMid":"0"}
+
+2026-01-08 06:42:12 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: wPbVYTBNH. Ip: 44.250.231.168:53767. Type: relay. Protocol: udp.
+2026-01-08 06:42:12 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"candidate":"candidate:2254149705 1 udp 41624063 54.70.56.41 65529 typ relay raddr 182.239.119.157 rport 47902 generation 0 ufrag 0SeO network-id 14 network-cost 900","sdpMLineIndex":0,"sdpMid":"0"}
+
+2026-01-08 06:42:12 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: 66A22v2FW. Ip: 54.70.56.41:65529. Type: relay. Protocol: udp.
+2026-01-08 06:42:12 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"sdpMid":"0","sdpMLineIndex":0,"candidate":"candidate:2971195605 1 udp 8201215 44.250.231.168 56987 typ relay raddr 58.82.194.204 rport 57429 generation 0 ufrag 0SeO network-id 1 network-cost 10"}
+
+2026-01-08 06:42:12 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: mMqS9x8aT. Ip: 44.250.231.168:56987. Type: relay. Protocol: udp.
+2026-01-08 06:42:12 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"sdpMLineIndex":0,"candidate":"candidate:3749041790 1 udp 8200447 54.70.56.41 55704 typ relay raddr 58.82.194.204 rport 57447 generation 0 ufrag 0SeO network-id 1 network-cost 10","sdpMid":"0"}
+
+2026-01-08 06:42:12 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: MjJ5dig6E. Ip: 54.70.56.41:55704. Type: relay. Protocol: udp.
+2026-01-08 06:42:12 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"candidate":"candidate:2971195605 1 udp 8200959 44.250.231.168 53151 typ relay raddr 58.82.194.204 rport 57432 generation 0 ufrag 0SeO network-id 1 network-cost 10","sdpMid":"0","sdpMLineIndex":0}
+
+2026-01-08 06:42:12 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: 7HcOOiZQk. Ip: 44.250.231.168:53151. Type: relay. Protocol: udp.
+2026-01-08 06:42:12 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"sdpMid":"0","sdpMLineIndex":0,"candidate":"candidate:4099305539 1 tcp 1517695744 fde8:648b:d9bb::1 57288 typ host tcptype passive generation 0 ufrag 0SeO network-id 17 network-cost 50"}
+
+2026-01-08 06:42:12 info    [ANC_RF_B2D_put_frame:374]Device not ready, audio sending skipped, devid=0, init=128, speaker_power=1
+
+2026-01-08 06:42:12 INFO    onConnectionStateChange(): New connection state 3
+2026-01-08 06:42:12 DEBUG   rtcPeerConnectionGetMetrics(): ICE local candidate Stats requested at 17678545328381509
+2026-01-08 06:42:12 DEBUG   logSelectedIceCandidatesInformation(): Local Candidate IP Address: 192.168.1.86
+2026-01-08 06:42:12 DEBUG   logSelectedIceCandidatesInformation(): Local Candidate type: host
+2026-01-08 06:42:12 DEBUG   logSelectedIceCandidatesInformation(): Local Candidate port: 51857
+2026-01-08 06:42:12 DEBUG   logSelectedIceCandidatesInformation(): Local Candidate priority: 2130706431
+2026-01-08 06:42:12 DEBUG   logSelectedIceCandidatesInformation(): Local Candidate transport protocol: udp
+2026-01-08 06:42:12 DEBUG   logSelectedIceCandidatesInformation(): Local Candidate relay protocol: N/A
+2026-01-08 06:42:12 DEBUG   logSelectedIceCandidatesInformation(): Local Candidate Ice server source: N/A
+2026-01-08 06:42:12 DEBUG   rtcPeerConnectionGetMetrics(): ICE remote candidate Stats requested at 17678545328388509
+2026-01-08 06:42:12 DEBUG   logSelectedIceCandidatesInformation(): Remote Candidate IP Address: 192.168.1.4
+2026-01-08 06:42:12 DEBUG   logSelectedIceCandidatesInformation(): Remote Candidate type: host
+2026-01-08 06:42:12 DEBUG   logSelectedIceCandidatesInformation(): Remote Candidate port: 49668
+2026-01-08 06:42:12 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 06:42:12 DEBUG   logSelectedIceCandidatesInformation(): Remote Candidate priority: 2122129152
+2026-01-08 06:42:12 DEBUG   logSelectedIceCandidatesInformation(): Remote Candidate transport protocol: udp
+2026-01-08 06:42:12 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 06:42:12 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 06:42:12 ERROR   iceAgentAddRemoteCandidate(): operation returned status code: 0x5a000005
+2026-01-08 06:42:12 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"candidate":"candidate:3749041790 1 udp 8200191 54.70.56.41 61283 typ relay raddr 58.82.194.204 rport 57431 generation 0 ufrag 0SeO network-id 1 network-cost 10","sdpMid":"0","sdpMLineIndex":0}
+
+2026-01-08 06:42:12 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: Tin298lTD. Ip: 54.70.56.41:61283. Type: relay. Protocol: udp.
+2026-01-08 06:42:12 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"sdpMid":"0","sdpMLineIndex":0,"candidate":"candidate:3749041790 1 udp 8069375 54.70.56.41 62472 typ relay raddr 182.239.119.157 rport 7502 generation 0 ufrag 0SeO network-id 14 network-cost 900"}
+
+2026-01-08 06:42:12 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: M9tSO+k+M. Ip: 54.70.56.41:62472. Type: relay. Protocol: udp.
+2026-01-08 06:42:12 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"sdpMLineIndex":0,"sdpMid":"0","candidate":"candidate:2971195605 1 udp 8070143 44.250.231.168 50153 typ relay raddr 182.239.119.157 rport 38250 generation 0 ufrag 0SeO network-id 14 network-cost 900"}
+
+2026-01-08 06:42:12 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: 6gvWOMyMJ. Ip: 44.250.231.168:50153. Type: relay. Protocol: udp.
+2026-01-08 06:42:12 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"sdpMLineIndex":0,"sdpMid":"0","candidate":"candidate:2971195605 1 udp 8069887 44.250.231.168 60642 typ relay raddr 182.239.119.157 rport 38249 generation 0 ufrag 0SeO network-id 14 network-cost 900"}
+
+2026-01-08 06:42:12 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: 9g4o8naAw. Ip: 44.250.231.168:60642. Type: relay. Protocol: udp.
+2026-01-08 06:42:12 DEBUG   dtlsSessionChangeState(): DTLS init completed. Time taken 1084 ms
+2026-01-08 06:42:13 DEBUG   freeSocketConnection(): close socket with ip: 0000:0000:0000:0000:0000:0000:0000:0000:0. family:0
+2026-01-08 06:42:13 DEBUG   freeSocketConnection(): close socket connected with ip: 35.160.91.32:443. family:1
+2026-01-08 06:42:12 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:83 | saturation:45 | ev:4012 | history:0 | rb_ratio:1.000000
+
+2026-01-08 06:42:13 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 06:42:13 DEBUG   freeSocketConnection(): close socket with ip: 0000:0000:0000:0000:0000:0000:0000:0000:0. family:0
+2026-01-08 06:42:13 DEBUG   freeSocketConnection(): close socket connected with ip: 0000:0000:0000:0000:0000:0000:0000:0000:0. family:0
+2026-01-08 06:42:13 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_RESPONSE_SUCCESS to ip:192.168.1.4, port:49668
+2026-01-08 06:42:13 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 06:42:13 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 06:42:13 DEBUG   signalingMessageReceived(): recv msg type:2 payload:{"sdpMLineIndex":0,"sdpMid":"0","candidate":"candidate:3749041790 1 udp 8069119 54.70.56.41 62387 typ relay raddr 182.239.119.157 rport 7503 generation 0 ufrag 0SeO network-id 14 network-cost 900"}
+
+2026-01-08 06:42:13 DEBUG   iceAgentLogNewCandidate(): New remote ice candidate discovered. Id: XmhvkPt4V. Ip: 54.70.56.41:62387. Type: relay. Protocol: udp.
+2026-01-08 06:42:13 ERROR   iceAgentAddRemoteCandidate(): operation returned status code: 0x00000001
+2026-01-08 06:42:13 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 06:42:13 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 06:42:13 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 06:42:13 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:83 | saturation:45 | ev:4012 | history:0 | rb_ratio:1.000000
+
+2026-01-08 06:42:13 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 06:42:13 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 06:42:13 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 06:42:14 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 06:42:14 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 06:42:14 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 06:42:14 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:83 | saturation:45 | ev:4012 | history:0 | rb_ratio:1.000000
+
+2026-01-08 06:42:14 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 06:42:14 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 06:42:14 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 06:42:14 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 06:42:14 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 06:42:14 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+2026-01-08 06:42:14 DEBUG   iceUtilsSendStunPacket(): Sending BINDING_RESPONSE_SUCCESS to ip:192.168.1.130, port:63736
+2026-01-08 06:42:14 error   [anc_ir_mode_judge:608]#### color:COLORS | scene:DAY | light:DAYLIGHT | brightness:83 | saturation:45 | ev:4012 | history:0 | rb_ratio:1.000000
+
+2026-01-08 06:42:14 info    [ivs_PD_Vehi_Nomxu_get_result:371]r->count =0
+
+2026-01-08 06:42:14 debug   [anc_hal_motion_and_hum_check:678]ret:0
+
+2026-01-08 06:42:14 debug   [anc_hal_motion_and_hum_check:703]hal_pd_res.count:0 motion_happen:-1
+
+

@@ -1,0 +1,35 @@
+# Podfile for AWS IoT MQTT iOS App
+#
+# NOTE: CocoaPods dependencies are OPTIONAL
+# The MQTT functionality works without any dependencies!
+#
+# This Podfile is only needed if you want to add WebRTC streaming.
+# See WEBRTC_SETUP.md for instructions.
+#
+# For now, you can ignore this file and just run the app.
+
+platform :ios, '15.0'
+
+target 'AWSSimpleTest' do
+  use_frameworks!
+
+  # Uncomment these when you're ready to add WebRTC
+  # See WEBRTC_SETUP.md for full instructions
+
+  # pod 'AWSCore', '~> 2.36'
+  # pod 'AWSKinesisVideo', '~> 2.36'
+  # pod 'AWSKinesisVideoSignaling', '~> 2.36'
+  # pod 'GoogleWebRTC', '~> 1.1'
+
+  target 'AWSSimpleTestTests' do
+    inherit! :search_paths
+  end
+
+  target 'AWSSimpleTestUITests' do
+  end
+
+end
+
+# IMPORTANT:
+# CocoaPods 1.15.0 has compatibility issues with Xcode 16
+# Consider using Swift Package Manager instead (see WEBRTC_SETUP.md)
